@@ -118,6 +118,24 @@
           left: 5em;
         }
       }
+
+      .department-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        background-color: #fdfdfd;
+      }
+
+      .department-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .department-icon i {
+        transition: transform 0.3s ease;
+      }
+
+      .department-card:hover .department-icon i {
+        transform: scale(1.2);
+      }
     </style>
   </head>
   <body>
@@ -153,6 +171,12 @@
               <a class="nav-link" href="#"
                 ><i class="fa-solid fa-stethoscope me-2"></i>Get health
                 checkup</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-tower-broadcast me-2"></i>Emergency
+                Number:- 022 212121</a
               >
             </li>
           </ul>
@@ -321,7 +345,7 @@
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="#"> All Doctors </a>
+                  <a class="dropdown-item" href="doctors.html"> All Doctors </a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="#"> By Department </a>
@@ -612,245 +636,142 @@
     </div>
     <!-- Carousel End -->
 
-    <div class="testimonial-slider">
-      <div id="carouselExampleControls" class="carousel carousel-dark">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="testimonial-title">
-                <i class="bi bi-quote display-1"></i>
-                <h2 class="fw-bold display-6">What our customers say</h2>
-              </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleControls"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-            <div class="col-md-8">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="card testimonial-card">
-                    <div class="img-wrapper">
-                      <img
-                        src="https://codingyaar.com/wp-content/uploads/headshot-1-scaled.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Card title 1</h5>
-                      <i class="bi bi-star-fill text-warning pe-1"></i>
-                      <i class="bi bi-star-fill text-warning pe-1"></i>
-                      <i class="bi bi-star-fill text-warning pe-1"></i>
-                      <i class="bi bi-star-fill text-warning pe-1"></i>
-                      <i class="bi bi-star-fill text-warning pe-1"></i>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="card testimonial-card">
-                    <div class="img-wrapper">
-                      <img
-                        src="https://codingyaar.com/wp-content/uploads/headshot-2-scaled.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Card title 2</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="card testimonial-card">
-                    <div class="img-wrapper">
-                      <img
-                        src="https://codingyaar.com/wp-content/uploads/headshot-3-scaled.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Card title 3</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="card testimonial-card">
-                    <div class="img-wrapper">
-                      <img
-                        src="https://codingyaar.com/wp-content/uploads/headshot-4-scaled.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Card title 4</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="card testimonial-card">
-                    <div class="img-wrapper">
-                      <img
-                        src="https://codingyaar.com/wp-content/uploads/headshot-5-scaled.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Card title 5</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="card testimonial-card">
-                    <div class="img-wrapper">
-                      <img
-                        src="https://codingyaar.com/wp-content/uploads/headshot-6-scaled.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Card title 6</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    <!-- About hospital section -->
     <div class="container my-5">
-      <h2 class="text-center mb-4">Latest News & Events</h2>
-
-      <div
-        id="newsEventsCarousel"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#newsEventsCarousel"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#newsEventsCarousel"
-            data-bs-slide-to="1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#newsEventsCarousel"
-            data-bs-slide-to="2"
-          ></button>
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <img
+            src="images/aboutUs_section_profile.png.crdownload"
+            alt=""
+            class="img-fluid"
+          />
         </div>
-
-        <div class="carousel-inner">
-          <!-- Slide 1 -->
-          <div class="carousel-item active">
-            <div class="card text-white bg-primary text-center p-4">
-              <h4 class="card-title">Webinar on Cybersecurity</h4>
-              <p class="card-text">
-                Join us on June 20 for a session on latest cybersecurity trends.
-              </p>
-              <small>Posted on: June 10, 2025</small>
-            </div>
-          </div>
-
-          <!-- Slide 2 -->
-          <div class="carousel-item">
-            <div class="card text-white bg-success text-center p-4">
-              <h4 class="card-title">Campus Recruitment Drive</h4>
-              <p class="card-text">
-                Top IT companies are visiting the campus on July 5. Register
-                now!
-              </p>
-              <small>Posted on: June 12, 2025</small>
-            </div>
-          </div>
-
-          <!-- Slide 3 -->
-          <div class="carousel-item">
-            <div class="card text-white bg-danger text-center p-4">
-              <h4 class="card-title">Annual Tech Fest</h4>
-              <p class="card-text">
-                Our Annual Tech Fest "Innovate 2025" begins on August 1.
-              </p>
-              <small>Posted on: June 14, 2025</small>
-            </div>
-          </div>
+        <div class="col-md-8">
+          <h2>About SVKM's TM Patel Hospital</h2>
+          <p>
+            “Our healthcare journey commenced in 1951 by the late Shri P. D.
+            Hinduja, with a vision to provide quality healthcare for all. Over
+            the last seven decades, we have passionately followed this
+            philosophy and today the hospital is regarded as one of the top
+            hospitals in Mumbai and one of the best hospitals in India. We
+            commit to move forward with greater zeal and determination to set
+            new benchmarks in medical excellence and patient care.”
+          </p>
+          <figcaption class="blockquote-footer">
+            Health and Education are the birth right of every citizen
+          </figcaption>
+          <button class="btn rounded-pill btn-primary">
+            Know more <i class="fa-solid fa-arrow-right"></i>
+          </button>
         </div>
-
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#newsEventsCarousel"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#newsEventsCarousel"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon"></span>
-        </button>
       </div>
     </div>
+    <!-- About hospital section end-->
 
+    <!-- Departments -->
+    <section class="container my-5">
+      <h2 class="text-center mb-4">Our Departments</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div
+            class="department-card text-center p-4 rounded shadow border border-success"
+          >
+            <div class="department-icon mb-3">
+              <img src="images/Anaesthesia.png" alt="" class="rounded-circle" />
+            </div>
+            <h5>Anesthesia</h5>
+            <p>
+              Expert anesthetic care ensuring comfort and safety during
+              surgeries.
+            </p>
+            <button class="btn btn-outline-primary">Know More</button>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div
+            class="department-card text-center p-4 rounded shadow border border-success"
+          >
+            <div class="department-icon mb-3">
+              <img src="images/Blood Bank.png" alt="" class="rounded-circle" />
+            </div>
+            <h5>Blood Bank</h5>
+            <p>
+              24x7 blood storage and distribution for emergency and surgical
+              needs.
+            </p>
+
+            <button class="btn btn-outline-primary">Know More</button>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div
+            class="department-card text-center p-4 rounded shadow border border-success"
+          >
+            <div class="department-icon mb-3">
+              <img
+                src="images/Bariatric Surgery.png"
+                alt=""
+                class="rounded-circle"
+              />
+            </div>
+            <h5>Bariatric Surgery</h5>
+            <p>Comprehensive eye care services for all ages and conditions.</p>
+            <button class="btn btn-outline-primary">Know More</button>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div
+            class="department-card text-center p-4 rounded shadow border border-success"
+          >
+            <div class="department-icon mb-3">
+              <img src="images/Cardiology.png" alt="" class="rounded-circle" />
+            </div>
+            <h5>Cardiology and Cardio Thoracic</h5>
+            <p>
+              Expert anesthetic care ensuring comfort and safety during
+              surgeries.
+            </p>
+            <button class="btn btn-outline-primary">Know More</button>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div
+            class="department-card text-center p-4 rounded shadow border border-success"
+          >
+            <div class="department-icon mb-3">
+              <img src="images/Dental12.png" alt="" class="rounded-circle" />
+            </div>
+            <h5>Dental</h5>
+            <p>
+              24x7 blood storage and distribution for emergency and surgical
+              needs.
+            </p>
+            <button class="btn btn-outline-primary">Know More</button>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div
+            class="department-card text-center p-4 rounded shadow border border-success"
+          >
+            <div class="department-icon mb-3">
+              <img src="images/img1.png" alt="" class="rounded-circle" />
+            </div>
+            <h5>Dermatology</h5>
+            <p>Comprehensive eye care services for all ages and conditions.</p>
+            <button class="btn btn-outline-primary">Know More</button>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <button class="btn btn-primary">
+          View All <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- Departments End -->
+
+    <!-- News and Events -->
     <div class="container my-5">
       <h2 class="text-center mb-4">Latest News & Events</h2>
 
@@ -1056,8 +977,246 @@
         </button>
       </div>
     </div>
+    <!-- News and Events -->
 
-    <div class="container">
+    <div class="testimonial-slider my-5">
+      <div id="carouselExampleControls" class="carousel carousel-dark">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="testimonial-title">
+                <i class="bi bi-quote display-1"></i>
+                <h2 class="fw-bold display-6">What our customers say</h2>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="col-md-8">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card testimonial-card">
+                    <div class="img-wrapper">
+                      <img
+                        src="https://codingyaar.com/wp-content/uploads/headshot-1-scaled.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title 1</h5>
+                      <i class="bi bi-star-fill text-warning pe-1"></i>
+                      <i class="bi bi-star-fill text-warning pe-1"></i>
+                      <i class="bi bi-star-fill text-warning pe-1"></i>
+                      <i class="bi bi-star-fill text-warning pe-1"></i>
+                      <i class="bi bi-star-fill text-warning pe-1"></i>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card testimonial-card">
+                    <div class="img-wrapper">
+                      <img
+                        src="https://codingyaar.com/wp-content/uploads/headshot-2-scaled.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title 2</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card testimonial-card">
+                    <div class="img-wrapper">
+                      <img
+                        src="https://codingyaar.com/wp-content/uploads/headshot-3-scaled.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title 3</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card testimonial-card">
+                    <div class="img-wrapper">
+                      <img
+                        src="https://codingyaar.com/wp-content/uploads/headshot-4-scaled.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title 4</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card testimonial-card">
+                    <div class="img-wrapper">
+                      <img
+                        src="https://codingyaar.com/wp-content/uploads/headshot-5-scaled.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title 5</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card testimonial-card">
+                    <div class="img-wrapper">
+                      <img
+                        src="https://codingyaar.com/wp-content/uploads/headshot-6-scaled.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title 6</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container my-5">
+      <h2 class="text-center mb-4">Latest News & Events</h2>
+
+      <div
+        id="newsEventsCarousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#newsEventsCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#newsEventsCarousel"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#newsEventsCarousel"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card text-white bg-primary text-center p-4">
+              <h4 class="card-title">Webinar on Cybersecurity</h4>
+              <p class="card-text">
+                Join us on June 20 for a session on latest cybersecurity trends.
+              </p>
+              <small>Posted on: June 10, 2025</small>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="card text-white bg-success text-center p-4">
+              <h4 class="card-title">Campus Recruitment Drive</h4>
+              <p class="card-text">
+                Top IT companies are visiting the campus on July 5. Register
+                now!
+              </p>
+              <small>Posted on: June 12, 2025</small>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="card text-white bg-danger text-center p-4">
+              <h4 class="card-title">Annual Tech Fest</h4>
+              <p class="card-text">
+                Our Annual Tech Fest "Innovate 2025" begins on August 1.
+              </p>
+              <small>Posted on: June 14, 2025</small>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#newsEventsCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#newsEventsCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div> -->
+
+    <!-- FAQs -->
+    <div class="container my-5">
       <h2>FAQs</h2>
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
@@ -1147,6 +1306,82 @@
         </div>
       </div>
     </div>
+    <!-- FAQs End -->
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+      <div class="container text-center text-md-start">
+        <div class="row text-center text-md-start">
+          <!-- About -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+              SVKM's TM Patel Hospital
+            </h5>
+            <p>
+              We offer world-class medical services backed by modern technology
+              and highly skilled professionals.
+            </p>
+          </div>
+
+          <!-- Links -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+              Quick Links
+            </h5>
+            <p><a href="#" class="text-white text-decoration-none">Home</a></p>
+            <p>
+              <a href="#" class="text-white text-decoration-none"
+                >Departments</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white text-decoration-none">Doctors</a>
+            </p>
+            <p>
+              <a href="#" class="text-white text-decoration-none">Contact</a>
+            </p>
+          </div>
+
+          <!-- Contact -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+              Contact
+            </h5>
+            <p><i class="bi bi-house-fill me-2"></i> Mumbai, India</p>
+            <p><i class="bi bi-envelope-fill me-2"></i> info@hospital.com</p>
+            <p><i class="bi bi-phone-fill me-2"></i> +91 12345 67890</p>
+          </div>
+
+          <!-- Social -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mt-3 text-center">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+              Follow us
+            </h5>
+            <a href="#" class="text-white me-4"
+              ><i class="fa-brands fa-facebook text-white"></i
+            ></a>
+            <a href="#" class="text-white me-4">
+              <i class="fa-brands fa-square-x-twitter text-white"></i>
+            </a>
+            <a href="#" class="text-white me-4">
+              <i class="fa-brands fa-instagram text-white"></i>
+            </a>
+            <a href="#" class="text-white me-4">
+              <i class="fa-brands fa-linkedin text-white"></i>
+            </a>
+          </div>
+        </div>
+
+        <hr class="mb-4" />
+
+        <div class="row align-items-center">
+          <div class="col-md-7 col-lg-8">
+            <p class="text-white">© 2025 Hospital Name. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
 
     <script src="js/navbar.js"></script>
     <script src="js/testimonial.js"></script>

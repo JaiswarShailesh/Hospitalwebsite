@@ -57,67 +57,6 @@
         }
       }
       /* ============ small devices .end// ============ */
-
-      .carousel-inner .carousel-item > .col {
-        display: flex;
-        flex-direction: column;
-      }
-      .card {
-        height: 100%;
-      }
-
-      .testimonial-slider {
-        background-color: #5072a7;
-        padding: 2em 2em 3em;
-      }
-      .testimonial-title {
-        color: #fff;
-      }
-      .testimonial-title h2 {
-        padding-left: 0.2em;
-      }
-      .card.testimonial-card {
-        margin: 0 0.5em;
-        box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-        border: none;
-        height: 100%;
-      }
-      .testimonial-slider .carousel-control-prev,
-      .testimonial-slider .carousel-control-next {
-        background-color: #fff;
-        width: 3em;
-        height: 3em;
-        border-radius: 50%;
-        top: 60%;
-        transform: translateY(-50%);
-      }
-
-      @media (min-width: 576px) {
-        .testimonial-slider .carousel-item {
-          margin-right: 0;
-          flex: 0 0 50%;
-          display: block;
-        }
-        .testimonial-slider .carousel-inner {
-          display: flex;
-        }
-      }
-      @media (min-width: 768px) {
-        .testimonial-slider .carousel-inner {
-          padding: 1em;
-        }
-        .testimonial-slider .carousel-control-prev,
-        .testimonial-slider .carousel-control-next {
-          opacity: 1;
-          position: absolute;
-          left: 1em;
-          top: 90%;
-          transform: translateY(-50%);
-        }
-        .testimonial-slider .carousel-control-next {
-          left: 5em;
-        }
-      }
     </style>
   </head>
   <body>
@@ -526,179 +465,85 @@
 
     <!-- Navbar End-->
 
-    <section class="py-5">
-      <div class="container">
-        <div class="row"></div>
-        <div class="row justify-content-center text-center mb-2 mb-lg-4">
-          <div class="col-12 col-lg-8 col-xxl-7 text-center mx-auto">
-            <span class="text-muted">Our Team</span>
-            <h2 class="display-5 fw-bold">Meet the Doctors</h2>
-            <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
-              harum ipsum venenatis metus sem veniam eveniet aperiam suscipit.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card text-center mb-3">
-              <div class="card-body p-0 pb-4">
-                <div class="mb-4">
-                  <img
-                    class="img-fluid"
-                    src="https://freefrontend.dev/assets/rectangle-wide.png"
-                  />
+    <section class="section about-section gray-bg" id="about">
+      <div class="container mt-5">
+        <div class="row align-items-center flex-row-reverse">
+          <div class="col-lg-6">
+            <div class="about-text go-to">
+              <h3 class="dark-color">Dr. (Mrs.) Alka Ram Halbe</h3>
+              <h6 class="theme-color lead">Anaesthesia</h6>
+              <p>
+                40+ years professional experience of performing complex
+                anaesthesia procedures across various surgical specialties and
+                super-specialties like Urological surgeries- renal transplants,
+                bariatric procedures. Consultant and coordinator in
+                Anesthesiology, Breach Candy Hospital, Mumbai. Member of Renal
+                Transplant Team at Breach Candy Hospital, Mumbai.
+              </p>
+              <div class="row about-list">
+                <div class="col-md-6">
+                  <div class="media">
+                    <label>Qualifications</label>
+                    <p>MD, DA (Anaesthesia)</p>
+                  </div>
+                  <div class="media">
+                    <label>Contact Info</label>
+                    <p>022 - 62597788</p>
+                  </div>
                 </div>
-                <h5 class="fw-bold">Dr. Anoop Misra</h5>
-                <div class="text-muted">
-                  Paediatrics | Paediatric Cardiac Sciences
-                </div>
-                <div class="d-flex justify-content-center mt-4">
-                  <a class="btn btn-sm me-2" href="">
-                    <i class="fa-solid fa-phone"></i>
-                  </a>
-                  <a
-                    class="btn btn-sm btn-primary me-2"
-                    href="viewDoctorProfile.html"
-                    >View full profile</a
-                  >
-                  <a class="btn btn-sm btn-warning" href=""
-                    >Book an appointment</a
-                  >
+                <div class="col-md-6">
+                  <div class="media">
+                    <label>E-mail</label>
+                    <p>info@breachcandyhospital.org</p>
+                  </div>
+                  <div class="media">
+                    <label>Awards</label>
+                    <p>Some award</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card text-center mb-3">
-              <div class="card-body p-0 pb-4">
-                <div class="mb-4">
-                  <img
-                    class="img-fluid"
-                    src="https://freefrontend.dev/assets/rectangle-wide.png"
-                  />
-                </div>
-                <h5 class="fw-bold">Dr. Arvind Kumar Khurana</h5>
-                <div class="text-muted">
-                  Gastroenterology and Hepatobiliary Sciences
-                </div>
-                <div class="d-flex justify-content-center mt-4">
-                  <a class="btn btn-sm me-2" href="">
-                    <i class="fa-solid fa-phone"></i>
-                  </a>
-                  <a class="btn btn-sm btn-primary me-2" href="viewDoctorProfile.html"
-                    >View full profile</a
-                  >
-                  <a class="btn btn-sm btn-warning" href=""
-                    >Book an appointment</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card text-center mb-3">
-              <div class="card-body p-0 pb-4">
-                <div class="mb-4">
-                  <img
-                    class="img-fluid"
-                    src="https://freefrontend.dev/assets/rectangle-wide.png"
-                  />
-                </div>
-                <h5 class="fw-bold">Dr. Praveen Gupta</h5>
-                <div class="text-muted">Neurology</div>
-                <div class="d-flex justify-content-center mt-4">
-                  <a class="btn btn-sm me-2" href="">
-                    <i class="fa-solid fa-phone"></i>
-                  </a>
-                  <a class="btn btn-sm btn-primary me-2" href="viewDoctorProfile.html"
-                    >View full profile</a
-                  >
-                  <a class="btn btn-sm btn-warning" href=""
-                    >Book an appointment</a
-                  >
-                </div>
+          <div class="col-lg-6">
+            <div class="about-avatar">
+              <div class="d-flex flex-column align-items-center">
+                <img
+                  src="https://bootdey.com/img/Content/avatar/avatar7.png"
+                  title=""
+                  alt=""
+                  class="mb-3"
+                />
+                <button class="btn btn-outline-primary">
+                  Book an appointment
+                </button>
               </div>
             </div>
           </div>
         </div>
-        <div class="row mt-3">
-          <div class="col-md-4">
-            <div class="card text-center mb-3">
-              <div class="card-body p-0 pb-4">
-                <div class="mb-4">
-                  <img
-                    class="img-fluid"
-                    src="https://freefrontend.dev/assets/rectangle-wide.png"
-                  />
-                </div>
-                <h5 class="fw-bold">Dr. Anoop Misra</h5>
-                <div class="text-muted">
-                  Paediatrics | Paediatric Cardiac Sciences
-                </div>
-                <div class="d-flex justify-content-center mt-4">
-                  <a class="btn btn-sm me-2" href="">
-                    <i class="fa-solid fa-phone"></i>
-                  </a>
-                  <a class="btn btn-sm btn-primary me-2" href=""
-                    >View full profile</a
-                  >
-                  <a class="btn btn-sm btn-warning" href=""
-                    >Book an appointment</a
-                  >
-                </div>
+        <div class="counter mt-5">
+          <div class="row">
+            <div class="col-6 col-lg-3">
+              <div class="count-data text-center">
+                <h6 class="count h2" data-to="150" data-speed="150">25+</h6>
+                <p class="m-0px font-w-600">Years of Experience</p>
               </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card text-center mb-3">
-              <div class="card-body p-0 pb-4">
-                <div class="mb-4">
-                  <img
-                    class="img-fluid"
-                    src="https://freefrontend.dev/assets/rectangle-wide.png"
-                  />
-                </div>
-                <h5 class="fw-bold">Dr. Arvind Kumar Khurana</h5>
-                <div class="text-muted">
-                  Gastroenterology and Hepatobiliary Sciences
-                </div>
-                <div class="d-flex justify-content-center mt-4">
-                  <a class="btn btn-sm me-2" href="">
-                    <i class="fa-solid fa-phone"></i>
-                  </a>
-                  <a class="btn btn-sm btn-primary me-2" href=""
-                    >View full profile</a
-                  >
-                  <a class="btn btn-sm btn-warning" href=""
-                    >Book an appointment</a
-                  >
-                </div>
+            <div class="col-6 col-lg-3">
+              <div class="count-data text-center">
+                <h6 class="count h2" data-to="500" data-speed="500">500</h6>
+                <p class="m-0px font-w-600">Happy Clients</p>
               </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card text-center mb-3">
-              <div class="card-body p-0 pb-4">
-                <div class="mb-4">
-                  <img
-                    class="img-fluid"
-                    src="https://freefrontend.dev/assets/rectangle-wide.png"
-                  />
-                </div>
-                <h5 class="fw-bold">Dr. Praveen Gupta</h5>
-                <div class="text-muted">Neurology</div>
-                <div class="d-flex justify-content-center mt-4">
-                  <a class="btn btn-sm me-2" href="">
-                    <i class="fa-solid fa-phone"></i>
-                  </a>
-                  <a class="btn btn-sm btn-primary me-2" href=""
-                    >View full profile</a
-                  >
-                  <a class="btn btn-sm btn-warning" href=""
-                    >Book an appointment</a
-                  >
-                </div>
+            <div class="col-6 col-lg-3">
+              <div class="count-data text-center">
+                <h6 class="count h2" data-to="850" data-speed="850">850</h6>
+                <p class="m-0px font-w-600">Operations</p>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3">
+              <div class="count-data text-center">
+                <h6 class="count h2" data-to="190" data-speed="190">190</h6>
+                <p class="m-0px font-w-600">Telephonic Talk</p>
               </div>
             </div>
           </div>

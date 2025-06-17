@@ -119,12 +119,22 @@
         }
       }
 
-      .doctor-banner-image {
-        background-image: url("images/banner-doctor-listing.jpg"); /* Replace with your image path */
-        background-size: cover;
-        background-position: center;
-        height: 300px;
-        position: relative;
+      .department-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        background-color: #fdfdfd;
+      }
+
+      .department-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .department-icon i {
+        transition: transform 0.3s ease;
+      }
+
+      .department-card:hover .department-icon i {
+        transform: scale(1.2);
       }
     </style>
   </head>
@@ -163,6 +173,12 @@
                 checkup</a
               >
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-tower-broadcast me-2"></i>Emergency
+                Number:- 022 212121</a
+              >
+            </li>
           </ul>
         </div>
       </div>
@@ -195,45 +211,16 @@
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="#"> Dropdown item 1 </a>
+                  <a class="dropdown-item" href="#"> Overview </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
-                    Dropdown item 2 &raquo;
-                  </a>
-                  <ul class="submenu dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">Submenu item 1</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Submenu item 2</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#"
-                        >Submenu item 3 &raquo;
-                      </a>
-                      <ul class="submenu dropdown-menu">
-                        <li>
-                          <a class="dropdown-item" href="#">Multi level 1</a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="#">Multi level 2</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Submenu item 4</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Submenu item 5</a>
-                    </li>
-                  </ul>
+                  <a class="dropdown-item" href="#"> Vision & Mission </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#"> Dropdown item 3 </a>
+                  <a class="dropdown-item" href="#"> Key Achievements </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#"> Dropdown item 4 </a>
+                  <a class="dropdown-item" href="#"> Founders & Leadership </a>
                 </li>
               </ul>
             </li>
@@ -534,51 +521,171 @@
 
     <!-- Navbar End-->
 
-    <section class="banner-section">
-      <div class="container-fluid p-0">
-        <div
-          class="doctor-banner-image d-flex align-items-center justify-content-center text-white text-center"
-        ></div>
+    <!-- Department Details -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card shadow-sm" style="height: fit-content">
+            <div class="card-body">
+              <h5 class="card-title">Contact Info</h5>
+
+              <div class="mb-2">
+                <i class="fa-solid fa-phone me-2"></i> 022 - 62597788
+              </div>
+              <div class="mb-2">
+                <i class="fa-solid fa-phone me-2"></i> 022 - 69197788
+              </div>
+              <div class="mb-2">
+                <i class="fa-solid fa-envelope me-2"></i> info@hospital.com
+              </div>
+              <div class="mb-2">
+                <i class="fa-solid fa-address-book me-2"></i> Ground Floor,
+                SVKM's TM Patel Hospital Trust, 60-A, Sirpur, Maharashtra -
+                400026.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <h2>Anaesthesia</h2>
+          <!-- Carousel -->
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="images/departmentDetails.jpg"
+                  class="d-block w-100"
+                  width="100%"
+                  height="300px"
+                  alt="..."
+                  style="
+                    height: 300px;
+                    filter: brightness(50%);
+                    object-fit: cover;
+                  "
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>
+                    Some representative placeholder content for the first slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/departmentDetails1.jpg"
+                  class="d-block w-100"
+                  width="100%"
+                  height="300px"
+                  alt="..."
+                  style="
+                    height: 300px;
+                    filter: brightness(50%);
+                    object-fit: cover;
+                  "
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>
+                    Some representative placeholder content for the second
+                    slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/departmentDetails3.jpg"
+                  class="d-block w-100"
+                  width="100%"
+                  height="300px"
+                  alt="..."
+                  style="
+                    height: 300px;
+                    filter: brightness(50%);
+                    object-fit: cover;
+                  "
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>
+                    Some representative placeholder content for the third slide.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- Carousel End -->
+
+          <h2 class="mt-4">About Anaesthesia</h2>
+          <p>
+            We CARE when you are NOT AWARE. <br />
+            Our panel of renowned, experienced and skilled Anaesthesiologists
+            are acclaimed nationally as well as internationally. Our anaesthesia
+            department provides anaesthesia services for all types of complex
+            surgical and non-surgical procedures. We strive hard to give quality
+            patient care and safety during the perioperative journey with the
+            help of state of art Anaesthesia machines, monitors, latest
+            anaesthesia techniques and newer anaesthetic drugs.
+          </p>
+
+          <button class="btn btn-sm btn-success">Read More</button>
+        </div>
       </div>
-    </section>
+    </div>
+    <!-- Department Details End -->
 
     <section class="py-5">
       <div class="container">
         <div class="row"></div>
         <div class="row justify-content-center text-center mb-2 mb-lg-4">
           <div class="col-12 col-lg-8 col-xxl-7 text-center mx-auto">
-            <span class="text-muted">Our Team</span>
-            <h2 class="display-5 fw-bold">Meet the Doctors</h2>
-            <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
-              harum ipsum venenatis metus sem veniam eveniet aperiam suscipit.
-            </p>
-          </div>
-        </div>
-        <div class="row my-5 justify-content-between">
-          <div class="col-md-4">
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search doctor by name"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
-          </div>
-          <div class="col-md-4">
-            <select
-              class="form-select"
-              aria-label="Search doctor by department"
-            >
-              <option selected>Search Doctor by Department</option>
-              <option value="1">Radiology</option>
-              <option value="2">Cardiology</option>
-              <option value="3">Anaesthesia</option>
-            </select>
+            <h2 class="display-5 fw-bold">Our Consultants</h2>
           </div>
         </div>
         <div class="row">
@@ -828,15 +935,6 @@
     <!-- Footer End -->
 
     <script src="js/navbar.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"
-      integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D"
-      crossorigin="anonymous"
-    ></script>
+    <script src="js/testimonial.js"></script>
   </body>
 </html>

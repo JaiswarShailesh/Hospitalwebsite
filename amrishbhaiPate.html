@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVKM’s Tapanbhai Mukeshbhai Patel Memorial Hospital</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/e8c1c6e963.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <style type="text/css">
+      /* ============ desktop view ============ */
+      @media all and (min-width: 992px) {
+        .dropdown-menu li {
+          position: relative;
+        }
+        .dropdown-menu .submenu {
+          display: none;
+          position: absolute;
+          left: 100%;
+          top: -7px;
+        }
+        .dropdown-menu .submenu-left {
+          right: 100%;
+          left: auto;
+        }
+
+        .dropdown-menu > li:hover {
+          background-color: #f1f1f1;
+        }
+        .dropdown-menu > li:hover > .submenu {
+          display: block;
+        }
+      }
+      /* ============ desktop view .end// ============ */
+
+      /* ============ small devices ============ */
+      @media (max-width: 991px) {
+        .dropdown-menu .dropdown-menu {
+          margin-left: 0.7rem;
+          margin-right: 0.7rem;
+          margin-bottom: 0.5rem;
+        }
+      }
+      /* ============ small devices .end// ============ */
+
+      .carousel-inner .carousel-item > .col {
+        display: flex;
+        flex-direction: column;
+      }
+      .card {
+        height: 100%;
+      }
+
+      .testimonial-slider {
+        background-color: #5072a7;
+        padding: 2em 2em 3em;
+      }
+      .testimonial-title {
+        color: #fff;
+      }
+      .testimonial-title h2 {
+        padding-left: 0.2em;
+      }
+      .card.testimonial-card {
+        margin: 0 0.5em;
+        box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+        border: none;
+        height: 100%;
+      }
+      .testimonial-slider .carousel-control-prev,
+      .testimonial-slider .carousel-control-next {
+        background-color: #fff;
+        width: 3em;
+        height: 3em;
+        border-radius: 50%;
+        top: 60%;
+        transform: translateY(-50%);
+      }
+
+      @media (min-width: 576px) {
+        .testimonial-slider .carousel-item {
+          margin-right: 0;
+          flex: 0 0 50%;
+          display: block;
+        }
+        .testimonial-slider .carousel-inner {
+          display: flex;
+        }
+      }
+      @media (min-width: 768px) {
+        .testimonial-slider .carousel-inner {
+          padding: 1em;
+        }
+        .testimonial-slider .carousel-control-prev,
+        .testimonial-slider .carousel-control-next {
+          opacity: 1;
+          position: absolute;
+          left: 1em;
+          top: 90%;
+          transform: translateY(-50%);
+        }
+        .testimonial-slider .carousel-control-next {
+          left: 5em;
+        }
+      }
+
+      .department-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        background-color: #fdfdfd;
+      }
+
+      .department-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .department-icon i {
+        transition: transform 0.3s ease;
+      }
+
+      .department-card:hover .department-icon i {
+        transform: scale(1.2);
+      }
+
+      .bg-light-blue {
+        background-color: #5072a7;
+      }
+    </style>
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/carousel.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                ><i class="fa-solid fa-phone me-2"></i>Request a callback</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-calendar-days me-2"></i>Book an
+                appointment</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-stethoscope me-2"></i>Get health
+                checkup</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-tower-broadcast me-2"></i>Emergency
+                Number:- 022 212121</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">SVKM's TM Patel Hospital Website</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main_nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main_nav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                About us
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="aboutUs.html"> Overview </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="aboutUs.html#visionMission">
+                    Vision & Mission
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"> Key Achievements </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="aboutUs.html#foundersLeaders">
+                    Founders & Leadership
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                Departments and Services
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="departments.html">
+                    Departments &raquo;
+                  </a>
+                  <ul class="submenu dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="radiology.html"
+                        >Radiology</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="gynecology.html"
+                        >Gynecology</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Blood bank</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">HR</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">OPD</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Nursing</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Pythology</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Community Medicine</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Center of Excellence &raquo;
+                  </a>
+                  <ul class="submenu dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Another submenu 1</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another submenu 2</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another submenu 3</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another submenu 4</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Specialized Clinics &raquo;</a
+                  >
+                  <ul class="submenu dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Another submenu 1</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another submenu 2</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another submenu 3</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another submenu 4</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Diagnostic & Support Services &raquo;</a
+                  >
+                  <ul class="submenu dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Radiology</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Lab</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Pharmacy</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Ambulance</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                Doctors
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="doctors.html"> All Doctors </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"> By Department </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                Patient's & Visitors
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Inpatient Services &raquo;
+                  </a>
+                  <ul class="submenu dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Admission</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Discharge Process</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Outpatient Services &raquo;
+                  </a>
+                  <ul class="submenu dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Consultation</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Appoitment Info</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"> Make Appointment </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Emergency Services &raquo;
+                  </a>
+                  <ul class="submenu dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">24x7 ER Info</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">ICU</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Insurance & Billing &raquo;
+                  </a>
+                  <ul class="submenu dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">TPA Partners</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Payment Info</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Visitors Guidelines &raquo;
+                  </a>
+                  <ul class="submenu dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Visiting Hours</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Rules</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Patient Feedback &raquo;
+                  </a>
+                  <ul class="submenu dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Testimonial</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Submit Feedback</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"> FAQs </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                Community
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#"> Events &raquo; </a>
+                  <ul class="submenu dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Hospital Events</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Celebrations</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    CSR Initiatives &raquo;
+                  </a>
+                  <ul class="submenu dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Outreach Programs</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Health Camps</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                Careers
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#"> HR &raquo; </a>
+                  <ul class="submenu dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">HR Policies</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Employee Engagement</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"> Careers &raquo; </a>
+                  <ul class="submenu dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Open Positions</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Culture</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                Contact Us
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#"> Contact Information</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"> Emergency Contact</a>
+                </li>
+              </ul>
+            </li>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-warning" type="submit">Search</button>
+            </form>
+          </ul>
+        </div>
+        <!-- navbar-collapse.// -->
+      </div>
+      <!-- container-fluid.// -->
+    </nav>
+    <!-- Navbar End-->
+
+    <!-- President  -->
+    <section class="my-5 py-2" id="foundersLeaders">
+      <div class="container">
+        <h3 class="text-center display-5 fw-bold mb-3 mb-xl-5">President</h3>
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-4 col-lg-4">
+            <img
+              alt="..."
+              class="img-fluid rounded-circle shadow"
+              src="images/Amrishbhai_patel.png"
+            />
+          </div>
+          <div class="col-md-8 col-lg-8">
+            <div class="card-body ms-md-5 mt-3 mt-md-0">
+              <div class="text-muted">
+                Social entrepreneur, Community Leader, Educationist & Statesman
+              </div>
+              <h3 class="fw-bold m-0 mb-4">Shri Amrishbhai Patel</h3>
+              <p class="lead">
+                Shri Vile Parle Kelavani Mandal (SVKM), a Public Charitable
+                Trust & Society, born in 1934 with adoption of a school has its
+                existence over 85 years and has established a brand name in
+                education scenario.
+              </p>
+              <!-- <div class="d-flex mt-4">
+                <a class="btn btn-primary rounded-pill me-2" href=""
+                  >Know More
+                  <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+                ></a>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-5 py-2">
+      <div class="container">
+        <p>
+          Sustainable Development Goals (SDGs), global goals to tackle the
+          issues of poverty, education, employment, hunger, healthcare, clean
+          water, and sustainable cities, among others, to protect the planet,
+          have been trending since 2015 when the United Nations embraced them.
+        </p>
+        <p>
+          However, for Educationist, Statesman, Visionary, and Social
+          entrepreneur Shri. Amrishbhai Patel, these have been an intrinsic part
+          of his vision much before he even set foot in the public domain.
+          Little surprise, considering he has an imposing legacy to emulate - he
+          is a descendant of the tall leader and staunch freedom fighter, Shri.
+          Sardar Vallabhbhai Patel.
+        </p>
+        <p>
+          Having spent his growing up years in Shirpur, a drought-prone and
+          rather underdeveloped taluka in the Dhule district, Maharashtra, where
+          his father ran a business, Shri. Amrishbhai Patel was well acquainted
+          with the problems of his hometown. Always inclined towards environment
+          conservation and social work, even as a young boy, he began by
+          informally educating his fellow citizens of Shirpur about the
+          importance of water preservation and hygiene. His passion towards the
+          community and popular demand led him to become the co-opted member of
+          the Shirpur Nagarpalika in the early 70s - a post he continued in for
+          an uninterrupted 18 years. He also served as the Cabinet Education
+          Minister from 2002 to 2004.
+        </p>
+        <p>
+          Shri. Amrishbhai always knew that he had to give back to the people of
+          his village now that he had the power to bring about a change. This
+          staunch determination to transform his village helped him devise a
+          multipronged approach to bring about the changes - to tackle the water
+          scarcity in the village, provide quality education and employment to
+          the people in the village, provide the best healthcare, setting up
+          avenues for entertainment, besides making it a green and clean
+          destination.
+        </p>
+      </div>
+    </section>
+
+    <section class="my-5 py-2">
+      <div class="container">
+        <div class="row">
+          <h3 class="fw-bold m-0 mb-4">
+            Water management: Transformation from ‘crisis to abundance’ for
+            sustainable development
+          </h3>
+          <p>
+            The Shirpur (Pattern) Model: Supporting and strengthening the
+            participation of local communities in improving water management
+          </p>
+          <p>
+            Water is at the very core of sustainable development, critical to
+            the survival of people on our planet. The ‘Shirpur Pattern’ of
+            improvement included a holistic development and progress of the city
+            by addressing this very fundamental element of nature. It all
+            started with proper water management, which later translated into
+            the overall prosperity of the villages of Shirpur.
+          </p>
+          <p>
+            Today, the model stands as a testimony of rural growth and
+            revolution. Shri. Amrishbhai Patel was clear in his mind - that a
+            driven focus on irrigation, water harvesting, and education was
+            needed to alleviate the village of its neglected state. He
+            introduced the ‘Shirpur Pattern’ of irrigation - the idea was to
+            stop the water from draining into the river. This meant constructing
+            check dams on every stream, despite its size, to facilitate maximum
+            storage and expansion of water channels. He roped in expert Dr.
+            Suresh Khanapur to execute the project that began way back in 2004.
+          </p>
+          <p>
+            Initially, a 30 sq. km area was taken for conservation of water and,
+            ninetyseven check dams were erected in the area. The outcome was not
+            a single drop of water escaped into the river, and eventually,
+            10,000 hectares of land became conducive to irrigation.
+          </p>
+          <p>
+            The project’s outcome was nothing short of magic - not only did it
+            assure sustainable irrigation in the drought-prone areas, but the
+            farmers also got a new lease of life, experiencing cropping three
+            times a year. The exodus to cities by disheartened farmers, which
+            was rampant, also came down drastically.
+          </p>
+          <p>
+            The Shirpur Pattern also brought continuous water supply to homes
+            and industries, bringing a paradigm shift in the entire economy and
+            ecosystem of the villages.
+          </p>
+          <p>
+            In just ten years, the water table has risen to forty metres, dams
+            are full, and there is irrigation all year round. The farmers are
+            flourishing because the village is flush with abundant water. The
+            value of land has appreciated tremendously.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-5 py-2">
+      <div class="container">
+        <div class="row">
+          <h3 class="fw-bold m-0 mb-4">
+            Only if the farmers of the country are happy can we dream of the
+            development of a nation.
+          </h3>
+          <h3 class="fw-bold m-0 mb-4">
+            Education: Democratising learning opportunities for all
+          </h3>
+          <p>
+            The Shirpur Education Society: Ensuring that all girls and boys have
+            access to quality early childhood development. Also, implementing
+            equal access for women and men to affordable technical & vocational
+            education.
+          </p>
+          <p>
+            SVKM: Implementing world-class best practices and quality in
+            education to get India its rightful place in the global education
+            landscape
+          </p>
+          <p>
+            Another vital agenda in Shri. Amrishbhai Patel’s long-term vision
+            was to generate education opportunities for the villages' children.
+            He firmly believes that quality education that creates employment
+            prospects for students is the best kind of training. Mere rote
+            learning and a meaningless certificate is of no use. He was keen on
+            bringing in the sense of accountability amongst teachers and school
+            administrators. So, he borrowed money from his father and, in 1990,
+            set up the Shirpur Education Society. He aimed to instil an
+            environment that would encourage the students to learn. With the
+            money he received, Shri. Amrishbhai Patel introduced seventeen
+            pre-primary schools, eight K-12 schools, seven ashram schools, and
+            four colleges in Shirpur, immediately creating an academic
+            environment.
+          </p>
+          <p>
+            “In a city with a population of 75,000 people, today 35,000 are
+            studying in schools and colleges in Shirpur. So, 50% of the
+            population is studying and we have not witnessed a single dropout.
+            Only good education can empower people. Human resource is one of the
+            biggest strengths of our country and they need to be educated - they
+            should get employment opportunities anywhere in India. This is the
+            only way to eradicate poverty.
+          </p>
+          <p>
+            The same vision is reflected in SVKM’s NMIMS, of which Shri.
+            Amrishbhai Patel is the Chancellor. His keen foresight has helped in
+            the unparalleled success of the now Deemed-to-be-University.
+            Innovative and ever-evolving pedagogy and curriculum, world-class
+            faculty and infrastructure and unique teaching and learning methods
+            as its core philosophy, it has schools offering programs in Business
+            Management, Entrepreneurship, Design, Hospitality Management,
+            Liberal Arts, Performing Arts and Agricultural Science, to name a
+            few.
+          </p>
+          <p>
+            SVKM’s NMIMS has also spread its wings with several state-of-the-art
+            campuses in Shirpur, Bengaluru, Hyderabad, Indore, Navi Mumbai,
+            Chandigarh, and Dhule. Here too, the emphasis is on the
+            employability of all its students, and the impeccable placement
+            records of NMIMS is a vindication of its approach. This vision has
+            now been globally recognised, and NMIMS Mumbai, Profile of Shri.
+            Amrishbhai Patel Pg 4 School of Business Management has joined the
+            prestigious Financial Times MiM Top 100 B-Schools Ranking in 2022.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-5 py-2">
+      <div class="container">
+        <div class="row">
+          <h3 class="fw-bold m-0 mb-4">
+            Creating Employment: Opportunities by vocational skilling
+          </h3>
+          <p>
+            Sustained per capita economic growth higher than the national
+            average Providing jobs is a crucial sustainable goal that empowers
+            people, giving them security and improving the overall quality of
+            their life. Being the thought leader that he is, Shri. Amrishbhai
+            Patel recognised the importance of generating employment
+            opportunities for the inhabitants of Shirpur. Now without any water
+            shortage, it was easier to set up factories. He set up a spinning
+            mill - the largest in Maharashtra - to leverage the cotton that
+            grows on 1,50,000 acres of land in the village. A textile mill
+            followed, plus a co-operative yarn factory, a dyeing, and a garment
+            factory. Six thousand local people have found jobs because of this
+            initiative. The workforce at the garment factory primarily includes
+            destitute, widowed, abandoned, and needy women. They are trained to
+            work at the factory at a local training centre.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-5 py-2">
+      <div class="container">
+        <div class="row">
+          <h3 class="fw-bold m-0 mb-4">
+            Healthcare: Access to medical infrastructure and bridging the divide
+          </h3>
+          <p>
+            Ensuring healthy lives and promoting well-being No village can be
+            self-sustained without proper medical infrastructure. To this end,
+            Shri. Amrishbhai Patel facilitated the building of a super
+            speciality hospital in the village. The 700-bed advanced and modern
+            hospital with world-class amenities is a saviour for the locals for
+            being reasonably priced.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-5 py-2">
+      <div class="container">
+        <div class="row">
+          <h3 class="fw-bold m-0 mb-4">
+            A vision ready to be implemented for creating sustainable villages,
+            towns, and cities across the globe
+          </h3>
+          <p>
+            If Shirpur, once a derelict village, is a haven and a symbol of
+            prosperity today, all the credit must go to the perseverance,
+            determination and keen perceptiveness and insight of Shri.
+            Amrishbhai Patel. He is a philanthropist with a difference. He is
+            not only a leader but is involved at the grassroots level - readily
+            approachable, communicating with the people first hand and being
+            personally involved in their real problems. A true solution seeker,
+            a mover and shaker who walks the talk.
+          </p>
+          <p>
+            Presently, Shirpur, a thriving centre of commerce and education,
+            boasts of 24- hour water supply in every household, immaculate
+            concrete streets, a fullfledged gym, parks for recreation and
+            entertainment, greenery (the neem trees planted in the village
+            amount to 1,50,000 in number) - an idyllic village, straight out of
+            a picture postcard, with happy and content people. It is not just a
+            job completed for Shri. Amrishbhai Patel - he works from his heart
+            and believes that community is the extension of the self.
+          </p>
+          <p>
+            The famous lines by Robert Frost - The woods are lovely, dark, and
+            deep, But I have promises to keep, and miles to go before I sleep,
+            and miles to go before I sleep - summarises perfectly the mission
+            that Shri. Amrishbhai Patel has assigned himself: To make the world
+            a better place.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- President End -->
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+      <div class="container text-center text-md-start">
+        <div class="row text-center text-md-start">
+          <!-- About -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+              SVKM's Tapanbhai Mukeshbhai Patel Memorial Hospital, Medical
+              College & Research Center
+            </h5>
+            <p>
+              We offer world-class medical services backed by modern technology
+              and highly skilled professionals.
+            </p>
+          </div>
+
+          <!-- Links -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+              Quick Links
+            </h5>
+            <p><a href="#" class="text-white text-decoration-none">Home</a></p>
+            <p>
+              <a href="#" class="text-white text-decoration-none"
+                >Departments</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white text-decoration-none">Doctors</a>
+            </p>
+            <p>
+              <a href="#" class="text-white text-decoration-none">Contact</a>
+            </p>
+          </div>
+
+          <!-- Contact -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+              Contact
+            </h5>
+            <p>
+              <i class="fa-solid fa-house me-2"></i>SVKM's Tapanbhai Mukeshbhai
+              Patel Memorial Hospital, Kharde, Budruk, Sirpur, Dhule - 425405
+            </p>
+            <p><i class="fa-solid fa-envelope me-2"></i> info@hospital.com</p>
+            <p><i class="fa-solid fa-phone me-2"></i> +91 12345 67890</p>
+          </div>
+
+          <!-- Social -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mt-3 text-center">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+              Follow us
+            </h5>
+            <a href="#" class="text-white me-4"
+              ><i class="fa-brands fa-facebook text-white"></i
+            ></a>
+            <a href="#" class="text-white me-4">
+              <i class="fa-brands fa-square-x-twitter text-white"></i>
+            </a>
+            <a href="#" class="text-white me-4">
+              <i class="fa-brands fa-instagram text-white"></i>
+            </a>
+            <a href="#" class="text-white me-4">
+              <i class="fa-brands fa-linkedin text-white"></i>
+            </a>
+          </div>
+        </div>
+
+        <hr class="mb-4" />
+
+        <div class="row align-items-center">
+          <div class="col-md-7 col-lg-8">
+            <p class="text-white">
+              © 2025 SVKM's Tapanbhai Mukeshbhai Patel Memorial Hospital,
+              Medical College & Research Center. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="js/navbar.js"></script>
+    <script src="js/testimonial.js"></script>
+
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+      $(".testimonial-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        dots: false,
+        navText: [
+          '<button class="btn btn-sm btn-danger rounded-circle ms-2"><i class="fa-solid fa-arrow-left text-white"></i></button>', // Bootstrap icon
+          '<button class="btn btn-sm btn-danger rounded-circle me-2"><i class="fa-solid fa-arrow-right text-white"></i></button>',
+        ],
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+        },
+      });
+
+      $(".hero-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        dots: false,
+        navText: [
+          '<button class="btn btn-sm btn-danger rounded-circle ms-2"><i class="fa-solid fa-arrow-left text-white"></i></button>', // Bootstrap icon
+          '<button class="btn btn-sm btn-danger rounded-circle me-2"><i class="fa-solid fa-arrow-right text-white"></i></button>',
+        ],
+        items: 1,
+      });
+    </script>
+  </body>
+</html>

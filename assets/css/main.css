@@ -1908,3 +1908,8 @@ section,
   height: 300px;
   position: relative;
 }
+
+.stats.mission-vision p{
+  font-size: 14px;
+  /* height: 130px; */
+}

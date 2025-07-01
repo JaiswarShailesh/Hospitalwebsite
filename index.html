@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>
+      SVKM's Tapanbhai Mukeshbhai Patel Memorial Hospital & Research Center
+    </title>
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="images/favicon.ico" rel="icon" />
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Fonts -->
@@ -67,7 +69,7 @@
           <div class="contact-info d-flex align-items-center">
             <a href="" class="d-none d-md-block">
               <i class="bi bi-envelope d-flex align-items-center ms-4"
-                ><span>contact@example.com</span></i
+                ><span>contact@tmpmhospital.com</span></i
               >
             </a>
             <a href="" class="d-none d-md-block">
@@ -116,15 +118,19 @@
                 <a href="/" class="active">Home<br /></a>
               </li>
               <li class="dropdown">
-                <a href="aboutUs.html"
+                <a href="#"
                   ><span>About Us</span>
                   <i class="bi bi-chevron-down toggle-dropdown"></i
                 ></a>
                 <ul>
-                  <li><a href="#">Overview</a></li>
-                  <li><a href="#">Vision & Mission</a></li>
-                  <li><a href="#">Key Achievements</a></li>
-                  <li><a href="#">Founders & Leadership</a></li>
+                  <li><a href="aboutUs.html">Overview</a></li>
+                  <li><a href="aboutUs.html#stats">Vision & Mission</a></li>
+                  <li>
+                    <a href="aboutUs.html#foundersLeaders"
+                      >Founders & Leadership</a
+                    >
+                  </li>
+                  <li><a href="aboutUs.html#departments">Why Us?</a></li>
                 </ul>
               </li>
               <li class="dropdown">
@@ -202,10 +208,53 @@
                   <i class="bi bi-chevron-down toggle-dropdown"></i
                 ></a>
                 <ul>
-                  <li><a href="#">Overview</a></li>
-                  <li><a href="#">Vision & Mission</a></li>
-                  <li><a href="#">Key Achievements</a></li>
-                  <li><a href="#">Founders & Leadership</a></li>
+                  <li class="dropdown">
+                    <a href="departments.html#specialty"
+                      ><span>Services</span>
+                      <i class="bi bi-chevron-down toggle-dropdown"></i
+                    ></a>
+                    <ul>
+                      <li><a href="opd.html">OPD</a></li>
+                      <li><a href="#">IPD</a></li>
+                      <li><a href="#">Day Care</a></li>
+                      <li><a href="#">Chemotherapy</a></li>
+                      <li><a href="#">Home Visit / Doctor at Home</a></li>
+                      <li><a href="#">Preventive Health Check-Up</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="departments.html#superSpecialty"
+                      ><span>Information</span>
+                      <i class="bi bi-chevron-down toggle-dropdown"></i
+                    ></a>
+                    <ul>
+                      <li><a href="#">Patient Education</a></li>
+                      <li><a href="#">Health Tips</a></li>
+                      <li><a href="#">Patient Rights & Responsibilities</a></li>
+                      <li><a href="#">Patient Feedback</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="departments.html#centralClinic"
+                      ><span>Billing & Insurance</span>
+                      <i class="bi bi-chevron-down toggle-dropdown"></i
+                    ></a>
+                    <ul>
+                      <li><a href="#">Tariff / Charges</a></li>
+                      <li><a href="#">TPA, Insurance & Corporate</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="departments.html#centralClinic"
+                      ><span>Health Information / Library</span>
+                      <i class="bi bi-chevron-down toggle-dropdown"></i
+                    ></a>
+                    <ul>
+                      <li><a href="#">Diseases & Conditions</a></li>
+                      <li><a href="#">Symptoms Guide</a></li>
+                      <li><a href="#">Treatment / Procedure / Surgery</a></li>
+                    </ul>
+                  </li>
                 </ul>
               </li>
               <li class="dropdown">
@@ -287,6 +336,13 @@
 
     <!-- About Section -->
     <section id="about" class="about section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About Us</h2>
+        <p>
+          A modern healthcare institution committed to compassionate care,
+          clinical excellence, and community well-being.
+        </p>
+      </div>
       <div class="container">
         <div class="row gy-4 gx-5">
           <div
@@ -302,7 +358,6 @@
           </div>
 
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
-            <h3>About Us</h3>
             <p>
               SVKM’s Tapanbhai Mukeshbhai Patel Memorial Hospital is a
               state-of-the-art healthcare facility dedicated to delivering
@@ -453,8 +508,8 @@
       <div class="container section-title" data-aos="fade-up">
         <h2>Departments</h2>
         <p>
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-          consectetur velit
+          Explore our wide range of specialized departments dedicated to quality
+          care and innovation
         </p>
       </div>
       <!-- End Section Title -->
@@ -471,7 +526,7 @@
                 <!-- <i class="fas fa-heartbeat"></i> -->
                 <i class="fa-solid fa-x-ray"></i>
               </div>
-              <a href="#" class="stretched-link">
+              <a href="radiology.html" class="stretched-link">
                 <h3>Radiology</h3>
               </a>
               <p>
@@ -485,18 +540,19 @@
           <div
             class="col-lg-4 col-md-6"
             data-aos="fade-up"
-            data-aos-delay="200"
+            data-aos-delay="300"
           >
             <div class="service-item position-relative">
               <div class="icon">
-                <!-- <i class="fas fa-pills"></i> -->
-                <i class="fa-solid fa-female"></i>
+                <!-- <i class="fas fa-hospital-user"></i> -->
+                <i class="fas fa-person-pregnant"></i>
               </div>
-              <a href="#" class="stretched-link">
-                <h3>Gynecology</h3>
+              <a href="gynecology.html" class="stretched-link">
+                <h3>Obstetrics & Gynecology</h3>
               </a>
               <p>
-                Comprehensive care for women’s health across all life stages.
+                Promoting public health through prevention, education, and
+                outreach.
               </p>
             </div>
           </div>
@@ -505,19 +561,61 @@
           <div
             class="col-lg-4 col-md-6"
             data-aos="fade-up"
-            data-aos-delay="300"
+            data-aos-delay="100"
           >
             <div class="service-item position-relative">
               <div class="icon">
-                <!-- <i class="fas fa-hospital-user"></i> -->
-                <i class="fas fa-people-group"></i>
+                <!-- <i class="fas fa-heartbeat"></i> -->
+                <i class="fa-solid fa-heart-pulse"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>Community Medicine</h3>
+                <h3>Cardiology</h3>
               </a>
               <p>
-                Promoting public health through prevention, education, and
-                outreach.
+                Advanced imaging services for accurate diagnosis and efficient
+                treatment planning.
+              </p>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div
+            class="col-lg-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
+            <div class="service-item position-relative">
+              <div class="icon">
+                <!-- <i class="fas fa-notes-medical"></i> -->
+                <i class="fas fa-syringe"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Dermatology</h3>
+              </a>
+              <p>
+                Empowering people and processes for seamless healthcare
+                delivery.
+              </p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div
+            class="col-lg-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="service-item position-relative">
+              <div class="icon">
+                <!-- <i class="fas fa-pills"></i> -->
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Neurology</h3>
+              </a>
+              <p>
+                Comprehensive care for women’s health across all life stages.
               </p>
             </div>
           </div>
@@ -531,10 +629,10 @@
             <div class="service-item position-relative">
               <div class="icon">
                 <!-- <i class="fas fa-dna"></i> -->
-                <i class="fas fa-tint"></i>
+                <i class="fas fa-baby"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>Blood bank</h3>
+                <h3>Pediatrics</h3>
               </a>
               <p>
                 Safe and timely blood collection, storage, and transfusion
@@ -544,48 +642,6 @@
             </div>
           </div>
           <!-- End Service Item -->
-
-          <div
-            class="col-lg-4 col-md-6"
-            data-aos="fade-up"
-            data-aos-delay="500"
-          >
-            <div class="service-item position-relative">
-              <div class="icon">
-                <!-- <i class="fas fa-wheelchair"></i> -->
-                <i class="fas fa-vial"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Pythology</h3>
-              </a>
-              <p>
-                Precision lab diagnostics to support clinical decision-making.
-              </p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div>
-          <!-- End Service Item -->
-
-          <div
-            class="col-lg-4 col-md-6"
-            data-aos="fade-up"
-            data-aos-delay="600"
-          >
-            <div class="service-item position-relative">
-              <div class="icon">
-                <!-- <i class="fas fa-notes-medical"></i> -->
-                <i class="fas fa-hospital-user"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>OPD</h3>
-              </a>
-              <p>
-                Empowering people and processes for seamless healthcare
-                delivery.
-              </p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div>
 
           <div class="d-flex justify-content-center">
             <a href="departments.html" class="btn btn-accent btn-accent-pill"
@@ -604,8 +660,8 @@
       <div class="container section-title" data-aos="fade-up">
         <h2>News & Events</h2>
         <p>
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-          consectetur velit
+          Stay updated with the latest happenings, achievements, and community
+          outreach from our hospital.
         </p>
       </div>
       <!-- End Section Title -->
@@ -834,8 +890,8 @@
       <div class="container section-title" data-aos="fade-up">
         <h2>Blogs</h2>
         <p>
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-          consectetur velit
+          Read expert insights, health tips, and stories from our medical
+          professionals.
         </p>
       </div>
       <!-- End Section Title -->
@@ -945,8 +1001,8 @@
       >
         <h2>Frequently Asked Questions</h2>
         <p>
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-          consectetur velit
+          Find answers to commonly asked questions about our hospital and
+          services.
         </p>
       </div>
       <!-- End Section Title -->
@@ -960,13 +1016,12 @@
           >
             <div class="faq-container">
               <div class="faq-item faq-active">
-                <h3>Non consectetur a erat nam at lectus urna duis?</h3>
+                <h3>How can I book an appointment?</h3>
                 <div class="faq-content">
                   <p>
-                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
-                    volutpat lacus laoreet non curabitur gravida. Venenatis
-                    lectus magna fringilla urna porttitor rhoncus dolor purus
-                    non.
+                    You can book an appointment online through our website, call
+                    our reception, or visit the hospital's OPD registration desk
+                    during working hours.
                   </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
@@ -974,14 +1029,13 @@
               <!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
+                <h3>What services does the hospital offer?</h3>
                 <div class="faq-content">
                   <p>
-                    Dolor sit amet consectetur adipiscing elit pellentesque
-                    habitant morbi. Id interdum velit laoreet id donec ultrices.
-                    Fringilla phasellus faucibus scelerisque eleifend donec
-                    pretium. Est pellentesque elit ullamcorper dignissim. Mauris
-                    ultrices eros in cursus turpis massa tincidunt dui.
+                    The hospital provides a wide range of medical services,
+                    including specialty and super specialty care, advanced
+                    diagnostics, emergency services, surgical care, and
+                    preventive health programs.
                   </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
@@ -989,17 +1043,12 @@
               <!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>
-                  Dolor sit amet consectetur adipiscing elit pellentesque?
-                </h3>
+                <h3>What are the hospital’s visiting hours?</h3>
                 <div class="faq-content">
                   <p>
-                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices
-                    sagittis orci. Faucibus pulvinar elementum integer enim. Sem
-                    nulla pharetra diam sit amet nisl suscipit. Rutrum tellus
-                    pellentesque eu tincidunt. Lectus urna duis convallis
-                    convallis tellus. Urna molestie at elementum eu facilisis
-                    sed odio morbi quis
+                    Visiting hours are typically from 10:00 AM to 12:00 PM and
+                    5:00 PM to 7:00 PM, but may vary based on the department or
+                    patient's condition. Please confirm with the nursing staff.
                   </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
@@ -1007,16 +1056,12 @@
               <!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>
-                  Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
-                </h3>
+                <h3>Do you offer cashless treatment with insurance?</h3>
                 <div class="faq-content">
                   <p>
-                    Dolor sit amet consectetur adipiscing elit pellentesque
-                    habitant morbi. Id interdum velit laoreet id donec ultrices.
-                    Fringilla phasellus faucibus scelerisque eleifend donec
-                    pretium. Est pellentesque elit ullamcorper dignissim. Mauris
-                    ultrices eros in cursus turpis massa tincidunt dui.
+                    Yes, we have tie-ups with several insurance providers for
+                    cashless treatment. Kindly check with our billing department
+                    for a list of empanelled companies.
                   </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
@@ -1024,13 +1069,11 @@
               <!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
+                <h3>Is emergency care available 24/7?</h3>
                 <div class="faq-content">
                   <p>
-                    Molestie a iaculis at erat pellentesque adipiscing commodo.
-                    Dignissim suspendisse in est ante in. Nunc vel risus commodo
-                    viverra maecenas accumsan. Sit amet nisl suscipit adipiscing
-                    bibendum est. Purus gravida quis blandit turpis cursus in
+                    Yes, our emergency department is fully operational 24x7 with
+                    qualified doctors, nurses, and life-saving equipment.
                   </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
@@ -1038,12 +1081,12 @@
               <!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
+                <h3>What facilities are available for admitted patients?</h3>
                 <div class="faq-content">
                   <p>
-                    Enim ea facilis quaerat voluptas quidem et dolorem. Quis et
-                    consequatur non sed in suscipit sequi. Distinctio ipsam
-                    dolore et.
+                    We offer general wards, private and semi-private rooms, ICU,
+                    pharmacy, diagnostic labs, in-house canteen, and ambulance
+                    services.
                   </p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
@@ -1274,10 +1317,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Gallery</h2>
-        <p>
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-          consectetur velit
-        </p>
+        <p>A glimpse into our hospital, events, and patient care moments.</p>
       </div>
       <!-- End Section Title -->
 
@@ -1428,10 +1468,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Contact</h2>
-        <p>
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-          consectetur velit
-        </p>
+        <p>We’re here to help—reach out with your questions or feedback.</p>
       </div>
       <!-- End Section Title -->
 

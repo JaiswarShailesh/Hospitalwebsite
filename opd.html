@@ -3,813 +3,520 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SVKM’s Tapanbhai Mukeshbhai Patel Memorial Hospital</title>
+    <title>
+      SVKM's Tapanbhai Mukeshbhai Patel Memorial Hospital & Research Center
+    </title>
+
+    <!-- Favicons -->
+    <link href="images/favicon.ico" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
-      crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/e8c1c6e963.js"
-      crossorigin="anonymous"
-    ></script>
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
       crossorigin="anonymous"
     ></script>
-    <style type="text/css">
-      /* ============ desktop view ============ */
-      @media all and (min-width: 992px) {
-        .dropdown-menu li {
-          position: relative;
-        }
-        .dropdown-menu .submenu {
-          display: none;
-          position: absolute;
-          left: 100%;
-          top: -7px;
-        }
-        .dropdown-menu .submenu-left {
-          right: 100%;
-          left: auto;
-        }
 
-        .dropdown-menu > li:hover {
-          background-color: #f1f1f1;
-        }
-        .dropdown-menu > li:hover > .submenu {
-          display: block;
-        }
-      }
-      /* ============ desktop view .end// ============ */
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/carousel.css" />
 
-      /* ============ small devices ============ */
-      @media (max-width: 991px) {
-        .dropdown-menu .dropdown-menu {
-          margin-left: 0.7rem;
-          margin-right: 0.7rem;
-          margin-bottom: 0.5rem;
-        }
-      }
-      /* ============ small devices .end// ============ */
-
-      .carousel-inner .carousel-item > .col {
-        display: flex;
-        flex-direction: column;
-      }
-      .card {
-        height: 100%;
-      }
-
-      .testimonial-slider {
-        background-color: #5072a7;
-        padding: 2em 2em 3em;
-      }
-      .testimonial-title {
-        color: #fff;
-      }
-      .testimonial-title h2 {
-        padding-left: 0.2em;
-      }
-      .card.testimonial-card {
-        margin: 0 0.5em;
-        box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-        border: none;
-        height: 100%;
-      }
-      .testimonial-slider .carousel-control-prev,
-      .testimonial-slider .carousel-control-next {
-        background-color: #fff;
-        width: 3em;
-        height: 3em;
-        border-radius: 50%;
-        top: 60%;
-        transform: translateY(-50%);
-      }
-
-      @media (min-width: 576px) {
-        .testimonial-slider .carousel-item {
-          margin-right: 0;
-          flex: 0 0 50%;
-          display: block;
-        }
-        .testimonial-slider .carousel-inner {
-          display: flex;
-        }
-      }
-      @media (min-width: 768px) {
-        .testimonial-slider .carousel-inner {
-          padding: 1em;
-        }
-        .testimonial-slider .carousel-control-prev,
-        .testimonial-slider .carousel-control-next {
-          opacity: 1;
-          position: absolute;
-          left: 1em;
-          top: 90%;
-          transform: translateY(-50%);
-        }
-        .testimonial-slider .carousel-control-next {
-          left: 5em;
-        }
-      }
-
-      .department-card {
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        background-color: #fdfdfd;
-      }
-
-      .department-card:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-      }
-
-      .department-icon i {
-        transition: transform 0.3s ease;
-      }
-
-      .department-card:hover .department-icon i {
-        transform: scale(1.2);
-      }
-    </style>
+    <!-- =======================================================
+  * Template Name: Medilab
+  * Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
   </head>
   <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <!-- <a class="navbar-brand" href="#">Navbar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+    <header id="header" class="header sticky-top">
+      <div class="topbar d-flex align-items-center">
+        <div
+          class="container d-flex justify-content-center justify-content-md-between"
         >
-          <span class="navbar-toggler-icon"></span>
-        </button> -->
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                ><i class="fa-solid fa-phone me-2"></i>Request a callback</a
+          <div class="contact-info d-flex align-items-center">
+            <a href="" class="d-none d-md-block">
+              <i class="bi bi-envelope d-flex align-items-center ms-4"
+                ><span>contact@tmpmhospital.com</span></i
               >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><i class="fa-solid fa-calendar-days me-2"></i>Book an
-                appointment</a
+            </a>
+            <a href="" class="d-none d-md-block">
+              <i class="bi bi-phone d-flex align-items-center ms-4"
+                ><span>Request a Callback</span></i
               >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><i class="fa-solid fa-stethoscope me-2"></i>Get health
-                checkup</a
+            </a>
+            <a href="">
+              <i class="bi bi-phone d-flex align-items-center ms-4"
+                ><span>Emergency Number: +1 5589 55488 55</span></i
               >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><i class="fa-solid fa-tower-broadcast me-2"></i>Emergency
-                Number:- 022 212121</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">SVKM's TM Patel Hospital Website</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#main_nav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="main_nav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="/">Home </a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                data-bs-toggle="dropdown"
-              >
-                About us
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="aboutUs.html"> Overview </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="aboutUs.html#visionMission">
-                    Vision & Mission
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#"> Key Achievements </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="aboutUs.html#foundersLeaders">
-                    Founders & Leadership
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                data-bs-toggle="dropdown"
-              >
-                Departments and Services
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="departments.html">
-                    Departments &raquo;
-                  </a>
-                  <ul class="submenu dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="radiology.html"
-                        >Radiology</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="gynecology.html"
-                        >Gynecology</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Blood bank</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">HR</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">OPD</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Nursing</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Pythology</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Community Medicine</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Center of Excellence &raquo;
-                  </a>
-                  <ul class="submenu dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">Another submenu 1</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another submenu 2</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another submenu 3</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another submenu 4</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Specialized Clinics &raquo;</a
-                  >
-                  <ul class="submenu dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">Another submenu 1</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another submenu 2</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another submenu 3</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another submenu 4</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#"
-                    >Diagnostic & Support Services &raquo;</a
-                  >
-                  <ul class="submenu dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">Radiology</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Lab</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Pharmacy</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Ambulance</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                data-bs-toggle="dropdown"
-              >
-                Doctors
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="doctors.html"> All Doctors </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#"> By Department </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                data-bs-toggle="dropdown"
-              >
-                Patient's & Visitors
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Inpatient Services &raquo;
-                  </a>
-                  <ul class="submenu dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">Admission</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Discharge Process</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Outpatient Services &raquo;
-                  </a>
-                  <ul class="submenu dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">Consultation</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Appoitment Info</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#"> Make Appointment </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Emergency Services &raquo;
-                  </a>
-                  <ul class="submenu dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">24x7 ER Info</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">ICU</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Insurance & Billing &raquo;
-                  </a>
-                  <ul class="submenu dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">TPA Partners</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Payment Info</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Visitors Guidelines &raquo;
-                  </a>
-                  <ul class="submenu dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">Visiting Hours</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Rules</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Patient Feedback &raquo;
-                  </a>
-                  <ul class="submenu dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">Testimonial</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Submit Feedback</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#"> FAQs </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                data-bs-toggle="dropdown"
-              >
-                Community
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="#"> Events &raquo; </a>
-                  <ul class="submenu dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">Hospital Events</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Celebrations</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    CSR Initiatives &raquo;
-                  </a>
-                  <ul class="submenu dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">Outreach Programs</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Health Camps</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                data-bs-toggle="dropdown"
-              >
-                Careers
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="#"> HR &raquo; </a>
-                  <ul class="submenu dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">HR Policies</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Employee Engagement</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#"> Careers &raquo; </a>
-                  <ul class="submenu dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">Open Positions</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Culture</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                data-bs-toggle="dropdown"
-              >
-                Contact Us
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="#"> Contact Information</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#"> Emergency Contact</a>
-                </li>
-              </ul>
-            </li>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-warning" type="submit">Search</button>
-            </form>
-          </ul>
-        </div>
-        <!-- navbar-collapse.// -->
-      </div>
-      <!-- container-fluid.// -->
-    </nav>
-
-    <!-- Navbar End-->
-
-    <!-- Department Details -->
-    <div class="container my-5">
-      <div class="row">
-        <div class="col-md-3">
-          <div class="card shadow-sm" style="height: fit-content">
-            <div class="card-body">
-              <h5 class="card-title">Contact Info</h5>
-
-              <div class="mb-2">
-                <i class="fa-solid fa-phone me-2"></i> 022 - 62597788
-              </div>
-              <div class="mb-2">
-                <i class="fa-solid fa-phone me-2"></i> 022 - 69197788
-              </div>
-              <div class="mb-2">
-                <i class="fa-solid fa-envelope me-2"></i> info@hospital.com
-              </div>
-              <div class="mb-2">
-                <i class="fa-solid fa-address-book me-2"></i> Ground Floor,
-                SVKM's TM Patel Hospital Trust, 60-A, Sirpur, Maharashtra -
-                400026.
-              </div>
-            </div>
+            </a>
+          </div>
+          <div class="social-links d-none d-md-flex align-items-center">
+            <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
-        <div class="col-md-9">
-          <h2>OPD</h2>
-          <!-- Carousel -->
-          <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img
-                  src="images/departmentDetails.jpg"
-                  class="d-block w-100"
-                  width="100%"
-                  height="300px"
-                  alt="..."
-                  style="
-                    height: 300px;
-                    filter: brightness(50%);
-                    object-fit: cover;
-                  "
-                />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>
-                    Some representative placeholder content for the first slide.
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="images/departmentDetails1.jpg"
-                  class="d-block w-100"
-                  width="100%"
-                  height="300px"
-                  alt="..."
-                  style="
-                    height: 300px;
-                    filter: brightness(50%);
-                    object-fit: cover;
-                  "
-                />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>
-                    Some representative placeholder content for the second
-                    slide.
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="images/departmentDetails3.jpg"
-                  class="d-block w-100"
-                  width="100%"
-                  height="300px"
-                  alt="..."
-                  style="
-                    height: 300px;
-                    filter: brightness(50%);
-                    object-fit: cover;
-                  "
-                />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>
-                    Some representative placeholder content for the third slide.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-          <!-- Carousel End -->
+      </div>
+      <!-- End Top Bar -->
 
-          <h2 class="mt-4">About OPD</h2>
-          <p>
-            The Outpatient Department (OPD) serves as the first point of contact
-            between patients and the hospital’s medical services. Designed for
-            convenience, accessibility, and efficiency, the OPD caters to
-            individuals seeking consultation, diagnosis, minor procedures, and
-            follow-ups without the need for hospital admission. Equipped with
-            modern facilities and managed by experienced doctors, our OPD
-            ensures timely and quality healthcare across a wide range of
-            specialties including General Medicine, Pediatrics, Gynecology,
-            Orthopedics, and more.
-          </p>
-          <p id="moreRadiologyInfo" class="collapse">
-            Our OPD operates on a structured schedule, allowing patients to
-            consult specialists as per availability, with minimal wait times. In
-            addition to consultations, the department offers basic diagnostics,
-            pharmacy access, and referral services — all under one roof. With a
-            strong focus on patient comfort, transparency, and service
-            excellence, our OPD reflects the hospital’s commitment to
-            accessible, affordable, and efficient healthcare.
-          </p>
+      <div class="branding d-flex align-items-center">
+        <div
+          class="container-fluid position-relative d-flex align-items-center justify-content-between"
+        >
+          <a href="index.html" class="logo d-flex align-items-center me-auto">
+            <!-- Uncomment the line below if you also wish to use an image logo -->
+            <!-- <img src="assets/img/logo.png" alt=""> -->
+            <!-- <h1 class="sitename">
+              SVKM's Tapanbhai Mukeshbhai Patel Memorial Hospital And Research
+              Center
+            </h1> -->
+            <img
+              src="images/hospital_website_logo.png"
+              alt=""
+              class="img-fluid"
+              style="max-height: auto"
+            />
+          </a>
 
-          <button
-            class="btn btn-sm btn-success"
-            data-bs-toggle="collapse"
-            href="#moreRadiologyInfo"
-            role="button"
-            aria-expanded="false"
-            aria-controls="moreRadiologyInfo"
+          <nav id="navmenu" class="navmenu">
+            <ul>
+              <li>
+                <a href="/" class="active">Home<br /></a>
+              </li>
+              <li class="dropdown">
+                <a href="#"
+                  ><span>About Us</span>
+                  <i class="bi bi-chevron-down toggle-dropdown"></i
+                ></a>
+                <ul>
+                  <li><a href="aboutUs.html">Overview</a></li>
+                  <li><a href="aboutUs.html#stats">Vision & Mission</a></li>
+                  <li>
+                    <a href="aboutUs.html#foundersLeaders"
+                      >Founders & Leadership</a
+                    >
+                  </li>
+                  <li><a href="aboutUs.html#departments">Why Us?</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#"
+                  ><span>Departments & Services</span>
+                  <i class="bi bi-chevron-down toggle-dropdown"></i
+                ></a>
+                <ul>
+                  <li><a href="departments.html">All Departments</a></li>
+                  <li class="dropdown">
+                    <a href="departments.html#specialty"
+                      ><span>Speciality</span>
+                      <i class="bi bi-chevron-down toggle-dropdown"></i
+                    ></a>
+                    <ul>
+                      <li><a href="#">General Medicine</a></li>
+                      <li><a href="#">General Surgery</a></li>
+                      <li><a href="#">Obsterics & Gynocology</a></li>
+                      <li><a href="#">Pediatrics</a></li>
+                      <li><a href="#">Orthopedics</a></li>
+                      <li><a href="#">Dermatology</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="departments.html#superSpecialty"
+                      ><span>Super Speciality</span>
+                      <i class="bi bi-chevron-down toggle-dropdown"></i
+                    ></a>
+                    <ul>
+                      <li><a href="#">Cardiology</a></li>
+                      <li><a href="#">Neurology</a></li>
+                      <li><a href="#">Nepharolgy</a></li>
+                      <li><a href="#">Gastroenterolgy</a></li>
+                      <li><a href="#">Oncology</a></li>
+                      <li><a href="#">Urology</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="departments.html#centralClinic"
+                      ><span
+                        >Central Clinical Laboratory / Laboratory Medicine</span
+                      >
+                      <i class="bi bi-chevron-down toggle-dropdown"></i
+                    ></a>
+                    <ul>
+                      <li><a href="#">Blood bank</a></li>
+                      <li><a href="#">Clinical Biochemistry</a></li>
+                      <li><a href="#">Hematology</a></li>
+                      <li><a href="#">Microbiology</a></li>
+                      <li><a href="#">Histopathology</a></li>
+                      <li><a href="#">Molecular Diagnostics</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="departments.html#radiologyImaging"
+                      ><span>Radiology & Imaging</span>
+                      <i class="bi bi-chevron-down toggle-dropdown"></i
+                    ></a>
+                    <ul>
+                      <li><a href="#">Digital X-Ray</a></li>
+                      <li><a href="#">Ultrasound/ Doppler</a></li>
+                      <li><a href="#">CT Scan</a></li>
+                      <li><a href="#">MRI</a></li>
+                      <li><a href="#">Interventional Radiology</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="doctors.html">Doctors<br /></a>
+              </li>
+              <li class="dropdown">
+                <a href="#"
+                  ><span>Patients & Visitors</span>
+                  <i class="bi bi-chevron-down toggle-dropdown"></i
+                ></a>
+                <ul>
+                  <li class="dropdown">
+                    <a href="departments.html#specialty"
+                      ><span>Services</span>
+                      <i class="bi bi-chevron-down toggle-dropdown"></i
+                    ></a>
+                    <ul>
+                      <li><a href="#">OPD</a></li>
+                      <li><a href="#">IPD</a></li>
+                      <li><a href="#">Day Care</a></li>
+                      <li><a href="#">Chemotherapy</a></li>
+                      <li><a href="#">Home Visit / Doctor at Home</a></li>
+                      <li><a href="#">Preventive Health Check-Up</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="departments.html#superSpecialty"
+                      ><span>Information</span>
+                      <i class="bi bi-chevron-down toggle-dropdown"></i
+                    ></a>
+                    <ul>
+                      <li><a href="#">Patient Education</a></li>
+                      <li><a href="#">Health Tips</a></li>
+                      <li><a href="#">Patient Rights & Responsibilities</a></li>
+                      <li><a href="#">Patient Feedback</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="departments.html#centralClinic"
+                      ><span>Billing & Insurance</span>
+                      <i class="bi bi-chevron-down toggle-dropdown"></i
+                    ></a>
+                    <ul>
+                      <li><a href="#">Tariff / Charges</a></li>
+                      <li><a href="#">TPA, Insurance & Corporate</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="departments.html#centralClinic"
+                      ><span>Health Information / Library</span>
+                      <i class="bi bi-chevron-down toggle-dropdown"></i
+                    ></a>
+                    <ul>
+                      <li><a href="#">Diseases & Conditions</a></li>
+                      <li><a href="#">Symptoms Guide</a></li>
+                      <li><a href="#">Treatment / Procedure / Surgery</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#"
+                  ><span>Community</span>
+                  <i class="bi bi-chevron-down toggle-dropdown"></i
+                ></a>
+                <ul>
+                  <li><a href="blogs.html">Blogs</a></li>
+                  <li><a href="newsAndEvents.html">News & Events</a></li>
+                  <li><a href="photoGallery.html">Photo Gallery</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#"
+                  ><span>Careers</span>
+                  <i class="bi bi-chevron-down toggle-dropdown"></i
+                ></a>
+                <ul>
+                  <li><a href="#">Overview</a></li>
+                  <li><a href="#">Vision & Mission</a></li>
+                  <li><a href="#">Key Achievements</a></li>
+                  <li><a href="#">Founders & Leadership</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="contact.html">Contact Us<br /></a>
+              </li>
+              <!-- <li class="dropdown">
+                <a href="#"
+                  ><span>Dropdown</span>
+                  <i class="bi bi-chevron-down toggle-dropdown"></i
+                ></a>
+                <ul>
+                  <li><a href="#">Dropdown 1</a></li>
+                  <li class="dropdown">
+                    <a href="#"
+                      ><span>Deep Dropdown</span>
+                      <i class="bi bi-chevron-down toggle-dropdown"></i
+                    ></a>
+                    <ul>
+                      <li><a href="#">Deep Dropdown 1</a></li>
+                      <li><a href="#">Deep Dropdown 2</a></li>
+                      <li><a href="#">Deep Dropdown 3</a></li>
+                      <li><a href="#">Deep Dropdown 4</a></li>
+                      <li><a href="#">Deep Dropdown 5</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Dropdown 2</a></li>
+                  <li><a href="#">Dropdown 3</a></li>
+                  <li><a href="#">Dropdown 4</a></li>
+                </ul>
+              </li> -->
+            </ul>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+          </nav>
+
+          <a class="cta-btn d-none d-sm-block text-nowrap" href="#appointment"
+            >Make an Appointment</a
           >
-            Read More
-          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <!-- Owl Carousel -->
+    <div class="d-none d-md-block">
+      <div class="hero-carousel owl-carousel owl-theme">
+        <div class="item">
+          <img src="images/opd_banner.png" alt="" />
         </div>
       </div>
     </div>
-    <!-- Department Details End -->
+    <!-- Owl Carousel End -->
+    <!-- Hero Section End -->
 
-    <section class="py-5">
-      <div class="container">
-        <div class="row"></div>
-        <div class="row justify-content-center text-center mb-2 mb-lg-4">
-          <div class="col-12 col-lg-8 col-xxl-7 text-center mx-auto">
-            <h2 class="display-5 fw-bold">Our Consultants</h2>
-          </div>
-        </div>
+    <!-- OPD Section -->
+    <section id="departments" class="departments section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Outpatient Department</h2>
+        <p>
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row">
-          <div class="col-md-4">
-            <div class="card text-center mb-3">
-              <div class="card-body p-0 pb-4">
-                <div class="mb-4 bg-light">
-                  <img
-                    class="img-fluid rounded-circle"
-                    src="images/jaya_mathew.png"
-                  />
-                </div>
-                <h5 class="fw-bold">JAYA MATHEW</h5>
-                <div class="text-muted">OPD Incharge</div>
-                <div class="d-flex justify-content-center mt-4">
-                  <a class="btn btn-sm me-2" href="jayaMathew.html">
-                    <i class="fa-solid fa-phone"></i>
-                  </a>
-                  <a class="btn btn-sm btn-primary me-2" href="jayaMathew.html"
-                    >View full profile</a
-                  >
-                  <a class="btn btn-sm btn-warning" href=""
-                    >Book an appointment</a
-                  >
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a
+                  class="nav-link active show"
+                  data-bs-toggle="tab"
+                  href="#departments-tab-1"
+                  >Appoitment Booking & Registration</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-bs-toggle="tab"
+                  href="#departments-tab-2"
+                  >Payment Options</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-bs-toggle="tab"
+                  href="#departments-tab-3"
+                  >OPD Consultation Schedule</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="departments-tab-1">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Appoitment Booking & Registration</h3>
+                    <p class="fst-italic">
+                      Qui laudantium consequatur laborum sit qui ad sapiente
+                      dila parde sonata raqer a videna mareta paulona marka
+                    </p>
+                    <p>
+                      Et nobis maiores eius. Voluptatibus ut enim blanditiis
+                      atque harum sint. Laborum eos ipsum ipsa odit magni.
+                      Incidunt hic ut molestiae aut qui. Est repellat minima
+                      eveniet eius et quis magni nihil. Consequatur dolorem
+                      quaerat quos qui similique accusamus nostrum rem vero
+                    </p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img
+                      src="images/appoitment_booking_and_registration.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card text-center mb-3">
-              <div class="card-body p-0 pb-4">
-                <div class="mb-4">
-                  <img
-                    class="img-fluid"
-                    src="https://freefrontend.dev/assets/rectangle-wide.png"
-                  />
-                </div>
-                <h5 class="fw-bold">Dr. Arvind Kumar Khurana</h5>
-                <div class="text-muted">
-                  Gastroenterology and Hepatobiliary Sciences
-                </div>
-                <div class="d-flex justify-content-center mt-4">
-                  <a class="btn btn-sm me-2" href="">
-                    <i class="fa-solid fa-phone"></i>
-                  </a>
-                  <a
-                    class="btn btn-sm btn-primary me-2"
-                    href="viewDoctorProfile.html"
-                    >View full profile</a
-                  >
-                  <a class="btn btn-sm btn-warning" href=""
-                    >Book an appointment</a
-                  >
+              <div class="tab-pane" id="departments-tab-2">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Payment Options</h3>
+                    <p class="fst-italic">
+                      Qui laudantium consequatur laborum sit qui ad sapiente
+                      dila parde sonata raqer a videna mareta paulona marka
+                    </p>
+                    <p>
+                      Ea ipsum voluptatem consequatur quis est. Illum error
+                      ullam omnis quia et reiciendis sunt sunt est. Non aliquid
+                      repellendus itaque accusamus eius et velit ipsa
+                      voluptates. Optio nesciunt eaque beatae accusamus lerode
+                      pakto madirna desera vafle de nideran pal
+                    </p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img
+                      src="images/payment_options.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card text-center mb-3">
-              <div class="card-body p-0 pb-4">
-                <div class="mb-4">
-                  <img
-                    class="img-fluid"
-                    src="https://freefrontend.dev/assets/rectangle-wide.png"
-                  />
+              <div class="tab-pane" id="departments-tab-3">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>OPD Consultation Schedule</h3>
+                    <p class="fst-italic">
+                      Eos voluptatibus quo. Odio similique illum id quidem non
+                      enim fuga. Qui natus non sunt dicta dolor et. In
+                      asperiores velit quaerat perferendis aut
+                    </p>
+                    <p>
+                      Iure officiis odit rerum. Harum sequi eum illum corrupti
+                      culpa veritatis quisquam. Neque necessitatibus illo rerum
+                      eum ut. Commodi ipsam minima molestiae sed laboriosam a
+                      iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et
+                      harum voluptatem optio quae
+                    </p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img
+                      src="images/opd_consultation_and_schedule.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
                 </div>
-                <h5 class="fw-bold">Dr. Praveen Gupta</h5>
-                <div class="text-muted">Neurology</div>
-                <div class="d-flex justify-content-center mt-4">
-                  <a class="btn btn-sm me-2" href="">
-                    <i class="fa-solid fa-phone"></i>
-                  </a>
-                  <a
-                    class="btn btn-sm btn-primary me-2"
-                    href="viewDoctorProfile.html"
-                    >View full profile</a
-                  >
-                  <a class="btn btn-sm btn-warning" href=""
-                    >Book an appointment</a
-                  >
+                <div class="row">
+                  <div class="table-responsive mt-3">
+                    <table
+                      class="table table-bordered opd-timetable table-striped mb-5"
+                    >
+                      <thead>
+                        <tr>
+                          <th>Department</th>
+                          <th>Doctor Name</th>
+                          <th>Days</th>
+                          <th>Timings</th>
+                          <th>Room No.</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>General Medicine</td>
+                          <td>Dr. A. Sharma</td>
+                          <td>Monday to Friday</td>
+                          <td>10:00 AM – 1:00 PM</td>
+                          <td>101</td>
+                        </tr>
+                        <tr>
+                          <td>Pediatrics</td>
+                          <td>Dr. R. Mehta</td>
+                          <td>Mon, Wed, Fri</td>
+                          <td>2:00 PM – 5:00 PM</td>
+                          <td>102</td>
+                        </tr>
+                        <tr>
+                          <td>Orthopedics</td>
+                          <td>Dr. S. Rane</td>
+                          <td>Tuesday, Thursday</td>
+                          <td>11:00 AM – 2:00 PM</td>
+                          <td>103</td>
+                        </tr>
+                        <tr>
+                          <td>Gynecology</td>
+                          <td>Dr. P. Nair</td>
+                          <td>Monday to Saturday</td>
+                          <td>9:30 AM – 12:30 PM</td>
+                          <td>104</td>
+                        </tr>
+                        <tr>
+                          <td>ENT</td>
+                          <td>Dr. V. Kulkarni</td>
+                          <td>Wednesday, Saturday</td>
+                          <td>10:30 AM – 1:30 PM</td>
+                          <td>105</td>
+                        </tr>
+                        <tr>
+                          <td>Dermatology</td>
+                          <td>Dr. N. Desai</td>
+                          <td>Tuesday, Thursday</td>
+                          <td>3:00 PM – 6:00 PM</td>
+                          <td>106</td>
+                        </tr>
+                        <tr>
+                          <td>Cardiology</td>
+                          <td>Dr. M. Iyer</td>
+                          <td>Monday, Thursday</td>
+                          <td>12:00 PM – 3:00 PM</td>
+                          <td>107</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
               </div>
             </div>
@@ -817,90 +524,310 @@
         </div>
       </div>
     </section>
+    <!-- /OPD Section -->
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white pt-5 pb-4">
-      <div class="container text-center text-md-start">
-        <div class="row text-center text-md-start">
-          <!-- About -->
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
-              SVKM's Tapanbhai Mukeshbhai Patel Memorial Hospital, Medical
-              College & Research Center
-            </h5>
-            <p>
-              We offer world-class medical services backed by modern technology
-              and highly skilled professionals.
-            </p>
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>We’re here to help—reach out with your questions or feedback.</p>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
+        <iframe
+          style="border: 0; width: 100%; height: 270px"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1143.1960065006058!2d74.8753076696258!3d21.338883047939145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdf2d0000fe6e4b%3A0x75a40f1477d0d050!2sTapanbhai%20Mukesh%20Bhai%20Patel%20Memorial%20hospital%20shirpur!5e1!3m2!1sen!2sin!4v1750849850771!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <!-- End Google Maps -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-4">
+            <div
+              class="info-item d-flex"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Location</h3>
+                <p>SVKM's Tapanbhai Mukeshbhai Patel</p>
+                <p>Memorial Hospital, Kharde, Budruk,</p>
+                <p>Sirpur, Dhule - 425405</p>
+              </div>
+            </div>
+            <!-- End Info Item -->
+
+            <div
+              class="info-item d-flex"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p>+1 5589 55488 55</p>
+              </div>
+            </div>
+            <!-- End Info Item -->
+
+            <div
+              class="info-item d-flex"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>info@example.com</p>
+              </div>
+            </div>
+            <!-- End Info Item -->
           </div>
 
-          <!-- Links -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
-              Quick Links
-            </h5>
-            <p><a href="#" class="text-white text-decoration-none">Home</a></p>
-            <p>
-              <a href="#" class="text-white text-decoration-none"
-                >Departments</a
-              >
-            </p>
-            <p>
-              <a href="#" class="text-white text-decoration-none">Doctors</a>
-            </p>
-            <p>
-              <a href="#" class="text-white text-decoration-none">Contact</a>
-            </p>
-          </div>
+          <div class="col-lg-8">
+            <form
+              action="forms/contact.php"
+              method="post"
+              class="php-email-form"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    placeholder="Your Name"
+                    required=""
+                  />
+                </div>
 
-          <!-- Contact -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
-              Contact
-            </h5>
-            <p>
-              <i class="fa-solid fa-house me-2"></i>SVKM's Tapanbhai Mukeshbhai
-              Patel Memorial Hospital, Kharde, Budruk, Sirpur, Dhule - 425405
-            </p>
-            <p><i class="fa-solid fa-envelope me-2"></i> info@hospital.com</p>
-            <p><i class="fa-solid fa-phone me-2"></i> +91 12345 67890</p>
-          </div>
+                <div class="col-md-6">
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    placeholder="Your Email"
+                    required=""
+                  />
+                </div>
 
-          <!-- Social -->
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mt-3 text-center">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
-              Follow us
-            </h5>
-            <a href="#" class="text-white me-4"
-              ><i class="fa-brands fa-facebook text-white"></i
-            ></a>
-            <a href="#" class="text-white me-4">
-              <i class="fa-brands fa-square-x-twitter text-white"></i>
-            </a>
-            <a href="#" class="text-white me-4">
-              <i class="fa-brands fa-instagram text-white"></i>
-            </a>
-            <a href="#" class="text-white me-4">
-              <i class="fa-brands fa-linkedin text-white"></i>
-            </a>
+                <div class="col-md-12">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    placeholder="Subject"
+                    required=""
+                  />
+                </div>
+
+                <div class="col-md-12">
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="6"
+                    placeholder="Message"
+                    required=""
+                  ></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    Your message has been sent. Thank you!
+                  </div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+              </div>
+            </form>
           </div>
+          <!-- End Contact Form -->
         </div>
+      </div>
+    </section>
+    <!-- /Contact Section -->
 
-        <hr class="mb-4" />
+    <footer id="footer" class="footer light-background">
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename"
+                >SVKM's Tapanbhai Mukeshbhai Patel Memorial Hospital And
+                Research Center</span
+              >
+            </a>
+            <div class="footer-contact pt-3">
+              <p>SVKM's Tapanbhai Mukeshbhai Patel</p>
+              <p>Memorial Hospital, Kharde, Budruk,</p>
+              <p>Sirpur, Dhule - 425405</p>
+              <p class="mt-3">
+                <strong>Phone:</strong> <span>+1 5589 55488 55</span>
+              </p>
+              <p><strong>Email:</strong> <span>info@example.com</span></p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
 
-        <div class="row align-items-center">
-          <div class="col-md-7 col-lg-8">
-            <p class="text-white">
-              © 2025 SVKM's Tapanbhai Mukeshbhai Patel Memorial Hospital,
-              Medical College & Research Center. All rights reserved.
-            </p>
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Product Management</a></li>
+              <li><a href="#">Marketing</a></li>
+              <li><a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Hic solutasetp</h4>
+            <ul>
+              <li><a href="#">Molestiae accusamus iure</a></li>
+              <li><a href="#">Excepturi dignissimos</a></li>
+              <li><a href="#">Suscipit distinctio</a></li>
+              <li><a href="#">Dilecta</a></li>
+              <li><a href="#">Sit quas consectetur</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Nobis illum</h4>
+            <ul>
+              <li><a href="#">Ipsam</a></li>
+              <li><a href="#">Laudantium dolorum</a></li>
+              <li><a href="#">Dinera</a></li>
+              <li><a href="#">Trodelas</a></li>
+              <li><a href="#">Flexo</a></li>
+            </ul>
           </div>
         </div>
       </div>
-    </footer>
-    <!-- Footer End -->
 
-    <script src="js/navbar.js"></script>
-    <script src="js/testimonial.js"></script>
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span>Copyright 2025</span>
+          <strong class="px-1 sitename"
+            >SVKM's Tapanbhai Mukeshbhai Patel Memorial Hospital And Research
+            Center</strong
+          >
+          <span>All Rights Reserved</span>
+        </p>
+        <!-- <div class="credits">
+          Designed by
+          <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by
+          <a href=“https://themewagon.com>ThemeWagon
+        </div> -->
+      </div>
+    </footer>
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+      $(".generic-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        dots: false,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        navText: [
+          '<button class="btn btn-sm btn-accent shadow rounded-circle ms-2"><i class="fa-solid fa-arrow-left text-white"></i></button>',
+          '<button class="btn btn-sm btn-accent shadow rounded-circle me-2"><i class="fa-solid fa-arrow-right text-white"></i></button>',
+        ],
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 4,
+          },
+        },
+      });
+
+      $(".blog-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        dots: false,
+        nav: true,
+        navText: [
+          '<button class="btn btn-sm btn-accent shadow rounded-circle ms-2"><i class="fa-solid fa-arrow-left text-white"></i></button>',
+          '<button class="btn btn-sm btn-accent shadow rounded-circle me-2"><i class="fa-solid fa-arrow-right text-white"></i></button>',
+        ],
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+
+      $(".hero-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        dots: false,
+        navText: [
+          '<button class="btn btn-sm btn-accent rounded-circle ms-2"><i class="fa-solid fa-arrow-left text-white"></i></button>', // Bootstrap icon
+          '<button class="btn btn-sm btn-accent rounded-circle me-2"><i class="fa-solid fa-arrow-right text-white"></i></button>',
+        ],
+        items: 1,
+      });
+    </script>
   </body>
 </html>

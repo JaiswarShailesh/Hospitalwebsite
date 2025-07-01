@@ -1909,7 +1909,13 @@ section,
   position: relative;
 }
 
-.stats.mission-vision p{
+.stats.mission-vision p {
   font-size: 14px;
   /* height: 130px; */
+}
+
+@media (max-width: 575px) {
+  .departments .nav-link.active {
+    color: var(--contrast-color);
+  }
 }

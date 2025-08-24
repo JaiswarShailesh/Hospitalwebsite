@@ -7,7 +7,7 @@ import HeroBanner from "../../components/heroBanner";
 import Link from "next/link";
 
 // Departments Data
-export const departments = [
+const departments = [
   {
     category: "Specialty",
     items: [

@@ -37,7 +37,7 @@ export default function PresidentJointPresidentSection() {
                   >
                     Know More
                     <i
-                      className="fa-solid fa-arrow-right"
+                      className="fa-solid fa-arrow-right ms-1"
                       aria-hidden="true"
                     ></i>
                   </a>

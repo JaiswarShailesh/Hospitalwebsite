@@ -91,26 +91,4 @@ export const doctors = [
     },
     department: ["community health", "anesthesia", "health service"],
   },
-  {
-    id: 4,
-    name: "Abey Varghese",
-    tags: ["Technical Head - Radiology"],
-    profilePhoto: "/images/doctors/abheyVarghese.png",
-    bio_data: {
-      opdTiming: {
-        monday: "10:00am - 04:00pm",
-        Tuesday: "10:00am - 04:00pm",
-        Wednesday: "10:00am - 04:00pm",
-        Thursday: "10:00am - 04:00pm",
-        Friday: "10:00am - 04:00pm",
-        Saturday: "10:00am - 04:00pm",
-      },
-      aboutDoctor: [],
-      educationQualification: [],
-      experience: [],
-      HonoursAndAwards: [],
-      publication: [],
-    },
-    department: ["radiology"],
-  },
 ];

@@ -151,10 +151,10 @@ export default function Navbar() {
                     <Link href="/departments">All Departments</Link>
                   </li>
                   <li className="dropdown">
-                    <a href="departments.html#specialty">
+                    <Link href="/departments#speciality">
                       <span>Speciality</span>
                       <i className="bi bi-chevron-down toggle-dropdown"></i>
-                    </a>
+                    </Link>
                     <ul>
                       <li>
                         <a href="#">General Medicine</a>
@@ -177,10 +177,10 @@ export default function Navbar() {
                     </ul>
                   </li>
                   <li className="dropdown">
-                    <a href="departments.html#superSpecialty">
+                    <Link href="/departments#super-specialty">
                       <span>Super Speciality</span>
                       <i className="bi bi-chevron-down toggle-dropdown"></i>
-                    </a>
+                    </Link>
                     <ul>
                       <li>
                         <a href="#">Cardiology</a>
@@ -203,12 +203,12 @@ export default function Navbar() {
                     </ul>
                   </li>
                   <li className="dropdown">
-                    <a href="departments.html#centralClinic">
+                    <Link href="/departments#central-clinical-laboratory-/-laboratory-medicine">
                       <span>
                         Central Clinical Laboratory / Laboratory Medicine
                       </span>
                       <i className="bi bi-chevron-down toggle-dropdown"></i>
-                    </a>
+                    </Link>
                     <ul>
                       <li>
                         <a href="#">Blood bank</a>
@@ -231,7 +231,7 @@ export default function Navbar() {
                     </ul>
                   </li>
                   <li className="dropdown">
-                    <a href="departments.html#radiologyImaging">
+                    <a href="/departments#radiology-/-imaging">
                       <span>Radiology & Imaging</span>
                       <i className="bi bi-chevron-down toggle-dropdown"></i>
                     </a>

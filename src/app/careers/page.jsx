@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import vacancies from "../../data/jobOpenings";
 import { ArrowDownUp, ArrowUp, ArrowDown } from "lucide-react"; // clean icons
 import HeroBanner from "../../components/heroBanner";
+import data from "../../data/whyWorkWithUs";
 
 export default function CareersPage() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -61,16 +62,80 @@ export default function CareersPage() {
     </>
   );
 
+  const [activeTab, setActiveTab] = useState(0);
+
   return (
     <>
-      <HeroBanner images={["/images/about_us_banner.png"]} />
-      <section id="careers" className="services section">
+      <HeroBanner images={["/images/careers_page_banner.png"]} />
+      <section id="departments" className="departments section">
         {/* Section Title */}
         <div className="container section-title" data-aos="fade-up">
-          <h2>Careers</h2>
+          <h2>Why Work with Us?</h2>
           <p>
-            Read expert insights, health tips, and stories from our medical
-            professionals.
+            Join a hospital that values excellence, innovation, and people above
+            all.
+          </p>
+        </div>
+
+        <div className="container" data-aos="fade-up" data-aos-delay="100">
+          <div className="row">
+            {/* Left Side Nav */}
+            <div className="col-lg-3">
+              <ul className="nav nav-tabs flex-column">
+                {data.map((tab, index) => (
+                  <li key={index} className="nav-item">
+                    <a
+                      className={`cursor-pointer nav-link ${
+                        activeTab === index ? "active show" : ""
+                      }`}
+                      onClick={() => setActiveTab(index)}
+                    >
+                      {tab.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Right Side Content */}
+            <div className="col-lg-9 mt-4 mt-lg-0">
+              <div className="tab-content">
+                {data.map((d, index) => (
+                  <div
+                    key={index}
+                    className={`tab-pane fade ${
+                      activeTab === index ? "active show" : ""
+                    }`}
+                  >
+                    <div className="row">
+                      <div className="col-lg-8 details order-2 order-lg-1">
+                        <h3>{d.title}</h3>
+                        <p className="fst-italic">{d.sub_title}</p>
+                        <p>{d.description}</p>
+                      </div>
+                      <div className="col-lg-4 text-center order-1 order-lg-2">
+                        <img
+                          src={d.image}
+                          alt={d.title}
+                          className="img-fluid"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="careers" className="services section light-background">
+        {/* Section Title */}
+        <div className="container section-title" data-aos="fade-up">
+          <h2>Current Openings</h2>
+          <p>
+            Explore exciting career opportunities and join our growing
+            healthcare team.
           </p>
         </div>
 

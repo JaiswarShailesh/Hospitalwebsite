@@ -2,10 +2,11 @@ import React from "react";
 
 const teamMembers = [
   {
-    name: "Walter White",
-    position: "Chief Medical Officer",
-    description: "Explicabo voluptatem mollitia et repellat qui dolorum quasi",
-    image: "images/doctors/doctors-1.jpg",
+    name: "Dr. Santosh Pawar",
+    position: "Chief Executive Officer",
+    description:
+      "Responsible for overall hospital strategy, governance, and operational excellence. Leads organizational growth initiatives and ensures adherence to quality standards in healthcare delivery.",
+    image: "images/doctors/Male_doctor.png",
     social: {
       twitter: "#",
       facebook: "#",
@@ -15,24 +16,11 @@ const teamMembers = [
     delay: 100,
   },
   {
-    name: "Sarah Jhonson",
-    position: "Anesthesiologist",
+    name: "Gajendra Devidas Pawaskar",
+    position: "Senior Manager – Human Resources",
     description:
-      "Aut maiores voluptates amet et quis praesentium qui senda para",
-    image: "images/doctors/doctors-2.jpg",
-    social: {
-      twitter: "#",
-      facebook: "#",
-      instagram: "#",
-      linkedin: "#",
-    },
-    delay: 200,
-  },
-  {
-    name: "William Anderson",
-    position: "Cardiology",
-    description: "Quisquam facilis cum velit laborum corrupti fuga rerum quia",
-    image: "images/doctors/doctors-3.jpg",
+      "Oversees all HR functions including recruitment, employee relations, and organizational development. Focuses on building a strong workforce culture and ensuring compliance with labor regulations.",
+    image: "images/managementTeam/gajendra_pawaskar.png",
     social: {
       twitter: "#",
       facebook: "#",
@@ -42,11 +30,39 @@ const teamMembers = [
     delay: 300,
   },
   {
-    name: "Amanda Jepson",
-    position: "Neurosurgeon",
+    name: "Kawaljeet Oberoi",
+    position: "Chief Nursing Officer",
     description:
-      "Dolorum tempora officiis odit laborum officiis et et accusamus",
-    image: "images/doctors/doctors-4.jpg",
+      "Manages nursing operations and ensures the highest standards of patient care. Implements training programs, quality protocols, and nursing best practices across departments.",
+    image: "images/managementTeam/kawaljeet_oberoi.png",
+    social: {
+      twitter: "#",
+      facebook: "#",
+      instagram: "#",
+      linkedin: "#",
+    },
+    delay: 200,
+  },
+  {
+    name: "Abey Varghese",
+    position: "Technical Head – Radiology",
+    description:
+      "Oversees radiology department operations, equipment management, and diagnostic accuracy. Ensures adoption of latest imaging technologies and compliance with safety protocols.",
+    image: "images/managementTeam/abey_varghese.png",
+    social: {
+      twitter: "#",
+      facebook: "#",
+      instagram: "#",
+      linkedin: "#",
+    },
+    delay: 400,
+  },
+  {
+    name: "Jaya Mathew",
+    position: "OPD Incharge",
+    description:
+      "Responsible for smooth functioning of outpatient services including patient scheduling, coordination, and service delivery. Ensures efficient patient flow and minimizes waiting times.",
+    image: "images/managementTeam/jaya_mathew.png",
     social: {
       twitter: "#",
       facebook: "#",
@@ -63,8 +79,8 @@ export default function ManagementTeamSection() {
       <div className="container section-title" data-aos="fade-up">
         <h2>Management Team</h2>
         <p>
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-          consectetur velit
+          Our leadership team drives excellence in healthcare delivery through
+          strategic vision, operational expertise, and patient-centric values
         </p>
       </div>
 

@@ -70,7 +70,13 @@ export default function DepartmentPage() {
                         <div className="col-lg-8 details order-2 order-lg-1">
                           <h3>{tab.name}</h3>
                           <p className="fst-italic">{tab.intro}</p>
-                          <p>{tab.details}</p>
+                          {Array.isArray(tab.details) ? (
+                            tab.details.map((para, idx) => (
+                              <p key={idx}>{para}</p>
+                            ))
+                          ) : (
+                            <p>{tab.details}</p>
+                          )}
                         </div>
                         <div className="col-lg-4 text-center order-1 order-lg-2">
                           <img

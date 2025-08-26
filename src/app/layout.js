@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "bootstrap/dist/css/bootstrap.css";
 import FooterSection from "../components/footerSection";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 // Load the fonts
 const roboto = Roboto({
@@ -70,7 +71,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <FooterSection />
-
+        <GoogleAnalytics gaId="G-7B2KWNLEM4" />
         {/* <Script
           src="/assets/js/bootstrap.bundle.min.js"
           strategy="afterInteractive"

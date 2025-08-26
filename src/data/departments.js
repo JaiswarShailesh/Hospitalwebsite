@@ -361,4 +361,614 @@ export const departments = [
       },
     ],
   },
+  {
+    category: "Super Specialty",
+    items: [
+      {
+        slug: "cardiology",
+        title: "Cardiology",
+        banner_image: "/images/general_hospital_banner.png",
+        description:
+          "Advanced imaging services for accurate diagnosis and efficient treatment planning.",
+        icon: "fa-heartbeat",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "neurology",
+        title: "Neurology",
+        banner_image: "",
+        description:
+          "Comprehensive care for women’s health across all life stages.",
+        icon: "fa-brain",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "nephrology",
+        title: "Nephrology",
+        banner_image: "",
+        description:
+          "Promoting public health through prevention, education, and outreach.",
+        icon: "fa-tint",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "gastroenterology",
+        title: "Gastroenterology",
+        banner_image: "",
+        description:
+          "Safe and timely blood collection, storage, and transfusion services.",
+        icon: "fa-utensils",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "oncology",
+        title: "Oncology",
+        banner_image: "",
+        description:
+          "Physician-led diagnostics to support clinical decision-making.",
+        icon: "fa-ribbon",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "urology",
+        title: "Urology",
+        banner_image: "",
+        description:
+          "Empowering people and processes for seamless healthcare delivery.",
+        icon: "fa-toilet",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    category: "Central Clinical Laboratory / Laboratory Medicine",
+    items: [
+      {
+        slug: "blood-bank",
+        title: "Blood Bank",
+        banner_image: "/images/general_hospital_banner.png",
+        description:
+          "Advanced imaging services for accurate diagnosis and efficient treatment planning.",
+        icon: "fa-tint",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "pathology",
+        title: "Pathology",
+        banner_image: "",
+        description:
+          "Physician-led diagnostics to support clinical decision-making.",
+        icon: "fa-vials",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "clinical-biochemistry",
+        title: "Clinical Biochemistry",
+        banner_image: "",
+        description:
+          "Comprehensive care for women’s health across all life stages.",
+        icon: "fa-flask",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "hematology",
+        title: "Hematology",
+        banner_image: "",
+        description:
+          "Promoting public health through prevention, education, and outreach.",
+        icon: "fa-syringe",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "microbiology",
+        title: "Microbiology",
+        banner_image: "",
+        description:
+          "Safe and timely blood collection, storage, and transfusion services.",
+        icon: "fa-bacteria",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "molecular-diagnostics",
+        title: "Molecular Diagnostics",
+        banner_image: "",
+        description:
+          "Empowering people and processes for seamless healthcare delivery.",
+        icon: "fa-dna",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    category: "Radiology / Imaging",
+    items: [
+      {
+        slug: "digital-x-ray",
+        title: "Digital X-Ray",
+        banner_image: "/images/general_hospital_banner.png",
+        description:
+          "Advanced imaging services for accurate diagnosis and efficient treatment planning.",
+        icon: "fa-x-ray",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "ultrasound-doppler",
+        title: "Ultrasound / Doppler",
+        banner_image: "",
+        description:
+          "Comprehensive care for women’s health across all life stages.",
+        icon: "fa-wave-square",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "ct-scan",
+        title: "CT Scan",
+        banner_image: "",
+        description:
+          "Promoting public health through prevention, education, and outreach.",
+        icon: "fa-laptop-medical",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "mri",
+        title: "MRI",
+        banner_image: "",
+        description:
+          "Safe and timely blood collection, storage, and transfusion services.",
+        icon: "fa-magnet",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "interventional-radiology",
+        title: "Interventional Radiology",
+        banner_image: "",
+        description:
+          "Precision lab diagnostics to support clinical decision-making.",
+        icon: "fa-crosshairs",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+    ],
+  },
 ];

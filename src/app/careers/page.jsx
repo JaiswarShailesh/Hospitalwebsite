@@ -6,6 +6,7 @@ import vacancies from "../../data/jobOpenings";
 import { ArrowDownUp, ArrowUp, ArrowDown } from "lucide-react"; // clean icons
 import HeroBanner from "../../components/heroBanner";
 import data from "../../data/whyWorkWithUs";
+import Link from "next/link";
 
 export default function CareersPage() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -237,12 +238,12 @@ export default function CareersPage() {
                   </ul>
 
                   <div className="d-flex justify-content-center align-items-center mt-4">
-                    <a
-                      href="departments.html"
+                    <Link
+                      href="/careers"
                       className="btn btn-accent btn-accent-pill"
                     >
                       Apply Now
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

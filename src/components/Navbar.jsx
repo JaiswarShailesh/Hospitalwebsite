@@ -3,14 +3,17 @@
 import AOS from "aos";
 import Link from "next/link";
 import { useEffect } from "react";
-// import "../../public/assets/css/main.css";
-import Image from "next/image";
+import { usePathname } from "next/navigation";
+import { departments } from "../data/departments";
 
 export default function Navbar() {
+  const pathname = usePathname();
+
   useEffect(() => {
     AOS.init();
   }, []);
 
+  // ✅ Setup toggle & dropdown logic
   useEffect(() => {
     const body = document.querySelector("body");
     const toggleButton = document.querySelector(".mobile-nav-toggle");
@@ -28,12 +31,8 @@ export default function Navbar() {
       toggleButton.addEventListener("click", handleToggle);
     }
 
-    const dropdownIcons = document.querySelectorAll(
-      "#navmenu .toggle-dropdown"
-    );
-
     // Handle dropdown clicks
-    dropdownIcons.forEach((icon) => {
+    dropdownLinks.forEach((icon) => {
       icon.addEventListener("click", (e) => {
         e.preventDefault();
         const parentLi = icon.closest(".dropdown");
@@ -44,15 +43,38 @@ export default function Navbar() {
         icon.classList.toggle("bi-chevron-up");
       });
     });
+
     return () => {
       if (toggleButton) {
         toggleButton.removeEventListener("click", handleToggle);
       }
       dropdownLinks.forEach((icon) => {
-        icon.replaceWith(icon.cloneNode(true)); // removes all attached listeners safely
+        icon.replaceWith(icon.cloneNode(true));
       });
     };
   }, []);
+
+  useEffect(() => {
+    const closeMobileMenu = () => {
+      const body = document.querySelector("body");
+      const toggleButton = document.querySelector(".mobile-nav-toggle");
+
+      if (body.classList.contains("mobile-nav-active")) {
+        body.classList.remove("mobile-nav-active");
+      }
+      if (toggleButton) {
+        toggleButton.classList.remove("bi-x");
+        toggleButton.classList.add("bi-list");
+      }
+    };
+
+    closeMobileMenu();
+
+    window.addEventListener("hashchange", closeMobileMenu);
+    return () => {
+      window.removeEventListener("hashchange", closeMobileMenu);
+    };
+  }, [pathname]);
 
   return (
     <header id="header" className="header sticky-top">
@@ -156,24 +178,13 @@ export default function Navbar() {
                       <i className="bi bi-chevron-down toggle-dropdown"></i>
                     </Link>
                     <ul>
-                      <li>
-                        <a href="#">General Medicine</a>
-                      </li>
-                      <li>
-                        <a href="#">General Surgery</a>
-                      </li>
-                      <li>
-                        <a href="gynecology.html">Obsterics & Gynocology</a>
-                      </li>
-                      <li>
-                        <a href="#">Pediatrics</a>
-                      </li>
-                      <li>
-                        <a href="#">Orthopedics</a>
-                      </li>
-                      <li>
-                        <a href="#">Dermatology</a>
-                      </li>
+                      {departments[0].items.map((item, index) => (
+                        <li key={index}>
+                          <Link href={`/departments/${item.slug}`}>
+                            {item.title}
+                          </Link>
+                        </li>
+                      ))}
                     </ul>
                   </li>
                   <li className="dropdown">
@@ -182,24 +193,13 @@ export default function Navbar() {
                       <i className="bi bi-chevron-down toggle-dropdown"></i>
                     </Link>
                     <ul>
-                      <li>
-                        <a href="#">Cardiology</a>
-                      </li>
-                      <li>
-                        <a href="#">Neurology</a>
-                      </li>
-                      <li>
-                        <a href="#">Nepharolgy</a>
-                      </li>
-                      <li>
-                        <a href="#">Gastroenterolgy</a>
-                      </li>
-                      <li>
-                        <a href="#">Oncology</a>
-                      </li>
-                      <li>
-                        <a href="#">Urology</a>
-                      </li>
+                      {departments[1].items.map((item, index) => (
+                        <li key={index}>
+                          <Link href={`/departments/${item.slug}`}>
+                            {item.title}
+                          </Link>
+                        </li>
+                      ))}
                     </ul>
                   </li>
                   <li className="dropdown">
@@ -210,24 +210,13 @@ export default function Navbar() {
                       <i className="bi bi-chevron-down toggle-dropdown"></i>
                     </Link>
                     <ul>
-                      <li>
-                        <a href="#">Blood bank</a>
-                      </li>
-                      <li>
-                        <a href="#">Clinical Biochemistry</a>
-                      </li>
-                      <li>
-                        <a href="#">Hematology</a>
-                      </li>
-                      <li>
-                        <a href="#">Microbiology</a>
-                      </li>
-                      <li>
-                        <a href="#">Histopathology</a>
-                      </li>
-                      <li>
-                        <a href="#">Molecular Diagnostics</a>
-                      </li>
+                      {departments[2].items.map((item, index) => (
+                        <li key={index}>
+                          <Link href={`/departments/${item.slug}`}>
+                            {item.title}
+                          </Link>
+                        </li>
+                      ))}
                     </ul>
                   </li>
                   <li className="dropdown">
@@ -236,21 +225,13 @@ export default function Navbar() {
                       <i className="bi bi-chevron-down toggle-dropdown"></i>
                     </a>
                     <ul>
-                      <li>
-                        <a href="#">Digital X-Ray</a>
-                      </li>
-                      <li>
-                        <a href="#">Ultrasound/ Doppler</a>
-                      </li>
-                      <li>
-                        <a href="#">CT Scan</a>
-                      </li>
-                      <li>
-                        <a href="#">MRI</a>
-                      </li>
-                      <li>
-                        <a href="#">Interventional Radiology</a>
-                      </li>
+                      {departments[3].items.map((item, index) => (
+                        <li key={index}>
+                          <Link href={`/departments/${item.slug}`}>
+                            {item.title}
+                          </Link>
+                        </li>
+                      ))}
                     </ul>
                   </li>
                 </ul>

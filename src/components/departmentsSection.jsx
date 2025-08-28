@@ -2,58 +2,8 @@
 
 import AOS from "aos";
 import { useEffect } from "react";
-
-// In-memory departments data
-const departments = [
-  {
-    title: "Radiology",
-    description:
-      "Advanced imaging services for accurate diagnosis and efficient treatment planning.",
-    icon: "fa-solid fa-x-ray",
-    link: "radiology.html",
-    delay: 100,
-  },
-  {
-    title: "Obstetrics & Gynecology",
-    description:
-      "Promoting public health through prevention, education, and outreach.",
-    icon: "fas fa-person-pregnant",
-    link: "gynecology.html",
-    delay: 300,
-  },
-  {
-    title: "Cardiology",
-    description:
-      "Advanced imaging services for accurate diagnosis and efficient treatment planning.",
-    icon: "fa-solid fa-heart-pulse",
-    link: "#",
-    delay: 100,
-  },
-  {
-    title: "Dermatology",
-    description:
-      "Empowering people and processes for seamless healthcare delivery.",
-    icon: "fas fa-syringe",
-    link: "#",
-    delay: 600,
-  },
-  {
-    title: "Neurology",
-    description:
-      "Comprehensive care for women’s health across all life stages.",
-    icon: "fa-solid fa-brain",
-    link: "#",
-    delay: 200,
-  },
-  {
-    title: "Pediatrics",
-    description:
-      "Safe and timely blood collection, storage, and transfusion services.",
-    icon: "fas fa-baby",
-    link: "#",
-    delay: 400,
-  },
-];
+import { departments } from "../data/departments";
+import Link from "next/link";
 
 export default function DepartmentsSection() {
   useEffect(() => {
@@ -74,32 +24,40 @@ export default function DepartmentsSection() {
 
       <div className="container">
         <div className="row gy-4">
-          {departments.map((dept, index) => (
+          {departments[0].items.slice(0, 6).map((item, itemIndex) => (
             <div
-              key={index}
+              key={itemIndex}
               className="col-lg-4 col-md-6"
               data-aos="fade-up"
-              data-aos-delay={dept.delay}
+              data-aos-delay={100 * (itemIndex + 1)}
             >
               <div className="service-item position-relative">
                 <div className="icon">
-                  <i className={dept.icon}></i>
+                  <i className={`fas ${item.icon}`}></i>
                 </div>
-                <a href={dept.link} className="stretched-link">
-                  <h3>{dept.title}</h3>
-                </a>
-                <p>{dept.description}</p>
+                <Link
+                  href={`/departments/${
+                    item.slug
+                      ? item.slug
+                      : item.title.toLowerCase().replace(/\s+/g, "-")
+                  }`}
+                  className="stretched-link"
+                >
+                  <h3>{item.title}</h3>
+                </Link>
+
+                <p>{item.description}</p>
               </div>
             </div>
           ))}
 
           <div className="d-flex justify-content-center">
-            <a
-              href="departments.html"
+            <Link
+              href="/departments"
               className="btn btn-accent btn-accent-pill"
             >
               View all
-            </a>
+            </Link>
           </div>
         </div>
       </div>

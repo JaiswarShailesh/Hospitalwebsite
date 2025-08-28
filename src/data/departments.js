@@ -402,7 +402,7 @@ export const departments = [
       {
         slug: "neurology",
         title: "Neurology",
-        banner_image: "",
+        banner_image: "/images/general_hospital_banner.png",
         description:
           "Comprehensive care for women’s health across all life stages.",
         icon: "fa-brain",
@@ -437,7 +437,7 @@ export const departments = [
       {
         slug: "nephrology",
         title: "Nephrology",
-        banner_image: "",
+        banner_image: "/images/general_hospital_banner.png",
         description:
           "Promoting public health through prevention, education, and outreach.",
         icon: "fa-tint",
@@ -472,7 +472,7 @@ export const departments = [
       {
         slug: "gastroenterology",
         title: "Gastroenterology",
-        banner_image: "",
+        banner_image: "/images/general_hospital_banner.png",
         description:
           "Safe and timely blood collection, storage, and transfusion services.",
         icon: "fa-utensils",
@@ -507,7 +507,7 @@ export const departments = [
       {
         slug: "oncology",
         title: "Oncology",
-        banner_image: "",
+        banner_image: "/images/general_hospital_banner.png",
         description:
           "Physician-led diagnostics to support clinical decision-making.",
         icon: "fa-ribbon",
@@ -542,7 +542,7 @@ export const departments = [
       {
         slug: "urology",
         title: "Urology",
-        banner_image: "",
+        banner_image: "/images/general_hospital_banner.png",
         description:
           "Empowering people and processes for seamless healthcare delivery.",
         icon: "fa-toilet",
@@ -617,7 +617,7 @@ export const departments = [
       {
         slug: "pathology",
         title: "Pathology",
-        banner_image: "",
+        banner_image: "/images/general_hospital_banner.png",
         description:
           "Physician-led diagnostics to support clinical decision-making.",
         icon: "fa-vials",
@@ -652,7 +652,7 @@ export const departments = [
       {
         slug: "clinical-biochemistry",
         title: "Clinical Biochemistry",
-        banner_image: "",
+        banner_image: "/images/general_hospital_banner.png",
         description:
           "Comprehensive care for women’s health across all life stages.",
         icon: "fa-flask",
@@ -687,7 +687,7 @@ export const departments = [
       {
         slug: "hematology",
         title: "Hematology",
-        banner_image: "",
+        banner_image: "/images/general_hospital_banner.png",
         description:
           "Promoting public health through prevention, education, and outreach.",
         icon: "fa-syringe",
@@ -722,7 +722,7 @@ export const departments = [
       {
         slug: "microbiology",
         title: "Microbiology",
-        banner_image: "",
+        banner_image: "/images/general_hospital_banner.png",
         description:
           "Safe and timely blood collection, storage, and transfusion services.",
         icon: "fa-bacteria",
@@ -757,7 +757,7 @@ export const departments = [
       {
         slug: "molecular-diagnostics",
         title: "Molecular Diagnostics",
-        banner_image: "",
+        banner_image: "/images/general_hospital_banner.png",
         description:
           "Empowering people and processes for seamless healthcare delivery.",
         icon: "fa-dna",
@@ -832,7 +832,7 @@ export const departments = [
       {
         slug: "ultrasound-doppler",
         title: "Ultrasound / Doppler",
-        banner_image: "",
+        banner_image: "/images/general_hospital_banner.png",
         description:
           "Comprehensive care for women’s health across all life stages.",
         icon: "fa-wave-square",
@@ -867,7 +867,7 @@ export const departments = [
       {
         slug: "ct-scan",
         title: "CT Scan",
-        banner_image: "",
+        banner_image: "/images/general_hospital_banner.png",
         description:
           "Promoting public health through prevention, education, and outreach.",
         icon: "fa-laptop-medical",
@@ -902,7 +902,7 @@ export const departments = [
       {
         slug: "mri",
         title: "MRI",
-        banner_image: "",
+        banner_image: "/images/general_hospital_banner.png",
         description:
           "Safe and timely blood collection, storage, and transfusion services.",
         icon: "fa-magnet",
@@ -937,7 +937,7 @@ export const departments = [
       {
         slug: "interventional-radiology",
         title: "Interventional Radiology",
-        banner_image: "",
+        banner_image: "/images/general_hospital_banner.png",
         description:
           "Precision lab diagnostics to support clinical decision-making.",
         icon: "fa-crosshairs",

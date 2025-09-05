@@ -76,6 +76,23 @@ export default function Navbar() {
     };
   }, [pathname]);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const body = document.querySelector("body");
+      if (window.scrollY > 0) {
+        body.classList.add("scrolled");
+      } else {
+        body.classList.remove("scrolled");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <header id="header" className="header sticky-top">
       <div className="topbar d-flex align-items-center">
@@ -129,7 +146,7 @@ export default function Navbar() {
               src="/images/hospital_website_logo.png"
               alt="hospital website logo"
               className="img-fluid"
-              style={{ maxHeight: "auto" }}
+              // style={{ maxHeight: "auto" }}
             />
           </Link>
 

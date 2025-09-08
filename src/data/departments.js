@@ -371,7 +371,7 @@ export const departments = [
         banner_image: "/images/general_hospital_banner.png",
         description:
           "Advanced imaging services for accurate diagnosis and efficient treatment planning.",
-        icon: "fa-heartbeat",
+        icon: "fa-brain",
         tabs: [
           {
             name: "Overview",
@@ -412,7 +412,7 @@ export const departments = [
         banner_image: "/images/general_hospital_banner.png",
         description:
           "Department of Radiology, Interventional Radiology, Picture Archiving and Communication Systems (PACS) Inclusive",
-        icon: "fa-heartbeat",
+        icon: "fa-x-ray",
         tabs: [
           {
             name: "Overview",
@@ -450,7 +450,7 @@ export const departments = [
         title: "Dentistry",
         banner_image: "/images/general_hospital_banner.png",
         description: "Department of Dentistry",
-        icon: "fa-heartbeat",
+        icon: "fa-tooth",
         tabs: [
           {
             name: "Overview",
@@ -487,7 +487,7 @@ export const departments = [
         title: "Physiotherapy",
         banner_image: "/images/general_hospital_banner.png",
         description: "Department of Physiotherapy",
-        icon: "fa-heartbeat",
+        icon: "fa-running",
         tabs: [
           {
             name: "Overview",
@@ -562,24 +562,68 @@ export const departments = [
         ],
       },
       {
-        slug: "neurology",
-        title: "Neurology",
+        slug: "cardiovascular",
+        title: "Cardiovascular",
         banner_image: "/images/general_hospital_banner.png",
         description:
-          "Comprehensive care for women’s health across all life stages.",
-        icon: "fa-brain",
+          "Department of Cardiovascular and Thoracic Surgery , Paediatric inclusive",
+        icon: "bi-heart-pulse",
         tabs: [
           {
             name: "Overview",
             image: "/images/general_medicine_overview.png",
-            intro: "",
-            details: "",
+            intro:
+              "Department deals with wide spectrum of    cardiac, thoracic and vascular disorders requiring elective or emergency surgery from neonates to geriatric population and also chest /vascular trauma. Team provides comprehensive, compassionate and specialized care, strengthened by skills, powered by team work, driven by values under one roof. Backed by dedicated team modern technology, treatment is provided for complex cardiac procedures including bypass grafting, valve repair, and congenital heart surgeries, delivering excellent outcomes and comprehensive recovery support at trusted centre for high-risk.",
+            details: [
+              "From diagnosis to post-operative recovery, department offers seamless continuum of care. With dedicated modular OTs, a wide range of critical cardiac cases are managed with  evidence-based approach, combined with patient-centric coordination, ensuring safety, precision, and successful outcomes across all age groups from new-borns with congenital defects to elderly patients requiring re-operations, Coronary artery bypass grafting (CABG),valve repair & replacement (Mitral, Aortic),Aortic aneurysm & dissection surgeries Pulmonary thromboembolectomy, Congenital heart surgeries (Adult & Paediatric) redo cardiac surgeries, Left ventricular aneurysm repair ,Occlusion of aortic & major Vessels Minimally invasive cardiac surgery (Adult & Paediatric),24×7 post-operative cardiac ICU with specialist team.",
+            ],
           },
           {
             name: "Technology & Procedure",
             image: "/images/general_medicine_technology_procedure.png",
             intro: "",
+            details: [
+              "Transoesophageal echo machines advanced monitors with cardiac output tracking with state-of-the-art equipment including extracorporeal membrane oxygenation (ECMO) machine and heart-lung machines department manages a wide range of critical cardiac cases.",
+            ],
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
             details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "pulmonology",
+        title: "Pulmonology",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Respiratory Medicine/ Pulmonology",
+        icon: "fa-lungs",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro:
+              "Department offers state of art care and treatment to all strata of society with dedicated faculty, for Tuberculosis, non-tuberculosis patients like Chronic obstructive pulmonary diseases (COPD), Asthma, lung cancer and Interstitial Lung Disease (ILD).   Team envisions achieving goal of   excellence in Lung care “Free breath” by virtue of focus on bench to bedside practice proving professional, compassionate, competent & comprehensive patient care and promoting quality clinical research.",
+            details: [
+              "Experts offer evaluation and management of acute and chronic lung diseases on OPD/ IPD basis with inhouse respiratory intensive care unit. Department has speciality clinics for DOTS under National tuberculosis eradication program (NTEP) with increasing case detection and treatment including Multidrug resistant (MDR) cases, Allergy and Asthma, Pulmonary Rehabilitation.",
+            ],
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: [
+              "Pulmonary function tests, Endobronchial ultrasound-guided transbronchial needle aspiration (EBUS TBNA) with special telescope for samples of tissue just outside the lungs Flexible bronchoscopy for procedures like bronchial washings, broncho alveolar lavage (BAL), Transbronchial needle aspiration, Transbronchial lung biopsy. Spirometry and diffusion capacity analysis (DLCO) Designated microscopy centre (DMC) under NTEP Polysomnography lab Body plethysmography, are all available for bet of diagnosis and therapy of airway and lung disease.",
+            ],
           },
           {
             name: "Academics & Research",
@@ -600,91 +644,29 @@ export const departments = [
         slug: "nephrology",
         title: "Nephrology",
         banner_image: "/images/general_hospital_banner.png",
-        description:
-          "Promoting public health through prevention, education, and outreach.",
-        icon: "fa-tint",
+        description: "Department of Nephrology, Dialysis Inclusive",
+        icon: "bi-droplet-half",
         tabs: [
           {
             name: "Overview",
             image: "/images/general_medicine_overview.png",
-            intro: "",
-            details: "",
+            intro:
+              "Department offers entire spectrum of services for kidney disorders clinical, interventional, critical care nephrology, dialysis services, with plans of living and deceased donor kidney transplantation services under one roof. Department offers comprehensive kidney care from early-stage disease management to advanced cases state-of-the-art RO plant, and multidisciplinary care ensuring expert treatment across entire spectrum of nephrology.",
+            details: [
+              "Mission Is to provide evidence-based, ethical, mindful patient care with an emphasis on quality and safety with innovations that engage in socially accountable health care. Technologies like artificial learning (AI), machine learning, telemedicine, and wearable devices are available which enable early detection of kidney disorders, personalized treatment plans, and real-time monitoring of kidney health.  Technologies are being used to analyse patient data, including lab results and imaging, to identify early signs of diseases. This leads to timely interventions and better management.",
+              "Telemedicine platforms facilitate remote consultations and continuous care, especially beneficial for patients in need of regular monitoring.   High-end, holistic renal care manages chronic kidney disease (CKD), acute kidney injuries (AKI), glomerular and genetic renal disorders, Diabetic and Hypertensive Nephropathy     complex resistant hypertension, Genetic Kidney Diseases (e.g., Polycystic Kidney Disease) Dys-electrolytemia and acid-base disorders, Recurrent kidney stones and complicated urinary tract infections, high-risk pregnancy with renal complications, Glomerular diseases and nephrotic syndromes and end-stage renal failure.",
+              "Special focus is given to early diagnosis, lifestyle-linked renal risks, and personalized dialysis planning. Patients benefit from integrated evaluation, access management, nutritional support, and preventive strategies ensuring clinical outcomes with dignity and affordability. Dedicated coordination and counselling, multidisciplinary intensive care unit surgical backup, separate infection-controlled dialysis are backbone of quality services.",
+            ],
           },
           {
             name: "Technology & Procedure",
             image: "/images/general_medicine_technology_procedure.png",
-            intro: "",
-            details: "",
-          },
-          {
-            name: "Academics & Research",
-            image: "/images/general_medicine_academics_research.png",
-            intro: "",
-            details: "",
-          },
-        ],
-        consultants: [
-          {
-            name: "Dr. Sample Doctor",
-            tags: ["Sample Data", "Some Speciality"],
-            profilePhoto: "/images/doctors/Male_doctor.png",
-          },
-        ],
-      },
-      {
-        slug: "gastroenterology",
-        title: "Gastroenterology",
-        banner_image: "/images/general_hospital_banner.png",
-        description:
-          "Safe and timely blood collection, storage, and transfusion services.",
-        icon: "fa-utensils",
-        tabs: [
-          {
-            name: "Overview",
-            image: "/images/general_medicine_overview.png",
-            intro: "",
-            details: "",
-          },
-          {
-            name: "Technology & Procedure",
-            image: "/images/general_medicine_technology_procedure.png",
-            intro: "",
-            details: "",
-          },
-          {
-            name: "Academics & Research",
-            image: "/images/general_medicine_academics_research.png",
-            intro: "",
-            details: "",
-          },
-        ],
-        consultants: [
-          {
-            name: "Dr. Sample Doctor",
-            tags: ["Sample Data", "Some Speciality"],
-            profilePhoto: "/images/doctors/Male_doctor.png",
-          },
-        ],
-      },
-      {
-        slug: "oncology",
-        title: "Oncology",
-        banner_image: "/images/general_hospital_banner.png",
-        description:
-          "Physician-led diagnostics to support clinical decision-making.",
-        icon: "fa-ribbon",
-        tabs: [
-          {
-            name: "Overview",
-            image: "/images/general_medicine_overview.png",
-            intro: "",
-            details: "",
-          },
-          {
-            name: "Technology & Procedure",
-            image: "/images/general_medicine_technology_procedure.png",
-            intro: "",
-            details: "",
+            intro:
+              "Department offers various modes of renal replacement therapy like Haemodialysis, Peritoneal Dialysis round clock with plans of in house shortly, live, deceased donor, and ABO/HLA-compatible kidney transplants, with dedicated pre- and post-op protocols. Dialysis centre is equipped with advanced water purification system to ensure safe and effective therapy.",
+            details: [
+              "Services include, Continuous Renal Replacement Therapy (CRRT) specialized dialysis that supports critically ill whose kidneys cannot adequately filter waste products and excess fluid CRRT operates continuously, providing a steady gentle process     hemodiafiltration. Haemodialysis machines offer round the clock service to outpatients as well as in-patients’ Wearable devices that track key health indicators like blood pressure and glucose levels instrumental in nephrology, offering insights into kidney function and overall health enhancing, accessibility of kidney disease treatment, not only improving quality of life but also aiding in reduction of healthcare costs through better disease management and prevention strategies.",
+              "Bedside ultrasound and Doppler for access management kidney biopsies in-house24hrs serum creatinine, urea, electrolyte testing, are all available with Robotic surgery in que.",
+            ],
           },
           {
             name: "Academics & Research",
@@ -705,21 +687,472 @@ export const departments = [
         slug: "urology",
         title: "Urology",
         banner_image: "/images/general_hospital_banner.png",
-        description:
-          "Empowering people and processes for seamless healthcare delivery.",
+        description: "Department of Urology",
         icon: "fa-toilet",
         tabs: [
           {
             name: "Overview",
             image: "/images/general_medicine_overview.png",
-            intro: "",
-            details: "",
+            intro:
+              "Department is fully equipped with latest technology such as Endourological surgery ,Urodynamics, Ultrasound, Lasers, Microsurgery, Laparoscopic surgery) and Robotic surgery Department is fully equipped with latest technology such as Urodynamics, Endourological surgery ( Transurethral resection(TUR), Percutaneous Cysto Nephrolithotomy(PCNL) and Ureteroscopy(URS), Extracorporeal shockwave lithotripsy (ESWL) [minimally invasive surgical procedure for fragmenting renal ureteral stones], Ultrasound, Lasers, Microsurgery, Laparoscopic surgery) and Robotic surgery  and Uroflowmetry, Urodynamic Studies TRUS-guided prostate biopsy State of the art medical care is provided for a variety of urological ailments Mission of department is to provide, urodynamics, image guided urological interventions, lower upper urinary tract endourology, extracorporeal shock wave lithotripsy for renal stone treatment, reconstructive urology, treatment of urinary incontinence, sexual dysfunction and infertility in male, urological laparoscopy, genitourinary cancer surgery.",
+            details: [
+              "Bipolar saline transurethral resection partial nephrectomy, radical cyst prostatectomy with intracorporeal urinary diversion, radical prostatectomy, ureteric tailoring and reimplantation and ureterocalicostomy with favourable outcomes.  surgical procedures in management of complex female voiding dysfunction Department delivers advanced diagnostic and surgical solutions for kidney, ureter, bladder, prostate, and genitourinary disorders in men, women, and children.",
+              "Fully equipped for endoscopic, laparoscopic, laser, and reconstructive surgeries it is a high-volume tertiary referral centre for comprehensive urological care. From paediatric to geriatric urology, the department performs a wide spectrum. Specialty clinics cater to female urology Urinary Incontinence pelvic floor dysfunction, uro-oncology, Andrology & Male infertility.",
+            ],
           },
           {
             name: "Technology & Procedure",
             image: "/images/general_medicine_technology_procedure.png",
             intro: "",
+            details: [
+              "Endoscopes & Resectoscopes, Ureteroscopes Holmium LASER & Thulium LASER     Uroflowmetry, Urodynamics machine Transrectal uranography with biopsy probe C-Arm Image Intensifier Lithotripsy Units (Lithoclast, Pari blast), Otis urethrotome, Visual Internal Urethrotomy (VIU) Disposable and reusable flexible ureterorenoscopes are all available for world class care.",
+            ],
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
             details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "medical-gastroenterology",
+        title: "Medical Gastroenterology",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Medical Gastroenterology",
+        icon: "fa-pills",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro:
+              "Department manages all types of patients with complicated medical problems of gastrointestinal tract which comprises of disorders of oesophagus, stomach, small bowel, colorectal, liver, biliary tract and pancreas. Quality and safety of high order is maintained by dedicated team with state-of-the-art facilities and equipment’s to fulfil the needs of patients.",
+            details: [
+              "Team provides value added innovative, consistent, and continuously improving health care to sustain and further improve clinical outcomes, patient safety, & patient satisfaction. Experts offer comprehensive diagnostic and therapeutic advanced care for wide spectrum of gastrointestinal, hepatobiliary, and pancreatic disorders.",
+              "With advanced endoscopies available and multidisciplinary team, high- personalized gastrointestinal care is ensured for a wide spectrum of gastrointestinal, hepatobiliary, and pancreatic disorders.  Experienced consultants manage cases across gastroesophageal, intestinal, liver, and colorectal diseases with evidence-based protocols and personalized care.  Department has day-care   system pre- and post-procedure is available asper need for minimally invasive procedures, enhancing comfort and reducing hospital stay.",
+              "Whether it’s early detection of GI cancers, managing chronic liver disease, or specialized paediatric gastro care, team ensures quality and continuity of care, 24×7. On-site central clinical Lab with Pathology, Biochemistry, Microbiology, Immunology, Blood transfusion, Chemotherapy, are the backbone of department.",
+            ],
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: [
+              "Advanced Interventions ,state-of -art infrastructure includes endoscopy systems with Endoscopic Retrograde Cholangiopancreatography (ERCP)Paediatric & Adult Gastroscopes and Colonoscopes Advanced Manometry Systems oesophageal and rectal) Fibro scan unit for liver stiffness assessment in-house Urea and Hydrogen Breath Testing Functional & Liver Diagnostics high resolution oesophageal and anorectal manometry fluoroscopic and specialized motility testing systems, allowing for both routine and complex diagnostic and therapeutic procedures oesophageal Variceal Banding & Sclerotherapy.",
+            ],
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "gastro-hepatic-and-pancreatic-surgery",
+        title: "Gastro-Hepatic and Pancreatic Surgery",
+        banner_image: "/images/general_hospital_banner.png",
+        description:
+          "Department of Gastroenterological Hepatic Pancreatic Biliary Surgery",
+        icon: "fa-briefcase-medical",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro:
+              "Department manages patients with complicated surgical problems in Gastro Intestinal tract, Liver, gall bladder, Pancreas. Quality and safety are maintained at highest level. Envisioned goal is surgical excellence in patient care, research.",
+            details: [
+              "Various domains of the department’s functioning are governed by new systems and practices which include standard operating procedures, checklists and guidelines including cancer of liver, chronic pancreatitis, portal hypertension and cancer of oesophagus Developing new concepts in equipment and instrument designs are also being done. Liver, Pancreases, Bowel   transplants have been envisioned.  There is dedicated nutritionist with medical social worker who render services to outpatients and in-patients. Ostomy services run daily and cater for patients in entire hospital.",
+              "Multi-disciplinary management is instituted keeping in mind the advances in therapeutic protocols. Regular quality and safety audits and clinical audits are conducted. Department is equipped with state-of-the-art operation rooms with all latest and modern equipment, surgical intensive care and high dependency units with modern monitoring facilities.   Rigorous quality control ensures best results be it Polypectomy, Biopsies Stricture dilatation 0r Foreign body removal or anastomosis.",
+            ],
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: [
+              "State of the art equipment both for open as well as laparoscopic operations including multi-parameter monitors, intra-operative ultrasound (IOUS), Cavitron Ultrasonic Suction Aspirator (CUSA), Erbe Waterjet, ICG laparoscope, Argon beam coagulator, flexible choledochoscope, rigid operating scope, advanced laparoscopic equipment, energy devices etc.  Department has Anorectal manometric system to evaluate anorectal function, Oesophageal manometry and continuous pH monitoring systems to diagnose gastro-oesophageal reflux disease, rapid blood and fluid infusion system low flow infusion system, peritoneovenous shunt.",
+            ],
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "paediatric-surgery",
+        title: "Paediatric Surgery",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Paediatric Surgery",
+        icon: "fa-child",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro:
+              "Department offers state-of-the-art general paediatric, neonatal surgery for various organs of body.  Babies, not simply miniature adults, with needs quite different, get tender loving care of highest quality,  child as well as family-cantered, for wide range of disorders ,which include lifesaving birth defects like Congenital diaphragmatic hernia ,  tracheoesophageal fistula   to simple limb defects  for best of  anatomy and function with multidisciplinary collaboration , keeping growth in mind.",
+            details: [
+              "Corrections of other birth defects sexual differentiation ,oesophageal atresia & intestinal atresia’s and malrotation Congenital abdominal wall defects (gastroschisis, omphalocele etc ) are done by experts to restore normal anatomy  as well as function   . Compassionate, competent and confident team provides surgeries for various urinary gastrointestinal hepatobiliary, thoracic disorders, various tumours and trauma with delicate skills and diligent follow up, learning from little kids.",
+              "Special considerations are always remembered, smaller anatomy, delicate tissues, ongoing growth, different responses to anaesthesia healing and fragile paediatric physiology. Speciality clinics are held for Neonates, Congenital anomalies, Tumours. Bowel problems, Thoracic problems.",
+            ],
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details:
+              "Paediatric surgery requires specialized technologies to ensure precision, safety, and optimum outcome. In house imaging technology of highest standards helps in best of care. Instruments equipment scaled for children miniaturized tools for open, laparoscopic, and thoracoscopic surgery include, but are not limited    laryngoscopes, Endoscopes – Bronchoscope, Thoracoscope Esophagoscope Cystoscope Laparoscope with advanced imaging for safe navigation with precision and also       Laser & Cryosurgery     Robotic and minimally invasive tools for best outcomes. Advanced ventilators, monitoring systems tailored to neonates’ children. Negative pressure wound therapy (miniaturized for paediatric use). Bioengineered skin grafts for burns and trauma are all in house.",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "neurology",
+        title: "Neurology",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Neurology",
+        icon: "fa-brain",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro:
+              "In department of Neurosurgery, patients are treated for wide range of conditions including stroke, epilepsy, Parkinson’s disease, neuropathy, multiple sclerosis, and dementia.",
+            details: [
+              "Team ensures focused care for early diagnosis, and timely interventions for neurological disorders and neurological emergencies, such as acute stroke, are managed through advanced protocols in collaboration with neurosurgery, neuro-critical care, and rehabilitation. Electrophysiological testing and biopsy services further strengthen diagnostic accuracy. A dedicated Botulinum Toxin Clinic is also available for movement disorders requiring injection therapy.",
+              "Patients’ comfort, functional recovery, and long-term quality of life are at the core of neuro-care approach. With confidence and compassion, with desire to know what in not known at present, experts study functional MRI imaging in neurological conditions like migraine & Parkinson’s disease, use transcortical magnetic stimulation in stroke rehabilitation & primary aphasias, offer comprehensive diagnosis, treatment, and long-term care for disorders of brain, spine, nerves, and muscles.",
+              "With neuro-diagnostics, and stroke interventions, experts provide neurological care under one roof with state-of-the-art evaluation and management. Patient’s comfort, functional recovery, and long-term quality of life are at core of neuro-care approach. Speciality clinics include Stroke Clinic, Headache Clinic Epilepsy Clinic Multiple Sclerosis & Demyelinating Disorders Clinic, Dementia and Memory Disorders Clinic, Neuromuscular Disorder Clinic.",
+            ],
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro:
+              "State of art equipment, technology for diagnosis of neurological disorders, Interventions and advanced therapies I are available in-house. Electroencephalography (EEG), Nerve Conduction Studies (NCV), Electromyography (EMG), Evoked Potential Testing Botulinum Toxin Injection Unit Sleep Study (Polysomnography)   cerebra vascular Dopplers, , Video-EEG, Polysomnography, evoked potentials [EP]; electroneuromyography [ENMG]) , Computerized Cognitive battery, VNG and basic clinical Neurobiology lab facilities like Microscope, Centrifuge, Deep freezer, ELISA reader, immunoblot, Autoclave, Laminar Air flow (Bio safety cabinet) and Nano Spectrophotometer are all available. Neurobionics facility with neurostimulation equipment Transcranial Magnetic Stimulation (TMS), Transcranial Direct Current Stimulation (tDCS) for treating challenging, frequently crippling illnesses.",
+            details:
+              "Functional Electrical stimulation other special neurorehabilitation services are also available like Robotic Moto med arm rehabilitation system, Tyro motion balance system, Laminar Air flow, CO2 incubator and Phase contrast Microscope; basic Genetic and Proteomics lab with Millipore water purification system, Cooling Centrifuge, PCR, Gel Electrophoresis,  Gel documentation system, Spectrophotometer, Western blot, ELISA reader and Deep freezers, refrigerator, microwave oven, water baths, shakers and mixers system,  autoclave, and an immunoblot.",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "neurosurgery",
+        title: "Neurosurgery",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Neurosurgery",
+        icon: "fa-user-md",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro:
+              "Department of Neurosurgery offers expert neurosurgical care across entire spectrum of brain, spine conditions. Team provides thorough evaluation, diagnoses and therapy for brain, nerve and spinal cord disorders in children and adults.",
+            details: [
+              "Each patient is treated   with compassion, confidence and excellent facilities, technologically advanced equipment which enable treatment of various neurosurgical diseases. Also, each patient is treated as unique individual, with encouragement   for open, frank communication, essential for effective care. Equipped with cutting-edge operation theatre, infrastructure and multidisciplinary support, routine and complex neurosurgical procedures are done with high-precision outcomes.The department is equipped to manage everything from traumatic brain injuries to complex spinal deformities using state-of-the-art technology and refined microsurgical techniques.",
+              "A dedicated neuro-rehabilitation protocol is followed in collaboration with physiotherapy, neurology, psychiatry, and speech therapist. With procedures like open craniotomies, minimally invasive spine surgeries, and tumour resections, patients receive comprehensive care throughout their surgical journey—from diagnosis to recovery, Brain trauma: decompressions, hematoma evacuation ,Tumour resections from anterior/posterior cranial fossa, skull base tumours, Cerebrospinal fluid (CSF) diversion: like ventriculoperitoneal (VP) shunt  connecting ventricular system of brain with peritoneal cavity when intracranial pressure higher than optimum for individual., external ventricular drainage Vascular: aneurysms, arteriovenous malformations (AVM)Congenital anomaly correction Cranial reconstruction and stereotactic procedures through its dedicated services, state-of-the-art infrastructure.",
+            ],
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details:
+              "Dedicated modular neurosurgical OT Microsurgical setup with operating microscope, best neurosurgical drills, best suction systems, advanced equipment: CUSA (Cavitron Ultrasonic Aspirator), Piezo-electric saw Neurophysiological monitoring system Integrated neuro-rehabilitation support are all available.",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "plastic-and-reconstructive-surgery",
+        title: "Plastic and Reconstructive Surgery",
+        banner_image: "/images/general_hospital_banner.png",
+        description:
+          "Department of Plastic & Reconstructive Surgery, Maxillofacial, Burns care Inclusive",
+        icon: "bi-scissors",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro:
+              "As centre of excellence for reconstructive, cosmetic, and microsurgical, microvascular procedures, department offers specialized treatment in craniofacial, reconstructive, surgeries and burns. Dedicated to restoring form and function, team of experts provides advanced surgical care for patients requiring trauma reconstruction, correcting congenital facial deformities in infants, older -Cleft Lip & Palate, burn management, & post-Burn treating acute burns and reconstruction, to improve mobility, appearance and aesthetic enhancements.",
+            details: [
+              "Reconstructive surgeries restore normal appearance and function after trauma, burns, or tumour removal. Procedures like rhinoplasty, liposuction, and facelifts for aesthetic enhancement are regularly performed and also hand, foot microsurgery, treating injuries, nerve repairs, and reimplantation of severed limbs maxillofacial surgery managing complex facial trauma and jaw deformities.",
+              "Team offers innovative treatments to improve the quality of life for patients requiring reconstructive and aesthetic procedures. Speciality clinics are held for Oral congenital defects, Cosmetic & Aesthetic Surgery, Burns, Congenital and post traumatic deformities of limbs.",
+            ],
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details:
+              "Available high-resolution 3D imaging and MRI scans in house allow surgeons to visualize anatomy with unparalleled details. Surgical, microsurgical, fine surgery technology best of outcome.",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "oncology-and-haemato-oncology",
+        title: "Oncology and Haemato-Oncology",
+        banner_image: "/images/general_hospital_banner.png",
+        description:
+          "Department of Surgical, Medical Oncology, Haemato oncology, Chemotherapy Inclusive",
+        icon: "fa-ribbon",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro:
+              "Oncology department focuses on comprehensive diagnosis, treatment of cancers of various kinds.  In oncomedicine   segment, cancer is treated with chemotherapy, hormone therapy, other drugs, radiation therapy.  Other segment of oncology provides therapy   through surgeries and other procedures.",
+            details: [
+              "Oncology team often works with other specialists, physicians, surgeons, radiation oncologists, radiation therapists, who help in early diagnosis, effective treatment. Extreme precautions are taken for patient’s health for disease free quality life. Teams   committed to delivering holistic evidence-based care, provide comprehensive, multidisciplinary care from diagnosis to survivorship with integration of medical, surgical, and paediatric oncology, with advanced diagnostics, therapies, patient-centred support, and protocols through personalized treatment, and compassionate support.",
+              "A wide spectrum of adult and paediatric cancers—solid tumours in various organs, hematologic cancers, leukaemia, lymphoma, and myelomas are managed through systemic therapies, surgical oncology, and supportive care services, including targeted therapies & newer generation drug delivery. With a dedicated day care existing setup which works 24hrs on 7days for chemotherapy bone marrow transplant has been envisioned with plans of excellence at single point of care.",
+              "Safety and quality are embedded in every process—from chemotherapy preparation in a sterile bio-safety cabinet to structured counselling for patients and their families.  IN house laboratory support: (Haematology, Biochemistry, Histopathology, Microbiology, Immunology) blood & component transfusion services supportive care for side effects, infection control, nutrition, psychosocial, add in quality care.",
+              "Teams encourage patient, family members to become active participants in care. Speciality clinics, Breast Cancer, Cervical, Oral cancers, Prostate and Penile cancers     Palliative Care      and Psycho-Oncology, are run with support of specialists, counsellors and psycho therapists.",
+            ],
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details:
+              "Day Care Chemotherapy is well equipped with infusion sets, multi monitors, Fine needle aspiration cytology (FNAC), biopsies, aspirations, sterile dressings equipment for Bone Marrow aspiration & Intrathecal drug administration Bio-Safety Chemotherapy Drug Preparation Cabinet (UV Sterile)",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "radiation-and-palliation-services",
+        title: "Radiation and Palliation Services",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Radiation Therapy, Palliation Inclusive ",
+        icon: "fa-radiation",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro:
+              "Department plays vital role in managing, treating, curing cancers by radiation. Experienced team of specialized healthcare professionals adheres to international standards of quality with high-precision equipment, commitment to patient-centred approach to provide exceptional, cost-effective and compassionate care with greatest possible patient safety.",
+            details: [
+              "Teams comprise of Radiation Oncologists, Medical Physicists, Radiation Therapists and Nurses with expertise in specialized fields who work to provide best possible safe quality care.  Radiation, as advanced technology for safe, effective therapy with as few side effects as possible, is part of treatment in big number of patients cured of cancer, many more treated for cancer. ",
+              "Department works in collaboration with other services including Psychology, Dietetics and Physical Medical and Rehabilitation (PMR) via Multidisciplinary tumour board meetings and cross-consultations to ensure that patients get accurate diagnosis and  treatment delivered  if possible   curative  radiation alone, concurrently with chemotherapy adjuvant treatment, after chemotherapy or surgery to consolidate the tumour further or to get away with residual microscopic disease after surgery, prophylactic radiation – to sterilize sanctuary sites or palliative treatment- to ameliorate a specific symptoms like pain, bleeding or obstruction. solid malignancies and some haematological tumours.",
+              "Department is actively involved in cancer detection programs, counselling and education of high-risk population, and preventive oncology programs. A social worker in the department counsels’ patients, guides them about packages offered by the government, helps in coping with often unvoiced concerns about cancer and its outcome.",
+            ],
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro:
+              "Teletherapy, brachytherapy, both are used, with3D Conformal Radiation Therapy (CRT) to plan external body radiation that target tumours protecting nearby healthy organs like in brain breast cancer conditions and Intensity-modulated radiation therapy (IMRT) to deliver precise radiation doses to tumours while minimizing exposure to surrounding healthy tissue.",
+            details: [
+              "Dual energy linear accelerator machine equipped with dedicated treatment verification accelerator to help deliver high radiation to the tumours with minimal dose to normal tissues Intensity Guided Radiotherapy (IGRT), Stereotactic Radiation Therapy (SRT) and Stereotactic Surgery (SRS). treatment delivered using surface mould (for skin cancer), plaque therapy (eye cancer), interstitial therapy (for soft tissue tumour, breast cancer, ano-genital cancers), intracavitary therapy (cancer cervix endometrium), intraluminal therapy (cancer oesophagus, bronchus, Endo biliary radiation therapy) and intravascular therapy (internal mammary irradiation).",
+              "For Microselectron high dose rate using Iridium radioactive source appropriate radiation treatment delivery accurate and sophisticated planning of target is achieved with Simulator in accurate localization of target or tumor. ",
+            ],
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "emergency-services",
+        title: "Emergency Services",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Emergency Medical Services",
+        icon: "fa-ambulance",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro:
+              "Mission of emergency medical services is to provide quality patient care at golden hour.   Methodology of delivery services is guided by core principle of emergency medicine: “Treat first that kills first.” Modus operandi is based on framework provided by time tested and dynamically updated strategies.",
+            details: [
+              "Emergency medicine acts as unfaltering anchoring foundation on which patients’ entire prognosis is built upon. Equipped with state-of-the-art point-of-care diagnostics and easy access to advanced laboratory and radiology services, department truly is a standing testament to what a modern-day ED should be like.  There are clear zones for critically ill, little better and other emergencies with infected   isolated Through its exemplary clinical work to provide swift and versatile emergency care to patients, in line with international standards, it serves as a critical component of healthcare system, providing immediate care to patients experiencing urgent and life-threatening conditions.",
+              "Staffed by trained emergency team’s department operates 24/7, aiming to stabilize patients, prevent further harm, and initiate life-saving treatments. Department is well equipped to handle a broad spectrum of emergencies, including trauma, medical, and surgical cases. Commitment of team ensures that patients receive optimal care.",
+            ],
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details:
+              "Well, equipped with Ventilators, multipara monitors, pulse oximeters department has easy access to investigations, imaging technology and operation theatre.",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "physical-medicine-and-rehab",
+        title: "Physical Medicine and Rehab",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Physical Medicine and Rehabilitation",
+        icon: "fa-hands-helping",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro:
+              "Department of Physical Medicine and Rehabilitation is manned by large interdisciplinary team of doctors, nurses, occupational therapists, physiotherapists, speech therapists, social workers, psychologist, prosthetists and orthotists.",
+            details:
+              "This team works together in maximizing the health and functional abilities of people with disabilities. Team provides outpatient and inpatient services for persons with physical/neurological impairments due to various conditions, Spinal cord injury Brain injury due to trauma and other causes Stroke Developmental disorders such as cerebral palsy, spinal dysraphism Amputations of the extremities Rheumatological conditions Haemophilia Neuromuscular disorders Chronic pain and so on to help people with such problems have quality life.",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details:
+              "In house availability of technology gadgets available to teams is an asset to department for best of recovery and wellbeing of users of services and those referred from various departments.",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "community-health-and-outreach",
+        title: "Community Health and Outreach",
+        banner_image: "/images/general_hospital_banner.png",
+        description:
+          "Department of Community Medicine, Preventive Health Care, Vaccination Community Outreach Inclusve",
+        icon: "fa-hands",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro:
+              "Department runs general outpatient which serves as linkage between peripheral health activities and hospital. It works as replica of primary health centre in hospital, reduces workload of specialists by filtering out patients who require specialist care.",
+            details: [
+              "Besides serving as appropriate referral, GOPD provides treatment for minor illnesses.  It runs counselling, guidance cell, immunization clinic, DOTS and microscopy centre. Preventive Health Check Community outreach activities with domiciliary / home health care, Adult & Paediatric Vaccination / Immunisation are all being managed by the teams.",
+              "Hospital has developed Rural Health Training Centres, Urban Health Centre which work in close collaboration with District Health System. Preventive, Promotive & Curative activities are carried out in Rural Health Training Centre and Urban Health Training Centre. Apart from work at community rural health, centres teams work in close collaboration with Primary Health Centre, and support these centres in meeting community health needs. In turn, government health facilities provide settings for learning and appropriate referral.",
+              'At Urban Health Centre, OPD services are provided through a general out-patient department.  For mission to ensure "Health for All", through programs, vision is turning into reality healthier, stronger, and more aware community.',
+            ],
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro:
+              "With belief that healthcare extends far beyond walls of facility Community Outreach Activities (COA), are backbone of services. Community Health Outreach Program is designed to bring essential medical services, health education, and preventive care directly to underserved populations, rural and tribal communities. ",
+            details: [
+              "Objectives are, to Improve access to healthcare for marginalized and remote populations, promote awareness about preventive health measures and provide early diagnosis and timely treatment for common and chronic illnesses non communicable diseases and strengthen community participation in healthcare planning and execution.",
+              "For achieving this Mobile Health Camps, Health Education & Awareness Drives School Health Programs Maternal & Child Health Support Chronic Disease NCD Screening are conducted in collaboration with local civil societies and government agencies to ensure continuity of care and linkage to state health programs.",
+            ],
           },
           {
             name: "Academics & Research",

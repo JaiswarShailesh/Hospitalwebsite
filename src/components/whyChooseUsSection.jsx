@@ -33,7 +33,7 @@ export default function WhyChooseUsSection() {
   ];
 
   return (
-    <section id="departments" className="departments section">
+    <section id="whyChooseUs" className="departments section">
       {/* Section Title */}
       <div className="container section-title" data-aos="fade-up">
         <h2>Why Choose Us?</h2>

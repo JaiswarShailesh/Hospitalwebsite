@@ -1,6 +1,7 @@
 "use client";
 
 import AOS from "aos";
+import Link from "next/link";
 import { useEffect } from "react";
 
 export default function FooterSection() {
@@ -49,82 +50,76 @@ export default function FooterSection() {
             <h4>Useful Links</h4>
             <ul>
               <li>
-                <a href="#">Home</a>
+                <Link href="/">Home</Link>
               </li>
               <li>
-                <a href="#">About us</a>
+                <Link href="/about">About us</Link>
               </li>
               <li>
-                <a href="#">Services</a>
+                <Link href="/department">Departments & Services</Link>
               </li>
               <li>
-                <a href="#">Terms of service</a>
+                <Link href="/doctor">Doctors</Link>
               </li>
               <li>
-                <a href="#">Privacy policy</a>
-              </li>
-            </ul>
-          </div>
-
-          <div className="col-lg-2 col-md-3 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li>
-                <a href="#">Web Design</a>
+                <Link href="/careers">Careers</Link>
               </li>
               <li>
-                <a href="#">Web Development</a>
+                <Link href="/careers">Privacy Policy</Link>
               </li>
               <li>
-                <a href="#">Product Management</a>
-              </li>
-              <li>
-                <a href="#">Marketing</a>
-              </li>
-              <li>
-                <a href="#">Graphic Design</a>
+                <Link href="/careers">Terms and Conditions</Link>
               </li>
             </ul>
           </div>
 
           <div className="col-lg-2 col-md-3 footer-links">
-            <h4>Hic solutasetp</h4>
+            <h4>Departments</h4>
             <ul>
               <li>
-                <a href="#">Molestiae accusamus iure</a>
+                <Link href="#">Speciality</Link>
               </li>
               <li>
-                <a href="#">Excepturi dignissimos</a>
+                <Link href="#">Super Speciality</Link>
               </li>
               <li>
-                <a href="#">Suscipit distinctio</a>
+                <Link href="#">Central Clinical Laboratory</Link>
               </li>
               <li>
-                <a href="#">Dilecta</a>
-              </li>
-              <li>
-                <a href="#">Sit quas consectetur</a>
+                <Link href="#">Radiology & Imaging</Link>
               </li>
             </ul>
           </div>
 
           <div className="col-lg-2 col-md-3 footer-links">
-            <h4>Nobis illum</h4>
+            <h4>Patient & Visitors</h4>
             <ul>
               <li>
-                <a href="#">Ipsam</a>
+                <Link href="#">Services</Link>
               </li>
               <li>
-                <a href="#">Laudantium dolorum</a>
+                <Link href="#">Information</Link>
               </li>
               <li>
-                <a href="#">Dinera</a>
+                <Link href="#">Billing & Insurance</Link>
               </li>
               <li>
-                <a href="#">Trodelas</a>
+                <Link href="#">Health Information/ Library</Link>
+              </li>
+            </ul>
+          </div>
+
+          <div className="col-lg-2 col-md-3 footer-links">
+            <h4>Community</h4>
+            <ul>
+              <li>
+                <Link href="#">Blog</Link>
               </li>
               <li>
-                <a href="#">Flexo</a>
+                <Link href="#">News & Events</Link>
+              </li>
+              <li>
+                <Link href="#">Photo Gallery</Link>
               </li>
             </ul>
           </div>

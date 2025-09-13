@@ -95,7 +95,7 @@ export const departments = [
               "With state of art infrastructure, integrated academic ecosystem, mission for best possible maternal, neonatal outcome, women’s health, safe quality services are provided to pregnant women, adopting safe birth practices, quality post-natal services, promoting prevention of unwanted pregnancies, prevention of morbidity and mortality due to various gynaecological disorders, including pelvic organ dysfunction, menstrual disorders, cancers and so on, by advanced evidence-based surgical practices, providing minimally invasive advanced endoscopic surgical options, prevention of gynaecological   cancers by ensuring timely screening and follow-up are inbuilt to improve quality of life of women.",
             details: [
               "Skilled, competent, confident, compassionate team provides quality services with human touch not only to women visiting hospital but at community also by Community Based Reproductive Health with Concept of Family care, total health care for women with disciplined, dedicated approach for saving every life. Pregnant, birthing, post birth and women with gynaecological disorders, oncosurgical treatment, critically ill all get best of care with well-equipped labour room, eclampsia room, high dependency unit, intensive care unit, separate septic ward to deal with the cases. In addition, well women corner has been assigned in outpatient for advocacy, counselling about Vaccination, Diabetes screening, and antenatal counselling. Birth preparedness complications readiness are integrated.  Operation theatres are well equipped with facilities for all kinds of complex obstetric and gynaecological surgeries.",
-              "Department is committed to provide highest quality of care in the field of women’s health, focused on safety, and patient satisfaction, keeping pace with the ever-increasing advances.  Department is also committed to provide respectful maternity care with no place for obstetric violence. Various quality improvement initiatives are always taken to improve care with clinical excellence. With human approach for high-risk pregnancies to advanced gynaecologic surgery, comprehensive women’s health care is delivered with empathy, expertise, and innovation as per evidence and need. A full-spectrum centre for women’s health., a modern labour area, advanced gynaecological expertise provides seamless care—from pregnancy care to complex oncologic surgeries .Speciality clinics Maternal Foetal Medicine clinic (for expert advice   from preconception, genetical issues high-risk pregnancy, birth defects,) Gynaecologic cancers embodying multidisciplinary approach, Reproductive Endocrinology and Infertility, Urogynaecology Menopausal and Geriatric Gynaecology, Paediatric and Adolescent Gynaecology.",
+              "Department is committed to provide highest quality of care in the field of women’s health, focused on safety, and patient satisfaction, keeping pace with the ever-increasing advances.  Department is also committed to provide respectful maternity care with no place for obstetric violence. Various quality improvement initiatives are always taken to improve care with clinical excellence. With human approach for high-risk pregnancies to advanced gynaecologic surgery, comprehensive women’s health care is delivered with empathy, expertise, and innovation as per evidence and need. A full-spectrum centre for women’s health., a modern labour area, advanced gynaecological expertise provides seamless care—from pregnancy care to complex oncologic surgeries .Speciality clinics Maternal Foetal Medicine clinic (for expert advice   from preconception, genetical issues high-risk pregnancy, birth defects,) Gynaecologic cancers embodying multidisciplinary approach, Reproductive Endocrinology and Infertility, Urogynaecology Menopausal and Geriatric Gynaecology, Paediatric and Adolescent Gynaecology with Well women Clinic for advocacy, Counselling Vaccination, Diabetes screening, and Antenatal counselling Birth preparedness are integrated.",
             ],
           },
           {
@@ -360,11 +360,6 @@ export const departments = [
           },
         ],
       },
-    ],
-  },
-  {
-    category: "Super Specialty",
-    items: [
       {
         slug: "psychiatry",
         title: "Psychiatry",
@@ -417,10 +412,9 @@ export const departments = [
           {
             name: "Overview",
             image: "/images/general_medicine_overview.png",
-            intro:
-              "Department has state of art diagnostic, imaging facility with interventional radiology offering comprehensive range of services to aid in accurate, early diagnosis and therapy of various disorders.  Team is committed to excellence in patient care and offers quality diagnostic imaging services. It plays a critical role in patient care, supporting all specialties, Emergency, Medicine, Surgery, Orthopaedics, Otorhinolaryngology, Paediatrics, Obstetrics Gynaecology, Oncology    Neurology, Cardiology, Polemology and so on, with high standards of quality, safety, and patient privacy and AERB-",
+            intro: "",
             details: [
-              "registered imaging equipment-comply radiation safety protocols. Department is equipped with advanced imaging technology, staffed by experienced radiologists and trained technicians, and committed to delivering accurate reports with a patient friendly experience. It envisages to employ contemporary diagnostic techniques and practices, delivers round the clock advanced diagnostic imaging services through technology and expert led care with high end MRI, CT, Digital Subtraction Angiography (DSA), ultrasonography, mammography, equipped with advanced modalities including, digital radiography, fluoroscopy, mammography, ultrasonography, and Cath labs. Department supports a wide clinical spectrum from trauma and cancer detection to foetal imaging and interventional procedures and with interventional radiology capabilities, teams ensure precise diagnosis and support for clinical decision making across all specialities. It offers comprehensive imaging services to outpatients and inpatients. Located on ground floor for optimal accessibility, department is fully digitized and operates 24/7, including emergency imaging support, and round-the-clock radiologists, blends accuracy, efficiency, and patient safety in every scan. Team is committed to providing high-quality imaging services, advancing radiology   with appropriate shielding and monitoring for patient & staff safety.",
+              "Department has state of art diagnostic, imaging facility with interventional radiology offering comprehensive range of services to aid in accurate, early diagnosis and therapy of various disorders.  Team is committed to excellence in patient care and offers quality diagnostic imaging services. It plays a critical role in patient care, supporting all specialties, Emergency, Medicine, Surgery, Orthopaedics, Otorhinolaryngology, Paediatrics, Obstetrics Gynaecology, Oncology    Neurology, Cardiology, Polemology and so on, with high standards of quality, safety, and patient privacy and AERB-registered imaging equipment-comply radiation safety protocols. Department is equipped with advanced imaging technology, staffed by experienced radiologists and trained technicians, and committed to delivering accurate reports with a patient friendly experience. It envisages to employ contemporary diagnostic techniques and practices, delivers round the clock advanced diagnostic imaging services through technology and expert led care with high end MRI, CT, Digital Subtraction Angiography (DSA), ultrasonography, mammography, equipped with advanced modalities including, digital radiography, fluoroscopy, mammography, ultrasonography, and Cath labs. Department supports a wide clinical spectrum from trauma and cancer detection to foetal imaging and interventional procedures and with interventional radiology capabilities, teams ensure precise diagnosis and support for clinical decision making across all specialities. It offers comprehensive imaging services to outpatients and inpatients. Located on ground floor for optimal accessibility, department is fully digitized and operates 24/7, including emergency imaging support, and round-the-clock radiologists, blends accuracy, efficiency, and patient safety in every scan. Team is committed to providing high-quality imaging services, advancing radiology with appropriate shielding and monitoring for patient & staff safety.",
             ],
           },
           {
@@ -428,7 +422,7 @@ export const departments = [
             image: "/images/general_medicine_technology_procedure.png",
             intro: "",
             details:
-              "State of art technology like1.5 Tesla MRI, Magnetic Resonance Spectroscopy (MR spectroscopy or MRS) allows tissue to be interrogated for the presence and concentration of various metabolites, Diffusion tensor imaging (DTI) MRI that uses anisotropic diffusion to estimate axonal (white matter) organization of brain Fibre tractography (FT) 3D reconstruction technique to assess neural tracts by diffusion tensor imaging, foetal MRI, cartilage mapping Digital Subtraction Angiography (DSA), interventional radiological used to clearly visualize blood vessels in tissues,  128sliceCT Scan with/without  contrast Digital X-rays (Static, Dynamic, C arm fluoroscopy panel)Mammography (with stereotactic biopsy) Dual-energy x-ray absorptiometry (DEXA or DXA) to aid in diagnosis of osteopenia and osteoporosis),Digital Sonography with elastography and 4D imaging Interventional radiology procedures like Percutaneous Transhepatic Biliary Drainage (PTBD) cruccrucial palliative procedure employed in obstructive jaundice, particularly when malignancies have progressed to an unresectable stage also  are all available Specialized imaging for foetal medicine and musculoskeletal diagnostic .PACS (Picture Archiving and Communication System) for digital report sharing with tele radiology.",
+              "State of art technology like1.5 Tesla MRI, Magnetic Resonance Spectroscopy (MR spectroscopy or MRS) allows tissue to be interrogated for the presence and concentration of various metabolites, Diffusion tensor imaging (DTI) MRI that uses anisotropic diffusion to estimate axonal (white matter) organization of brain Fibre tractography (FT) 3D reconstruction technique to assess neural tracts by diffusion tensor imaging, foetal MRI, cartilage mapping Digital Subtraction Angiography (DSA), interventional radiological used to clearly visualize blood vessels in tissues,  128sliceCT Scan with/without  contrast Digital X-rays (Static, Dynamic, C arm fluoroscopy panel)Mammography (with stereotactic biopsy) Dual-energy x-ray absorptiometry (DEXA or DXA) to aid in diagnosis of osteopenia and osteoporosis),Digital Sonography with elastography and 4D imaging Interventional radiology procedures like Percutaneous Transhepatic Biliary Drainage (PTBD) crucial palliative procedure employed in obstructive jaundice, particularly when malignancies have progressed to an unresectable stage also  are all available Specialized imaging for foetal medicine and musculoskeletal diagnostic .PACS (Picture Archiving and Communication System) for digital report sharing with tele radiology.",
           },
           {
             name: "Academics & Research",
@@ -520,6 +514,137 @@ export const departments = [
         ],
       },
       {
+        slug: "radiation-and-palliation-services",
+        title: "Radiation and Palliation Services",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Radiation Therapy, Palliation Inclusive ",
+        icon: "fa-radiation",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro:
+              "Department plays vital role in managing, treating, curing cancers by radiation. Experienced team of specialized healthcare professionals adheres to international standards of quality with high-precision equipment, commitment to patient-centred approach to provide exceptional, cost-effective and compassionate care with greatest possible patient safety.",
+            details: [
+              "Teams comprise of Radiation Oncologists, Medical Physicists, Radiation Therapists and Nurses with expertise in specialized fields who work to provide best possible safe quality care.  Radiation, as advanced technology for safe, effective therapy with as few side effects as possible, is part of treatment in big number of patients cured of cancer, many more treated for cancer. ",
+              "Department works in collaboration with other services including Psychology, Dietetics and Physical Medical and Rehabilitation (PMR) via Multidisciplinary tumour board meetings and cross-consultations to ensure that patients get accurate diagnosis and  treatment delivered  if possible   curative  radiation alone, concurrently with chemotherapy adjuvant treatment, after chemotherapy or surgery to consolidate the tumour further or to get away with residual microscopic disease after surgery, prophylactic radiation – to sterilize sanctuary sites or palliative treatment- to ameliorate a specific symptoms like pain, bleeding or obstruction. solid malignancies and some haematological tumours.",
+              "Department is actively involved in cancer detection programs, counselling and education of high-risk population, and preventive oncology programs. A social worker in the department counsels’ patients, guides them about packages offered by the government, helps in coping with often unvoiced concerns about cancer and its outcome.",
+            ],
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro:
+              "Teletherapy, brachytherapy, both are used, with3D Conformal Radiation Therapy (CRT) to plan external body radiation that target tumours protecting nearby healthy organs like in brain breast cancer conditions and Intensity-modulated radiation therapy (IMRT) to deliver precise radiation doses to tumours while minimizing exposure to surrounding healthy tissue.",
+            details: [
+              "Dual energy linear accelerator machine equipped with dedicated treatment verification accelerator to help deliver high radiation to the tumours with minimal dose to normal tissues Intensity Guided Radiotherapy (IGRT), Stereotactic Radiation Therapy (SRT) and Stereotactic Surgery (SRS). treatment delivered using surface mould (for skin cancer), plaque therapy (eye cancer), interstitial therapy (for soft tissue tumour, breast cancer, ano-genital cancers), intracavitary therapy (cancer cervix endometrium), intraluminal therapy (cancer oesophagus, bronchus, Endo biliary radiation therapy) and intravascular therapy (internal mammary irradiation).",
+              "For Microselectron high dose rate using Iridium radioactive source appropriate radiation treatment delivery accurate and sophisticated planning of target is achieved with Simulator in accurate localization of target or tumor. ",
+            ],
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "emergency-services",
+        title: "Emergency Services",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Emergency Medical Services",
+        icon: "fa-ambulance",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro:
+              "Mission of emergency medical services is to provide quality patient care at golden hour.   Methodology of delivery services is guided by core principle of emergency medicine: “Treat first that kills first.” Modus operandi is based on framework provided by time tested and dynamically updated strategies.",
+            details: [
+              "Emergency medicine acts as unfaltering anchoring foundation on which patients’ entire prognosis is built upon. Equipped with state-of-the-art point-of-care diagnostics and easy access to advanced laboratory and radiology services, department truly is a standing testament to what a modern-day ED should be like.  There are clear zones for critically ill, little better and other emergencies with infected   isolated Through its exemplary clinical work to provide swift and versatile emergency care to patients, in line with international standards, it serves as a critical component of healthcare system, providing immediate care to patients experiencing urgent and life-threatening conditions.",
+              "Staffed by trained emergency team’s department operates 24/7, aiming to stabilize patients, prevent further harm, and initiate life-saving treatments. Department is well equipped to handle a broad spectrum of emergencies, including trauma, medical, and surgical cases. Commitment of team ensures that patients receive optimal care.",
+            ],
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details:
+              "Well, equipped with Ventilators, multipara monitors, pulse oximeters department has easy access to investigations, imaging technology and operation theatre.",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "community-health-and-outreach",
+        title: "Community Health and Outreach",
+        banner_image: "/images/general_hospital_banner.png",
+        description:
+          "Department of Community Medicine, Preventive Health Care, Vaccination Community Outreach Inclusve",
+        icon: "fa-hands",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro:
+              "Department runs general outpatient which serves as linkage between peripheral health activities and hospital. It works as replica of primary health centre in hospital, reduces workload of specialists by filtering out patients who require specialist care.",
+            details: [
+              "Besides serving as appropriate referral, GOPD provides treatment for minor illnesses.  It runs counselling, guidance cell, immunization clinic, DOTS and microscopy centre. Preventive Health Check Community outreach activities with domiciliary / home health care, Adult & Paediatric Vaccination / Immunisation are all being managed by the teams.",
+              "Hospital has developed Rural Health Training Centres, Urban Health Centre which work in close collaboration with District Health System. Preventive, Promotive & Curative activities are carried out in Rural Health Training Centre and Urban Health Training Centre. Apart from work at community rural health, centres teams work in close collaboration with Primary Health Centre, and support these centres in meeting community health needs. In turn, government health facilities provide settings for learning and appropriate referral.",
+              'At Urban Health Centre, OPD services are provided through a general out-patient department.  For mission to ensure "Health for All", through programs, vision is turning into reality healthier, stronger, and more aware community.',
+            ],
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro:
+              "With belief that healthcare extends far beyond walls of facility Community Outreach Activities (COA), are backbone of services. Community Health Outreach Program is designed to bring essential medical services, health education, and preventive care directly to underserved populations, rural and tribal communities. ",
+            details: [
+              "Objectives are, to Improve access to healthcare for marginalized and remote populations, promote awareness about preventive health measures and provide early diagnosis and timely treatment for common and chronic illnesses non communicable diseases and strengthen community participation in healthcare planning and execution.",
+              "For achieving this Mobile Health Camps, Health Education & Awareness Drives School Health Programs Maternal & Child Health Support Chronic Disease NCD Screening are conducted in collaboration with local civil societies and government agencies to ensure continuity of care and linkage to state health programs.",
+            ],
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    category: "Super Specialty",
+    items: [
+      {
         slug: "cardiology",
         title: "Cardiology",
         banner_image: "/images/general_hospital_banner.png",
@@ -565,8 +690,7 @@ export const departments = [
         slug: "cardiovascular",
         title: "Cardiovascular",
         banner_image: "/images/general_hospital_banner.png",
-        description:
-          "Department of Cardiovascular and Thoracic Surgery , Paediatric inclusive",
+        description: "Department of Cardiovascular and Thoracic Surgery",
         icon: "bi-heart-pulse",
         tabs: [
           {
@@ -787,7 +911,7 @@ export const departments = [
             image: "/images/general_medicine_technology_procedure.png",
             intro: "",
             details: [
-              "State of the art equipment both for open as well as laparoscopic operations including multi-parameter monitors, intra-operative ultrasound (IOUS), Cavitron Ultrasonic Suction Aspirator (CUSA), Erbe Waterjet, ICG laparoscope, Argon beam coagulator, flexible choledochoscope, rigid operating scope, advanced laparoscopic equipment, energy devices etc.  Department has Anorectal manometric system to evaluate anorectal function, Oesophageal manometry and continuous pH monitoring systems to diagnose gastro-oesophageal reflux disease, rapid blood and fluid infusion system low flow infusion system, peritoneovenous shunt.",
+              "State of the art equipment both for open as well as laparoscopic operations including multi-parameter monitors, intra-operative ultrasound (IOUS), Cavitron Ultrasonic Suction Aspirator (CUSA), Waterjet  surgical unit for precise, heatless dissection of  for minimal trauma during procedures ,laparoscopic real-time vessel navigation (LRTVN) using indocyanine green fluorescence (ICG) during laparoscopy-assisted gastric tube reconstruction (LAGR) to evaluate gastric tube blood flow and avoid vascular injury., Argon beam coagulator, Flexible  Choledochoscope,( for direct visualization of biliary tract)  rigid operating scope, advanced laparoscopic equipment, energy devices etc.  Department has Anorectal manometric system to evaluate anorectal function, Oesophageal manometry and continuous pH monitoring systems to diagnose gastro-oesophageal reflux disease, rapid blood and fluid infusion system low flow infusion system, peritoneovenous shunt.",
             ],
           },
           {
@@ -925,6 +1049,43 @@ export const departments = [
         ],
       },
       {
+        slug: "physical-medicine-and-rehab",
+        title: "Physical Medicine and Rehab",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Physical Medicine and Rehabilitation",
+        icon: "fa-hands-helping",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro:
+              "Department of Physical Medicine and Rehabilitation is manned by large interdisciplinary team of doctors, nurses, occupational therapists, physiotherapists, speech therapists, social workers, psychologist, prosthetists and orthotists.",
+            details:
+              "This team works together in maximizing the health and functional abilities of people with disabilities. Team provides outpatient and inpatient services for persons with physical/neurological impairments due to various conditions, Spinal cord injury Brain injury due to trauma and other causes Stroke Developmental disorders such as cerebral palsy, spinal dysraphism Amputations of the extremities Rheumatological conditions Haemophilia Neuromuscular disorders Chronic pain and so on to help people with such problems have quality life.",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details:
+              "In house availability of technology gadgets available to teams is an asset to department for best of recovery and wellbeing of users of services and those referred from various departments.",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
         slug: "plastic-and-reconstructive-surgery",
         title: "Plastic and Reconstructive Surgery",
         banner_image: "/images/general_hospital_banner.png",
@@ -990,169 +1151,6 @@ export const departments = [
             intro: "",
             details:
               "Day Care Chemotherapy is well equipped with infusion sets, multi monitors, Fine needle aspiration cytology (FNAC), biopsies, aspirations, sterile dressings equipment for Bone Marrow aspiration & Intrathecal drug administration Bio-Safety Chemotherapy Drug Preparation Cabinet (UV Sterile)",
-          },
-          {
-            name: "Academics & Research",
-            image: "/images/general_medicine_academics_research.png",
-            intro: "",
-            details: "",
-          },
-        ],
-        consultants: [
-          {
-            name: "Dr. Sample Doctor",
-            tags: ["Sample Data", "Some Speciality"],
-            profilePhoto: "/images/doctors/Male_doctor.png",
-          },
-        ],
-      },
-      {
-        slug: "radiation-and-palliation-services",
-        title: "Radiation and Palliation Services",
-        banner_image: "/images/general_hospital_banner.png",
-        description: "Department of Radiation Therapy, Palliation Inclusive ",
-        icon: "fa-radiation",
-        tabs: [
-          {
-            name: "Overview",
-            image: "/images/general_medicine_overview.png",
-            intro:
-              "Department plays vital role in managing, treating, curing cancers by radiation. Experienced team of specialized healthcare professionals adheres to international standards of quality with high-precision equipment, commitment to patient-centred approach to provide exceptional, cost-effective and compassionate care with greatest possible patient safety.",
-            details: [
-              "Teams comprise of Radiation Oncologists, Medical Physicists, Radiation Therapists and Nurses with expertise in specialized fields who work to provide best possible safe quality care.  Radiation, as advanced technology for safe, effective therapy with as few side effects as possible, is part of treatment in big number of patients cured of cancer, many more treated for cancer. ",
-              "Department works in collaboration with other services including Psychology, Dietetics and Physical Medical and Rehabilitation (PMR) via Multidisciplinary tumour board meetings and cross-consultations to ensure that patients get accurate diagnosis and  treatment delivered  if possible   curative  radiation alone, concurrently with chemotherapy adjuvant treatment, after chemotherapy or surgery to consolidate the tumour further or to get away with residual microscopic disease after surgery, prophylactic radiation – to sterilize sanctuary sites or palliative treatment- to ameliorate a specific symptoms like pain, bleeding or obstruction. solid malignancies and some haematological tumours.",
-              "Department is actively involved in cancer detection programs, counselling and education of high-risk population, and preventive oncology programs. A social worker in the department counsels’ patients, guides them about packages offered by the government, helps in coping with often unvoiced concerns about cancer and its outcome.",
-            ],
-          },
-          {
-            name: "Technology & Procedure",
-            image: "/images/general_medicine_technology_procedure.png",
-            intro:
-              "Teletherapy, brachytherapy, both are used, with3D Conformal Radiation Therapy (CRT) to plan external body radiation that target tumours protecting nearby healthy organs like in brain breast cancer conditions and Intensity-modulated radiation therapy (IMRT) to deliver precise radiation doses to tumours while minimizing exposure to surrounding healthy tissue.",
-            details: [
-              "Dual energy linear accelerator machine equipped with dedicated treatment verification accelerator to help deliver high radiation to the tumours with minimal dose to normal tissues Intensity Guided Radiotherapy (IGRT), Stereotactic Radiation Therapy (SRT) and Stereotactic Surgery (SRS). treatment delivered using surface mould (for skin cancer), plaque therapy (eye cancer), interstitial therapy (for soft tissue tumour, breast cancer, ano-genital cancers), intracavitary therapy (cancer cervix endometrium), intraluminal therapy (cancer oesophagus, bronchus, Endo biliary radiation therapy) and intravascular therapy (internal mammary irradiation).",
-              "For Microselectron high dose rate using Iridium radioactive source appropriate radiation treatment delivery accurate and sophisticated planning of target is achieved with Simulator in accurate localization of target or tumor. ",
-            ],
-          },
-          {
-            name: "Academics & Research",
-            image: "/images/general_medicine_academics_research.png",
-            intro: "",
-            details: "",
-          },
-        ],
-        consultants: [
-          {
-            name: "Dr. Sample Doctor",
-            tags: ["Sample Data", "Some Speciality"],
-            profilePhoto: "/images/doctors/Male_doctor.png",
-          },
-        ],
-      },
-      {
-        slug: "emergency-services",
-        title: "Emergency Services",
-        banner_image: "/images/general_hospital_banner.png",
-        description: "Department of Emergency Medical Services",
-        icon: "fa-ambulance",
-        tabs: [
-          {
-            name: "Overview",
-            image: "/images/general_medicine_overview.png",
-            intro:
-              "Mission of emergency medical services is to provide quality patient care at golden hour.   Methodology of delivery services is guided by core principle of emergency medicine: “Treat first that kills first.” Modus operandi is based on framework provided by time tested and dynamically updated strategies.",
-            details: [
-              "Emergency medicine acts as unfaltering anchoring foundation on which patients’ entire prognosis is built upon. Equipped with state-of-the-art point-of-care diagnostics and easy access to advanced laboratory and radiology services, department truly is a standing testament to what a modern-day ED should be like.  There are clear zones for critically ill, little better and other emergencies with infected   isolated Through its exemplary clinical work to provide swift and versatile emergency care to patients, in line with international standards, it serves as a critical component of healthcare system, providing immediate care to patients experiencing urgent and life-threatening conditions.",
-              "Staffed by trained emergency team’s department operates 24/7, aiming to stabilize patients, prevent further harm, and initiate life-saving treatments. Department is well equipped to handle a broad spectrum of emergencies, including trauma, medical, and surgical cases. Commitment of team ensures that patients receive optimal care.",
-            ],
-          },
-          {
-            name: "Technology & Procedure",
-            image: "/images/general_medicine_technology_procedure.png",
-            intro: "",
-            details:
-              "Well, equipped with Ventilators, multipara monitors, pulse oximeters department has easy access to investigations, imaging technology and operation theatre.",
-          },
-          {
-            name: "Academics & Research",
-            image: "/images/general_medicine_academics_research.png",
-            intro: "",
-            details: "",
-          },
-        ],
-        consultants: [
-          {
-            name: "Dr. Sample Doctor",
-            tags: ["Sample Data", "Some Speciality"],
-            profilePhoto: "/images/doctors/Male_doctor.png",
-          },
-        ],
-      },
-      {
-        slug: "physical-medicine-and-rehab",
-        title: "Physical Medicine and Rehab",
-        banner_image: "/images/general_hospital_banner.png",
-        description: "Department of Physical Medicine and Rehabilitation",
-        icon: "fa-hands-helping",
-        tabs: [
-          {
-            name: "Overview",
-            image: "/images/general_medicine_overview.png",
-            intro:
-              "Department of Physical Medicine and Rehabilitation is manned by large interdisciplinary team of doctors, nurses, occupational therapists, physiotherapists, speech therapists, social workers, psychologist, prosthetists and orthotists.",
-            details:
-              "This team works together in maximizing the health and functional abilities of people with disabilities. Team provides outpatient and inpatient services for persons with physical/neurological impairments due to various conditions, Spinal cord injury Brain injury due to trauma and other causes Stroke Developmental disorders such as cerebral palsy, spinal dysraphism Amputations of the extremities Rheumatological conditions Haemophilia Neuromuscular disorders Chronic pain and so on to help people with such problems have quality life.",
-          },
-          {
-            name: "Technology & Procedure",
-            image: "/images/general_medicine_technology_procedure.png",
-            intro: "",
-            details:
-              "In house availability of technology gadgets available to teams is an asset to department for best of recovery and wellbeing of users of services and those referred from various departments.",
-          },
-          {
-            name: "Academics & Research",
-            image: "/images/general_medicine_academics_research.png",
-            intro: "",
-            details: "",
-          },
-        ],
-        consultants: [
-          {
-            name: "Dr. Sample Doctor",
-            tags: ["Sample Data", "Some Speciality"],
-            profilePhoto: "/images/doctors/Male_doctor.png",
-          },
-        ],
-      },
-      {
-        slug: "community-health-and-outreach",
-        title: "Community Health and Outreach",
-        banner_image: "/images/general_hospital_banner.png",
-        description:
-          "Department of Community Medicine, Preventive Health Care, Vaccination Community Outreach Inclusve",
-        icon: "fa-hands",
-        tabs: [
-          {
-            name: "Overview",
-            image: "/images/general_medicine_overview.png",
-            intro:
-              "Department runs general outpatient which serves as linkage between peripheral health activities and hospital. It works as replica of primary health centre in hospital, reduces workload of specialists by filtering out patients who require specialist care.",
-            details: [
-              "Besides serving as appropriate referral, GOPD provides treatment for minor illnesses.  It runs counselling, guidance cell, immunization clinic, DOTS and microscopy centre. Preventive Health Check Community outreach activities with domiciliary / home health care, Adult & Paediatric Vaccination / Immunisation are all being managed by the teams.",
-              "Hospital has developed Rural Health Training Centres, Urban Health Centre which work in close collaboration with District Health System. Preventive, Promotive & Curative activities are carried out in Rural Health Training Centre and Urban Health Training Centre. Apart from work at community rural health, centres teams work in close collaboration with Primary Health Centre, and support these centres in meeting community health needs. In turn, government health facilities provide settings for learning and appropriate referral.",
-              'At Urban Health Centre, OPD services are provided through a general out-patient department.  For mission to ensure "Health for All", through programs, vision is turning into reality healthier, stronger, and more aware community.',
-            ],
-          },
-          {
-            name: "Technology & Procedure",
-            image: "/images/general_medicine_technology_procedure.png",
-            intro:
-              "With belief that healthcare extends far beyond walls of facility Community Outreach Activities (COA), are backbone of services. Community Health Outreach Program is designed to bring essential medical services, health education, and preventive care directly to underserved populations, rural and tribal communities. ",
-            details: [
-              "Objectives are, to Improve access to healthcare for marginalized and remote populations, promote awareness about preventive health measures and provide early diagnosis and timely treatment for common and chronic illnesses non communicable diseases and strengthen community participation in healthcare planning and execution.",
-              "For achieving this Mobile Health Camps, Health Education & Awareness Drives School Health Programs Maternal & Child Health Support Chronic Disease NCD Screening are conducted in collaboration with local civil societies and government agencies to ensure continuity of care and linkage to state health programs.",
-            ],
           },
           {
             name: "Academics & Research",
@@ -1386,28 +1384,215 @@ export const departments = [
       },
     ],
   },
+  // {
+  //   category: "Radiology / Imaging",
+  //   items: [
+  //     {
+  //       slug: "digital-x-ray",
+  //       title: "Digital X-Ray",
+  //       banner_image: "/images/general_hospital_banner.png",
+  //       description:
+  //         "Advanced imaging services for accurate diagnosis and efficient treatment planning.",
+  //       icon: "fa-x-ray",
+  //       tabs: [
+  //         {
+  //           name: "Overview",
+  //           image: "/images/general_medicine_overview.png",
+  //           intro: "",
+  //           details: "",
+  //         },
+  //         {
+  //           name: "Technology & Procedure",
+  //           image: "/images/general_medicine_technology_procedure.png",
+  //           intro: "",
+  //           details: "",
+  //         },
+  //         {
+  //           name: "Academics & Research",
+  //           image: "/images/general_medicine_academics_research.png",
+  //           intro: "",
+  //           details: "",
+  //         },
+  //       ],
+  //       consultants: [
+  //         {
+  //           name: "Dr. Sample Doctor",
+  //           tags: ["Sample Data", "Some Speciality"],
+  //           profilePhoto: "/images/doctors/Male_doctor.png",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       slug: "ultrasound-doppler",
+  //       title: "Ultrasound / Doppler",
+  //       banner_image: "/images/general_hospital_banner.png",
+  //       description:
+  //         "Comprehensive care for women’s health across all life stages.",
+  //       icon: "fa-wave-square",
+  //       tabs: [
+  //         {
+  //           name: "Overview",
+  //           image: "/images/general_medicine_overview.png",
+  //           intro: "",
+  //           details: "",
+  //         },
+  //         {
+  //           name: "Technology & Procedure",
+  //           image: "/images/general_medicine_technology_procedure.png",
+  //           intro: "",
+  //           details: "",
+  //         },
+  //         {
+  //           name: "Academics & Research",
+  //           image: "/images/general_medicine_academics_research.png",
+  //           intro: "",
+  //           details: "",
+  //         },
+  //       ],
+  //       consultants: [
+  //         {
+  //           name: "Dr. Sample Doctor",
+  //           tags: ["Sample Data", "Some Speciality"],
+  //           profilePhoto: "/images/doctors/Male_doctor.png",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       slug: "ct-scan",
+  //       title: "CT Scan",
+  //       banner_image: "/images/general_hospital_banner.png",
+  //       description:
+  //         "Promoting public health through prevention, education, and outreach.",
+  //       icon: "fa-laptop-medical",
+  //       tabs: [
+  //         {
+  //           name: "Overview",
+  //           image: "/images/general_medicine_overview.png",
+  //           intro: "",
+  //           details: "",
+  //         },
+  //         {
+  //           name: "Technology & Procedure",
+  //           image: "/images/general_medicine_technology_procedure.png",
+  //           intro: "",
+  //           details: "",
+  //         },
+  //         {
+  //           name: "Academics & Research",
+  //           image: "/images/general_medicine_academics_research.png",
+  //           intro: "",
+  //           details: "",
+  //         },
+  //       ],
+  //       consultants: [
+  //         {
+  //           name: "Dr. Sample Doctor",
+  //           tags: ["Sample Data", "Some Speciality"],
+  //           profilePhoto: "/images/doctors/Male_doctor.png",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       slug: "mri",
+  //       title: "MRI",
+  //       banner_image: "/images/general_hospital_banner.png",
+  //       description:
+  //         "Safe and timely blood collection, storage, and transfusion services.",
+  //       icon: "fa-magnet",
+  //       tabs: [
+  //         {
+  //           name: "Overview",
+  //           image: "/images/general_medicine_overview.png",
+  //           intro: "",
+  //           details: "",
+  //         },
+  //         {
+  //           name: "Technology & Procedure",
+  //           image: "/images/general_medicine_technology_procedure.png",
+  //           intro: "",
+  //           details: "",
+  //         },
+  //         {
+  //           name: "Academics & Research",
+  //           image: "/images/general_medicine_academics_research.png",
+  //           intro: "",
+  //           details: "",
+  //         },
+  //       ],
+  //       consultants: [
+  //         {
+  //           name: "Dr. Sample Doctor",
+  //           tags: ["Sample Data", "Some Speciality"],
+  //           profilePhoto: "/images/doctors/Male_doctor.png",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       slug: "interventional-radiology",
+  //       title: "Interventional Radiology",
+  //       banner_image: "/images/general_hospital_banner.png",
+  //       description:
+  //         "Precision lab diagnostics to support clinical decision-making.",
+  //       icon: "fa-crosshairs",
+  //       tabs: [
+  //         {
+  //           name: "Overview",
+  //           image: "/images/general_medicine_overview.png",
+  //           intro: "",
+  //           details: "",
+  //         },
+  //         {
+  //           name: "Technology & Procedure",
+  //           image: "/images/general_medicine_technology_procedure.png",
+  //           intro: "",
+  //           details: "",
+  //         },
+  //         {
+  //           name: "Academics & Research",
+  //           image: "/images/general_medicine_academics_research.png",
+  //           intro: "",
+  //           details: "",
+  //         },
+  //       ],
+  //       consultants: [
+  //         {
+  //           name: "Dr. Sample Doctor",
+  //           tags: ["Sample Data", "Some Speciality"],
+  //           profilePhoto: "/images/doctors/Male_doctor.png",
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
   {
-    category: "Radiology / Imaging",
+    category: "Support Services",
     items: [
       {
-        slug: "digital-x-ray",
-        title: "Digital X-Ray",
+        slug: "bioengineering",
+        title: "Bioengineering",
         banner_image: "/images/general_hospital_banner.png",
-        description:
-          "Advanced imaging services for accurate diagnosis and efficient treatment planning.",
+        description: "Department of Bioengineering",
         icon: "fa-x-ray",
         tabs: [
           {
             name: "Overview",
             image: "/images/general_medicine_overview.png",
-            intro: "",
-            details: "",
+            intro:
+              "Department of Bioengineering for application to healthcare is the backbone of uninterrupted prompt health services for medical instrumentation, patients in outpatient, to those on operating tables, biomechanics of musculoskeletal systems, and neurorehabilitation.",
+            details: [
+              "It works closely with several other departments for wear and tear of gadgets from simple Blood pressure, Oxygen monitor gadget to Ventilators, and Assistive devices, Electrodiagnostic devices, Neurorehabilitation technology, Prostheses and so on.  Not only department works as a liaison between companies from procurement stage, warranty /guarantee, repair and condemnation but has its own    planned preventive maintenance and repair system to ensure all the facilities, systems and services under the scope of engineering services are in a state of optimum operational efficiency for best of prompt health care.",
+              "It provides assistance   for electromedical equipment for various department, pre installation, installation operation of equipment, prepurchase evaluation for safety at station, cost effective management, repair services, performance testing of medical equipment, inventory control, coordination of outside services and vendors.",
+              "Bioengineering department has its presence in clinical facilities from outpatient to operating rooms or intensive care units. Implementation of documentation protocols required by external accreditation and licensing agencies also equipment audit is efficiently done without interference with healthcare delivery with appropriate access control for safety and security. It has system for safe handling of any goods requiring access, firefighting on all sides inclusive.",
+            ],
           },
           {
             name: "Technology & Procedure",
             image: "/images/general_medicine_technology_procedure.png",
             intro: "",
-            details: "",
+            details: [
+              "Department has electronics and mechanical fabrication and testing system, be it a blood pressure apparatus, spirometer or ventilator Dialysis Machines, Electrosurgical Units – Surgical Cautery. Blood Gas Analyser. Defibrillator Baby Incubators. Multi para–Monitors Nebulizer Repair. System is for maintenance at site like -x-Ray, laboratory analysers, or smaller equipment which would be transported to the workshop with good electricity, store for spare parts and test equipment. provision like electrostatic workbench/testbench, pneumatic outlets etc Receipt and despatch area is suitably equipped for the handling and storage of components and materials.",
+              "Storage rooms and/or areas is well furnished for storage of items, working spare parts Consumable items (such as gaskets, bolts and nuts, etc.) in order to ensure a good medical equipment maintenance system A proper forecast is made on items like batteries, filters, valves, tunings etc. and are procured in advance to save time. Cleaning and lubricating material is also procured in advance with bigger quantity.",
+            ],
           },
           {
             name: "Academics & Research",
@@ -1425,24 +1610,32 @@ export const departments = [
         ],
       },
       {
-        slug: "ultrasound-doppler",
-        title: "Ultrasound / Doppler",
+        slug: "central-sterilization-services",
+        title: "Central Sterilization Services",
         banner_image: "/images/general_hospital_banner.png",
-        description:
-          "Comprehensive care for women’s health across all life stages.",
-        icon: "fa-wave-square",
+        description: "Department of Central Sterilization Services (CSSD)",
+        icon: "fa-x-ray",
         tabs: [
           {
             name: "Overview",
             image: "/images/general_medicine_overview.png",
-            intro: "",
-            details: "",
+            intro:
+              "Central Sterilization Services Department is back bone of health services. Team ensures safe sterilization of Linen, Instruments Equipment, consumables etc.    Different modes of sterilization are used for medical devices, equipment and consumables essential for delivering infection free safe health services.",
+            details: [
+              "CSSD caters to the needs for sterile material for patient care in all areas, outpatient, inpatient, intensive care areas, operation theatre, laboratories in the entire hospital. Linen   soiled with vomitus, faeces, blood spill, urine etc have segregation at source, discarded in marked bags. Reusable contaminated linen is segregated, put into 0.5% chlorine solution for 30 min.in linen disinfection bin, (disinfection/ decontamination     of soiled/ contaminated linen) and then sent to mechanized laundry from where it comes to CSSD.  Unsoiled, reusable linen is packed in zip bags before sending to laundry.",
+              "Linen for sterilisation includes drapes, gowns, wrappers, quite a lot considered infectious even if there is no visible stain. Instruments used for major/minor surgeries in OT and other critical areas or in wards are necessarily decontaminated and autoclaved, decontamination, washing, drying, packing and autoclaving in order. All this is ensured in CSSD for best services of global standard.",
+            ],
           },
           {
             name: "Technology & Procedure",
             image: "/images/general_medicine_technology_procedure.png",
-            intro: "",
-            details: "",
+            intro:
+              "Equipment, gadgets, essential for effective functioning of CSSD are all available. Reliable electricity distribution with load balancing to various equipment is ensured to prevent electric fire hazard or damage to the equipment. Fluctuation in voltage also adversely affects the sterilization process, hence automatic voltage regulators maintain constant output voltage. Safe explosion proof plugs, plug connector and sockets are ensured for safety against explosion.",
+            details: [
+              "Steam Sterilisers chamber and doors, solid with high quality stainless steel jacketed to ensure temperature uniformity in chamber, provide best of services. Pre-vacuum steam sterilization steam sterilization is in place to utilize vacuum system to eliminate air from the sterilization chambers before introducing steam process to enhances the effectiveness of sterilization by ensuring that steam penetrates all surfaces of the items being sterilized, including complex instruments with lumens or porous materials. Rotary heat sealer gives documentation of process parameters via an integrated printer and is integrated with documentation system to monitor and enforce effectiveness of cleaning, disinfection and sterilization process and safe distribution and back.",
+              "Ethylene oxide (ETO), biocide which destroys bacteria, viruses, fungi and other unwanted organisms is used for items that are heat and moisture sensitive anaesthetic tubing, endoscopes etc. Hydrogen peroxide plasma sterilization/hydrogen peroxide gas sterilization, a low temperature sterilization process is also used to sterilize heat-sensitive devices. It requires less time than ethylene oxide sterilization.  It involves H2O2 vapor filling the sterilizer chamber, contacting and sterilizing exposed device surfaces that effectively eliminating microorganisms .H2O2 vapor and plasma technology, results in non-toxic by-products.",
+              "Quality is ensured not only by physical monitoring displayed screen, but with biological indicators also.  Servicing schedule for all equipment is maintained to ensure schedule documentation of each session. Biological monitoring of sterilization process is monitored by physical (time, temperature, pressure), chemical (internal and external indicators) biological methods. Physical and chemical indicators are used ideal monitors of sterilisation process to measure efficacy of sterilization process.",
+            ],
           },
           {
             name: "Academics & Research",
@@ -1460,24 +1653,26 @@ export const departments = [
         ],
       },
       {
-        slug: "ct-scan",
-        title: "CT Scan",
+        slug: "laundry-services",
+        title: "Laundry Services",
         banner_image: "/images/general_hospital_banner.png",
-        description:
-          "Promoting public health through prevention, education, and outreach.",
-        icon: "fa-laptop-medical",
+        description: "Department of Laundry Services",
+        icon: "fa-x-ray",
         tabs: [
           {
             name: "Overview",
             image: "/images/general_medicine_overview.png",
-            intro: "",
-            details: "",
+            intro:
+              "Laundry department ensures thorough cleaning of cloths, be it those going to Central Sterilization Services Department (CSSD), Operation theatre, Intensive care units, wards, outpatient, labs.  Collection, segregation and transport of dirty / soiled linen and other linen, in agreed time lines is as per the service standards with standard checklists. Receiving area window and dispatching of items have system for passage for non-soiled linen and disinfection area for infected.",
+            details:
+              "Soiled linen is passed through jet washer installed in the soiled linen area to remove any stain/ particle, before further decontamination, washing with detergent solution machines. The washed linen is shifted to drying yard for drying in the open sunlight. During rainy season, drying tumblers and drying chambers are used for drying the washed linen. However, machines with drier are also there. The dried linen is collected and shifted to folding area for folding. After folding, the linen is packed and distributed. In the folding area, torn linen is separated for stitching/ repair works and put back into circulation. Regular linen condemnation is done with inbuilt system of replacement in stipulated delivery times to various wards/OTs/ICUs/OPDs.",
           },
           {
             name: "Technology & Procedure",
             image: "/images/general_medicine_technology_procedure.png",
             intro: "",
-            details: "",
+            details:
+              "Modern equipment and Gadgets are used for washing soiled and other linen. Washing of the soiled linen is done using hot steam and adding required detergents adding fabric whitener and fragrance liquid at the end of washing process. Regular maintenance of all the machines is ensured for   optimal performance. Quality monitoring: Ensuring",
           },
           {
             name: "Academics & Research",
@@ -1495,59 +1690,26 @@ export const departments = [
         ],
       },
       {
-        slug: "mri",
-        title: "MRI",
+        slug: "biomedical-waste",
+        title: "Biomedical Waste",
         banner_image: "/images/general_hospital_banner.png",
-        description:
-          "Safe and timely blood collection, storage, and transfusion services.",
-        icon: "fa-magnet",
+        description: "Department of Biomedical Waste",
+        icon: "fa-x-ray",
         tabs: [
           {
             name: "Overview",
             image: "/images/general_medicine_overview.png",
-            intro: "",
-            details: "",
+            intro:
+              "Collection, transportation ,disposal  management of hospital’s  Non‐ biological waste, (not intended for use)  and Bio Medical Waste  (BMW)  generated during diagnosis, treatment , immunization , research activities is  always as per  comprehensive guidelines for operation of Common Bio-medical Waste Treatment and Disposal Facilities (CBWTF) for  BMW from multiple healthcare facilities collection ,, transport, treatment, and safe disposal as per  Central Pollution Control Board (CPCB)  , Ministry of Environment and Forests, Government of India, mandatory under Bio-medical Waste Management (BMWM) Rules, Maharashtra State Pollution board (MSPB) ensuring no adverse effect to public health environment.",
+            details:
+              "Soiled linen is passed through jet washer installed in the soiled linen area to remove any stain/ particle, before further decontamination, washing with detergent solution machines. The washed linen is shifted to drying yard for drying in the open sunlight. During rainy season, drying tumblers and drying chambers are used for drying the washed linen. However, machines with drier are also there. The dried linen is collected and shifted to folding area for folding. After folding, the linen is packed and distributed. In the folding area, torn linen is separated for stitching/ repair works and put back into circulation. Regular linen condemnation is done with inbuilt system of replacement in stipulated delivery times to various wards/OTs/ICUs/OPDs.",
           },
           {
             name: "Technology & Procedure",
             image: "/images/general_medicine_technology_procedure.png",
             intro: "",
-            details: "",
-          },
-          {
-            name: "Academics & Research",
-            image: "/images/general_medicine_academics_research.png",
-            intro: "",
-            details: "",
-          },
-        ],
-        consultants: [
-          {
-            name: "Dr. Sample Doctor",
-            tags: ["Sample Data", "Some Speciality"],
-            profilePhoto: "/images/doctors/Male_doctor.png",
-          },
-        ],
-      },
-      {
-        slug: "interventional-radiology",
-        title: "Interventional Radiology",
-        banner_image: "/images/general_hospital_banner.png",
-        description:
-          "Precision lab diagnostics to support clinical decision-making.",
-        icon: "fa-crosshairs",
-        tabs: [
-          {
-            name: "Overview",
-            image: "/images/general_medicine_overview.png",
-            intro: "",
-            details: "",
-          },
-          {
-            name: "Technology & Procedure",
-            image: "/images/general_medicine_technology_procedure.png",
-            intro: "",
-            details: "",
+            details:
+              "Modern equipment and Gadgets are used for washing soiled and other linen. Washing of the soiled linen is done using hot steam and adding required detergents adding fabric whitener and fragrance liquid at the end of washing process. Regular maintenance of all the machines is ensured for   optimal performance. Quality monitoring: Ensuring",
           },
           {
             name: "Academics & Research",

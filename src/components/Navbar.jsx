@@ -321,7 +321,7 @@ export default function Navbar() {
                         <a href="#">Tariff / Charges</a>
                       </li>
                       <li>
-                        <a href="#">TPA, Insurance & Corporate</a>
+                        <Link href="/tpaInsuranceCorporate">TPA, Insurance & Corporate</Link>
                       </li>
                     </ul>
                   </li>

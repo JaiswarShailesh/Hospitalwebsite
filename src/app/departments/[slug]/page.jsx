@@ -96,7 +96,7 @@ export default function DepartmentPage() {
       </section>
 
       {/* <!-- Consultants Section --> */}
-      <section id="consultants" className="services section">
+      <section id="consultants" className="services section" data-aos="fade-up">
         <div className="container section-title" data-aos="fade-up">
           <h2>Consultants</h2>
           <p>

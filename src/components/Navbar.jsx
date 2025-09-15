@@ -237,12 +237,42 @@ export default function Navbar() {
                     </ul>
                   </li>
                   <li className="dropdown">
-                    <a href="/departments#radiology-/-imaging">
-                      <span>Radiology & Imaging</span>
+                    <a href="/departments#support-services">
+                      <span>Support Services</span>
                       <i className="bi bi-chevron-down toggle-dropdown"></i>
                     </a>
                     <ul>
                       {departments[3].items.map((item, index) => (
+                        <li key={index}>
+                          <Link href={`/departments/${item.slug}`}>
+                            {item.title}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </li>
+                  <li className="dropdown">
+                    <a href="/departments#future-likely-developments/-divisions-in-existing-departments">
+                      <span>Future Likely Developments / Divisions in Existing Departments</span>
+                      <i className="bi bi-chevron-down toggle-dropdown"></i>
+                    </a>
+                    <ul>
+                      {departments[4].items.map((item, index) => (
+                        <li key={index}>
+                          <Link href={`/departments/${item.slug}`}>
+                            {item.title}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </li>
+                  <li className="dropdown">
+                    <a href="/departments#future-likely-more-clinical-departments">
+                      <span>Future Likely More Clinical Departments</span>
+                      <i className="bi bi-chevron-down toggle-dropdown"></i>
+                    </a>
+                    <ul>
+                      {departments[4].items.map((item, index) => (
                         <li key={index}>
                           <Link href={`/departments/${item.slug}`}>
                             {item.title}

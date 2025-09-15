@@ -1173,24 +1173,30 @@ export const departments = [
     category: "Central Clinical Laboratory / Laboratory Medicine",
     items: [
       {
-        slug: "blood-bank",
-        title: "Blood Bank",
+        slug: "central-clinical-laboratory-laboratory-medicine",
+        title: "Central Clinical Laboratory Laboratory Medicine",
         banner_image: "/images/general_hospital_banner.png",
         description:
-          "Advanced imaging services for accurate diagnosis and efficient treatment planning.",
+          "Department of Central Clinical Laboratory, Pathology, Microbiology, Biochemistry, Haematology, Haematooncology. Immunohistochemistry, Cytogenetics Inclusive",
         icon: "fa-tint",
         tabs: [
           {
             name: "Overview",
             image: "/images/general_medicine_overview.png",
-            intro: "",
-            details: "",
+            intro:
+              "Sate of art  central clinical laboratory(CCL) is well equipped with facilities for outpatient and round the clock inpatients and emergencies, Clinical Pathology-Histopathology, Cytopathology, Clinical Biochemistry, Haematology, Coagulation studies, Flow Cytometry, Serology, Immunology, Immunofluorescence Assay (IFA), Microbiology- Bacteriology (Aerobic & Anaerobic), Mycology, Parasitology, Virology, Molecular Biology and Cytogenetics Lab is manned by specialist doctors   and expert technicians.",
+            details: [
+              "It works on hospital-wide information system for ordering and reporting laboratory test results.  Confidentiality of reports about personal information of patients is maintained. There are trained personnel available for interpretation of results and clinicians are available for advice based on the reports. If patient is not satisfied with laboratory services or has some specific grievance, a complaint box is placed in collection area where he / she can put complaint along with name phone number. Action is taken on complaint and feedback is available. ",
+              "Services for a wide range of tests Cardiac, Liver, Renal, Lipid Coagulation profiles, Hormonal Assays, Cancer Markers, Microbe cultures and antibiotic sensitivities, Genetic markers, Drug assay and Toxicology tests with Routine tests are available for patients of area who take services of local private practitioners, with facility to email / courier / reports which can also be accessed from web portal using a unique password.",
+            ],
           },
           {
             name: "Technology & Procedure",
             image: "/images/general_medicine_technology_procedure.png",
-            intro: "",
-            details: "",
+            intro:
+              "CCL offers highly advanced diagnostic, genetic and molecular biology tests including predictive tests for cancers, heart disease, for infertility, miscarriage and prenatal diseases many other disorders.",
+            details:
+              "Key feature of laboratory services is hospital-wide pneumatic transportation or tube system (Sample Subway). Passengers are medicines, samples and blood bags. Using this system, laboratory can accept more samples safely securely and faster. Hospital Information system does best for documents and reports. In addition to day-to-day tests for various organ functions, liver. kidney ,heart, etc  under haematology ,clinical  pathology ,clinical biochemistry  ,Immunology  ,  Automation - serum testing  including Spectrophotometer , Haematology analysers, , Coagulometer  Flow  cytometry, CLIA   ELISA  FOR antibodies/antigens infection and autoimmune diagnosis, Automated bacterial, fungal, and mycobacterial analyser  ,  INCUBATORS Tissue-based diagnostics , including cancers, technology for Radioimmune assay (RIA) for Hormonal, Endocrinal studies ,Molecular Diagnostics like   PCR Machine  RT-PCR  for     advanced testing of genetic, viral load, and mutation analysis ,GC-MS (Gas Chromatography-Mass Spectrometry   for   monitoring drug levels; detecting  toxins and poisons for diagnosis of genetic and chromosomal disorders Genetic panels, Chromosome Analyzer, DNA Sequencer FISH Analyzer are all available  for earliest possible diagnosis  essential for care of global standard even for rural masses .",
           },
           {
             name: "Academics & Research",
@@ -1207,181 +1213,181 @@ export const departments = [
           },
         ],
       },
-      {
-        slug: "pathology",
-        title: "Pathology",
-        banner_image: "/images/general_hospital_banner.png",
-        description:
-          "Physician-led diagnostics to support clinical decision-making.",
-        icon: "fa-vials",
-        tabs: [
-          {
-            name: "Overview",
-            image: "/images/general_medicine_overview.png",
-            intro: "",
-            details: "",
-          },
-          {
-            name: "Technology & Procedure",
-            image: "/images/general_medicine_technology_procedure.png",
-            intro: "",
-            details: "",
-          },
-          {
-            name: "Academics & Research",
-            image: "/images/general_medicine_academics_research.png",
-            intro: "",
-            details: "",
-          },
-        ],
-        consultants: [
-          {
-            name: "Dr. Sample Doctor",
-            tags: ["Sample Data", "Some Speciality"],
-            profilePhoto: "/images/doctors/Male_doctor.png",
-          },
-        ],
-      },
-      {
-        slug: "clinical-biochemistry",
-        title: "Clinical Biochemistry",
-        banner_image: "/images/general_hospital_banner.png",
-        description:
-          "Comprehensive care for women’s health across all life stages.",
-        icon: "fa-flask",
-        tabs: [
-          {
-            name: "Overview",
-            image: "/images/general_medicine_overview.png",
-            intro: "",
-            details: "",
-          },
-          {
-            name: "Technology & Procedure",
-            image: "/images/general_medicine_technology_procedure.png",
-            intro: "",
-            details: "",
-          },
-          {
-            name: "Academics & Research",
-            image: "/images/general_medicine_academics_research.png",
-            intro: "",
-            details: "",
-          },
-        ],
-        consultants: [
-          {
-            name: "Dr. Sample Doctor",
-            tags: ["Sample Data", "Some Speciality"],
-            profilePhoto: "/images/doctors/Male_doctor.png",
-          },
-        ],
-      },
-      {
-        slug: "hematology",
-        title: "Hematology",
-        banner_image: "/images/general_hospital_banner.png",
-        description:
-          "Promoting public health through prevention, education, and outreach.",
-        icon: "fa-syringe",
-        tabs: [
-          {
-            name: "Overview",
-            image: "/images/general_medicine_overview.png",
-            intro: "",
-            details: "",
-          },
-          {
-            name: "Technology & Procedure",
-            image: "/images/general_medicine_technology_procedure.png",
-            intro: "",
-            details: "",
-          },
-          {
-            name: "Academics & Research",
-            image: "/images/general_medicine_academics_research.png",
-            intro: "",
-            details: "",
-          },
-        ],
-        consultants: [
-          {
-            name: "Dr. Sample Doctor",
-            tags: ["Sample Data", "Some Speciality"],
-            profilePhoto: "/images/doctors/Male_doctor.png",
-          },
-        ],
-      },
-      {
-        slug: "microbiology",
-        title: "Microbiology",
-        banner_image: "/images/general_hospital_banner.png",
-        description:
-          "Safe and timely blood collection, storage, and transfusion services.",
-        icon: "fa-bacteria",
-        tabs: [
-          {
-            name: "Overview",
-            image: "/images/general_medicine_overview.png",
-            intro: "",
-            details: "",
-          },
-          {
-            name: "Technology & Procedure",
-            image: "/images/general_medicine_technology_procedure.png",
-            intro: "",
-            details: "",
-          },
-          {
-            name: "Academics & Research",
-            image: "/images/general_medicine_academics_research.png",
-            intro: "",
-            details: "",
-          },
-        ],
-        consultants: [
-          {
-            name: "Dr. Sample Doctor",
-            tags: ["Sample Data", "Some Speciality"],
-            profilePhoto: "/images/doctors/Male_doctor.png",
-          },
-        ],
-      },
-      {
-        slug: "molecular-diagnostics",
-        title: "Molecular Diagnostics",
-        banner_image: "/images/general_hospital_banner.png",
-        description:
-          "Empowering people and processes for seamless healthcare delivery.",
-        icon: "fa-dna",
-        tabs: [
-          {
-            name: "Overview",
-            image: "/images/general_medicine_overview.png",
-            intro: "",
-            details: "",
-          },
-          {
-            name: "Technology & Procedure",
-            image: "/images/general_medicine_technology_procedure.png",
-            intro: "",
-            details: "",
-          },
-          {
-            name: "Academics & Research",
-            image: "/images/general_medicine_academics_research.png",
-            intro: "",
-            details: "",
-          },
-        ],
-        consultants: [
-          {
-            name: "Dr. Sample Doctor",
-            tags: ["Sample Data", "Some Speciality"],
-            profilePhoto: "/images/doctors/Male_doctor.png",
-          },
-        ],
-      },
+      // {
+      //   slug: "pathology",
+      //   title: "Pathology",
+      //   banner_image: "/images/general_hospital_banner.png",
+      //   description:
+      //     "Physician-led diagnostics to support clinical decision-making.",
+      //   icon: "fa-vials",
+      //   tabs: [
+      //     {
+      //       name: "Overview",
+      //       image: "/images/general_medicine_overview.png",
+      //       intro: "",
+      //       details: "",
+      //     },
+      //     {
+      //       name: "Technology & Procedure",
+      //       image: "/images/general_medicine_technology_procedure.png",
+      //       intro: "",
+      //       details: "",
+      //     },
+      //     {
+      //       name: "Academics & Research",
+      //       image: "/images/general_medicine_academics_research.png",
+      //       intro: "",
+      //       details: "",
+      //     },
+      //   ],
+      //   consultants: [
+      //     {
+      //       name: "Dr. Sample Doctor",
+      //       tags: ["Sample Data", "Some Speciality"],
+      //       profilePhoto: "/images/doctors/Male_doctor.png",
+      //     },
+      //   ],
+      // },
+      // {
+      //   slug: "clinical-biochemistry",
+      //   title: "Clinical Biochemistry",
+      //   banner_image: "/images/general_hospital_banner.png",
+      //   description:
+      //     "Comprehensive care for women’s health across all life stages.",
+      //   icon: "fa-flask",
+      //   tabs: [
+      //     {
+      //       name: "Overview",
+      //       image: "/images/general_medicine_overview.png",
+      //       intro: "",
+      //       details: "",
+      //     },
+      //     {
+      //       name: "Technology & Procedure",
+      //       image: "/images/general_medicine_technology_procedure.png",
+      //       intro: "",
+      //       details: "",
+      //     },
+      //     {
+      //       name: "Academics & Research",
+      //       image: "/images/general_medicine_academics_research.png",
+      //       intro: "",
+      //       details: "",
+      //     },
+      //   ],
+      //   consultants: [
+      //     {
+      //       name: "Dr. Sample Doctor",
+      //       tags: ["Sample Data", "Some Speciality"],
+      //       profilePhoto: "/images/doctors/Male_doctor.png",
+      //     },
+      //   ],
+      // },
+      // {
+      //   slug: "hematology",
+      //   title: "Hematology",
+      //   banner_image: "/images/general_hospital_banner.png",
+      //   description:
+      //     "Promoting public health through prevention, education, and outreach.",
+      //   icon: "fa-syringe",
+      //   tabs: [
+      //     {
+      //       name: "Overview",
+      //       image: "/images/general_medicine_overview.png",
+      //       intro: "",
+      //       details: "",
+      //     },
+      //     {
+      //       name: "Technology & Procedure",
+      //       image: "/images/general_medicine_technology_procedure.png",
+      //       intro: "",
+      //       details: "",
+      //     },
+      //     {
+      //       name: "Academics & Research",
+      //       image: "/images/general_medicine_academics_research.png",
+      //       intro: "",
+      //       details: "",
+      //     },
+      //   ],
+      //   consultants: [
+      //     {
+      //       name: "Dr. Sample Doctor",
+      //       tags: ["Sample Data", "Some Speciality"],
+      //       profilePhoto: "/images/doctors/Male_doctor.png",
+      //     },
+      //   ],
+      // },
+      // {
+      //   slug: "microbiology",
+      //   title: "Microbiology",
+      //   banner_image: "/images/general_hospital_banner.png",
+      //   description:
+      //     "Safe and timely blood collection, storage, and transfusion services.",
+      //   icon: "fa-bacteria",
+      //   tabs: [
+      //     {
+      //       name: "Overview",
+      //       image: "/images/general_medicine_overview.png",
+      //       intro: "",
+      //       details: "",
+      //     },
+      //     {
+      //       name: "Technology & Procedure",
+      //       image: "/images/general_medicine_technology_procedure.png",
+      //       intro: "",
+      //       details: "",
+      //     },
+      //     {
+      //       name: "Academics & Research",
+      //       image: "/images/general_medicine_academics_research.png",
+      //       intro: "",
+      //       details: "",
+      //     },
+      //   ],
+      //   consultants: [
+      //     {
+      //       name: "Dr. Sample Doctor",
+      //       tags: ["Sample Data", "Some Speciality"],
+      //       profilePhoto: "/images/doctors/Male_doctor.png",
+      //     },
+      //   ],
+      // },
+      // {
+      //   slug: "molecular-diagnostics",
+      //   title: "Molecular Diagnostics",
+      //   banner_image: "/images/general_hospital_banner.png",
+      //   description:
+      //     "Empowering people and processes for seamless healthcare delivery.",
+      //   icon: "fa-dna",
+      //   tabs: [
+      //     {
+      //       name: "Overview",
+      //       image: "/images/general_medicine_overview.png",
+      //       intro: "",
+      //       details: "",
+      //     },
+      //     {
+      //       name: "Technology & Procedure",
+      //       image: "/images/general_medicine_technology_procedure.png",
+      //       intro: "",
+      //       details: "",
+      //     },
+      //     {
+      //       name: "Academics & Research",
+      //       image: "/images/general_medicine_academics_research.png",
+      //       intro: "",
+      //       details: "",
+      //     },
+      //   ],
+      //   consultants: [
+      //     {
+      //       name: "Dr. Sample Doctor",
+      //       tags: ["Sample Data", "Some Speciality"],
+      //       profilePhoto: "/images/doctors/Male_doctor.png",
+      //     },
+      //   ],
+      // },
     ],
   },
   // {
@@ -1568,11 +1574,50 @@ export const departments = [
     category: "Support Services",
     items: [
       {
+        slug: "transfusion-medicine",
+        title: "Transfusion Medicine",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Transfusion Medicine",
+        icon: "fa-hand-holding-droplet",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro:
+              "“Maheshbhai Rasiklal Patel Blood Bank” of department of Transfusion Medicine provides round the clock services of whole blood, Component therapy including Plasmapheresis, Fresh Frozen Plasma (FFP); Plateletpheresis, (platelets), Leukapheresis, (white cells,) for transfusion, Stem Cell Harvesting, (circulating bone marrow cells).",
+            details: [
+              "NABH accredited facility through advanced testing with cutting edge equipment has strong focus on patient / donor safety, delivers modern transfusion medicine practices, backed by stringent quality control and seamless clinical coordination.  Blood bank is dedicated to ensuring safe collection, processing, storage, and distribution of whole blood and components, adheres to National Blood Transfusion Council (NBTC) Food and Drug Administration (FDA) WHO standards, ensuring quality patient safety at every step. Bank offers Whole Human Blood, Packed Red Blood Cells (PRBC), Fresh Frozen Plasma (FFP), Platelet Concentrates (Random Donor & Single Donor via Apheresis), Cryoprecipitate (CRYO), Leuco-Reduced Blood Components. Pre-transfusion testing is mandatory as safety first is the MOTO. There is regular internal quality control & external proficiency testing, Blood grouping (ABO/Rh Typing), Cross-Matching (Major/Minor) Antibody Screening HIV 1 &2HepatitisB, C, E Syphilis Malaria Direct Coombs Test (DCT) Indirect Coombs Test (ICT) and storage for rare blood groups upon request.",
+              "Biomedical Waste Management is  strictly as per state central pollution control boards norms .Walk-in  Donors are encouraged, telling “one unit of Blood can save three lives, free health screening, safe, single-use equipment, donor certificate, and gratitude from BB and recipient and family” with awareness programs with District Blood Transfusion Committees ,Blood Donation Camps  Department plays critical role in saving lives by supporting wide range of surgical, medical, and emergencies  ensuring optimal support for patient care through timely ,safe blood and component delivery. BB maintains rigorous quality protocols advanced immunohematology to prevent transfusion–transmitted infection, from voluntary donor collection therapeutic phlebotomy to advanced procedures like red cell exchange Hematopoietic    stem cell harvesting, Peripheral Blood Stem Cell Harvest and Cryopreservation Lab therapeutic Apheresis Procedures   Therapeutic Plasma exchange and Granulocyte collection. Department delivers integrated transfusion solutions.",
+            ],
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details:
+              "In addition to regular instruments equipment, reagents special refrigerator, Walk in Refrigerator, Deep Refrigerator for storage, PH Meter, Gravity Meter Electrical Balance, Measuring Cylinder-Coagulometer, Dialectical Tube Sealer-as per needs and norms are all available for safe quality blood / components collection, storage, distribution and disposal also.  Blood Bag Collection Monitor, Apheresis  -Multi-Component Collection System, Digital Tube Sealer, Incubator, Water Bath, Plasma Thawing Bath,   Cryo  Bath , Hand Lance- Dialectical Tube Sealer Temp Data Logger- Elisa Reader- Elisa Washer Rotary Shaker, Autoclave, Oven, Laminar Air Flow Bench Electrical Balance, Plasma Expresser centigrade, Cryo Platelet Incubator with Agitator Blood Cell Counter are all available so that Blood , components can safely be collected ,stored and provided to clinicians for timely safe use.",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
         slug: "bioengineering",
         title: "Bioengineering",
         banner_image: "/images/general_hospital_banner.png",
         description: "Department of Bioengineering",
-        icon: "fa-x-ray",
+        icon: "fa-microscope",
         tabs: [
           {
             name: "Overview",
@@ -1614,7 +1659,7 @@ export const departments = [
         title: "Central Sterilization Services",
         banner_image: "/images/general_hospital_banner.png",
         description: "Department of Central Sterilization Services (CSSD)",
-        icon: "fa-x-ray",
+        icon: "fa-shield-virus",
         tabs: [
           {
             name: "Overview",
@@ -1657,7 +1702,7 @@ export const departments = [
         title: "Laundry Services",
         banner_image: "/images/general_hospital_banner.png",
         description: "Department of Laundry Services",
-        icon: "fa-x-ray",
+        icon: "fa-shirt",
         tabs: [
           {
             name: "Overview",
@@ -1694,22 +1739,845 @@ export const departments = [
         title: "Biomedical Waste",
         banner_image: "/images/general_hospital_banner.png",
         description: "Department of Biomedical Waste",
-        icon: "fa-x-ray",
+        icon: "fa-dumpster-fire",
         tabs: [
           {
             name: "Overview",
             image: "/images/general_medicine_overview.png",
             intro:
               "Collection, transportation ,disposal  management of hospital’s  Non‐ biological waste, (not intended for use)  and Bio Medical Waste  (BMW)  generated during diagnosis, treatment , immunization , research activities is  always as per  comprehensive guidelines for operation of Common Bio-medical Waste Treatment and Disposal Facilities (CBWTF) for  BMW from multiple healthcare facilities collection ,, transport, treatment, and safe disposal as per  Central Pollution Control Board (CPCB)  , Ministry of Environment and Forests, Government of India, mandatory under Bio-medical Waste Management (BMWM) Rules, Maharashtra State Pollution board (MSPB) ensuring no adverse effect to public health environment.",
-            details:
-              "Soiled linen is passed through jet washer installed in the soiled linen area to remove any stain/ particle, before further decontamination, washing with detergent solution machines. The washed linen is shifted to drying yard for drying in the open sunlight. During rainy season, drying tumblers and drying chambers are used for drying the washed linen. However, machines with drier are also there. The dried linen is collected and shifted to folding area for folding. After folding, the linen is packed and distributed. In the folding area, torn linen is separated for stitching/ repair works and put back into circulation. Regular linen condemnation is done with inbuilt system of replacement in stipulated delivery times to various wards/OTs/ICUs/OPDs.",
+            details: [
+              "BMW includes vaccination camps, blood donation camps, surgical camps or any other healthcare activity also. Pre-treatment of the laboratory waste, microbiological waste, blood samples and blood bags through disinfection or sterilization on-site is  as prescribed by WHO or NACO,   following Bar-Code System for bags or containers containing BMW for disposal. Solid Waste is segregated in colour code bins as prescribed action taken as per the planned system. Colour coded bins, bags  and needle destroyers are used in wards, laboratories, outpatient , wards, operation theatres etc as classified in to 4 categories Yellow with most of solid liquid waste Red Contaminated waste tubing, bottles, intravenous tubes and sets, catheters, urine bags, syringes (without needles) and gloves which need autoclaving/microwaving /hydroclaving  before recyling White sharps including metals Blue GlasswareThere is in house system for      Liquid Waste Management (LWM) with Effluent Treatment Plant (ETP)for treatment of highly infectious liquid waste with chemical and biological treatment followed with disinfection.  Pipes from infectious LW generated from laboratories, operation theatres and laundry are connected with ETP through underground system",
+              "Sewage water collection and disposal facility with underground drainage line connected with chambers, septic tanks, soakage pits of all sewage generating areas, wards of hospital, hostel campus, residential campus and offices etc., is followed with Sewage Treatment plant (STP). All sewage water is treated in STP used for agriculture. Physical chemical analysis of treated water is done on regular basis as per norms. Obsolete information technology (IT) equipment that can no longer be used or repaired are condemned through scraping or recycling by bioengineering department. Hazardous chemicals, radioactive waste t from radiology and radiotherapy departments is managed as per radiation safety guidelines prescribed by Atomic Energy Regulatory Board (AERB) for radiation safety.",
+            ],
           },
           {
             name: "Technology & Procedure",
             image: "/images/general_medicine_technology_procedure.png",
             intro: "",
             details:
-              "Modern equipment and Gadgets are used for washing soiled and other linen. Washing of the soiled linen is done using hot steam and adding required detergents adding fabric whitener and fragrance liquid at the end of washing process. Regular maintenance of all the machines is ensured for   optimal performance. Quality monitoring: Ensuring",
+              "Modern technology with smart systems and digital tools streamlines WM, reducing risks, ensuring proper disposal procedures. By integrating cutting-edge technology into WM workflows, errors are mitigated with   cleaner, safer environment. Right digital Sensors monitor waste containers for overflows or leaks in real time from anywhere, ensuring that potential hazards are identified,  including air quality   and addressed immediately .Tracking waste containers, disposal equipment, and treatment systems through digital asset management systems helps in ensuring  all assets are in proper condition and compliant with regulations. Automated workflows streamline collection, treatment, and disposal.",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "dietary-and-nutrition-services",
+        title: "Dietary and Nutrition Services",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Dietary and Nutrition Services",
+        icon: "fa-apple-whole",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro:
+              "Nourishing care through dietary and nutrition services is moto of services, with belief that good nutrition is integral part of healing process. Team understands crucial role of nutrition in healing, well-being, so services are designed to provide nourishing, wholesome meals that contribute to overall health, recovery.",
+            details: [
+              "Well-coordinated team of qualified dieticians provides customised nutritional support for wide range of medical conditions. From outpatient, inpatient care to specialised diet planning team ensures every patient receives clinically sound practical dietary solution. Team of skilled dieticians, chefs work together to create well-balanced, customized meal plans that meet dietary needs of each patient. Whether special therapeutic diets are required due to medical conditions or specific cultural or religious preferences, team strive to accommodate requirements with balanced nutritious food, emphasing importance of fresh ingredients to create meals that are not only healthy but also flavourful.",
+              "Team recognizes importance of cultural diversity; dietary services are tailored to cater to variety of tastes, preferences. Kitchen follows strict hygiene practices, maintains high-quality standards to ensure that every meal is safe and enjoyable It offers personalised dietary care and therapeutic nutrition plans for patients across all age groups. From inpatient assessments to lifestyle counselling, clinical dieticians help improve recovery, immunity, and long-term health outcomes through evidence-based diet management, may be medical nutrition therapy (MNT) for some disorders or critical care    So it plays vital role in health management and supporting patient recovery. In addition to inpatient meals, services extend to outpatient clinics, where nutritional counselling and guidance are offered to help one make informed dietary choices that support overall well-being.",
+              "Services cover therapeutic nutrition. One-on-one counselling is provided to help patients and their families adopt sustainable dietary changes. In addition to meal planning, team offers guidance on lifestyle modification and exercise.  Aggressive Nutrition Therapy with gruel or other items is used for faster recovery if advised by treating team.  There are pantries in wards. and floor wise dry cafeterias to ensure service providers take care of their needs timely not forgetting own physiology while dealing with pathologies of patients. For microbial testing for Ryle’s tube feeds, Infection control reporting of workers illness and injury standard operating system is maintained. Immunization regular screening of staff for any disease is inbuilt, maintaining hand personal hygiene, equipment, cleaning practices, use of personal protective equipment (PPE) is inbuilt.",
+            ],
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: [
+              "Administrative, receiving, storage, preparation, distribution, washing, garbage disposal is well planned with   good illumination in all areas, functioning exhaust hoods, exhaust fans, make up air units, Heating Ventilation Air Conditioning (HVAC) of units. Pipe connection of cooking gases, solar water heating system, efficient drainage system, Cold Storage, Refrigerators, Freezer, Right platforms, Weighing Scale, Vegetable Washers, Vegetable Cutting Machines, Grinders, Dough Kneading Machine, Dish Washing Machin, Chapatti making machine, Micro wave, Oven, Hot food distribution trolley, Trollies of different needs, Dish Washing, Machine.",
+              "For   prevention of cross contamination correct colour coded chopping boards and knives are available. Distribution of electric load is balanced to various equipment   to prevent mishappening electric fire hazard, damage to equipment. By advances in health information technology (HIT), patients can participate in nutrition care. Security arrangements, security personnel, CCTV installed with monitors placed help in ensuring efficient safe services.",
+            ],
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "pharmacy",
+        title: "Pharmacy",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Pharmacy",
+        icon: "fa-prescription-bottle-medical",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro:
+              "Mission of department of pharmacy with strong infrastructure, skilled manpower, modern technology and strict regulatory compliance is patient-centred services, with active participation in clinical care ensuring safe, effective, and economical use of medicines.",
+            details: [
+              "With Hospital Information System (HIS) Integration plays crucial role in patient care, ensuring continuous supply of essential medicines., quality and Pharmacovigilance adverse drug reaction (ADR) monitoring & reporting. Drugs are divided in systematic way to ensure safe, efficient storage, dispensing, and inventory management. Team provides vital support to clinical departments in therapeutic area and adverse drug reaction monitoring. Pharmacy services are provided for outpatients, inpatients 24-hours 7days   with rapid response systems   dispensing, preparation of non-sterile and sterile commodities as required are all well manned   Dispensing areas are separate for emergencies, inpatients and outpatients. Bulk stores are in house, refrigerated stores and flammable goods storage well designed. Diagnostic kits, General surgical, Consumables- Gloves ,Eve covers ,Chemicals, Suture material   Solids- tablets, capsules, powders, Liquid- syrups, suspensions, solutions Drops Injectables – Intravenous, Intramuscular, Subcutaneous       preparations (kept separately, often refrigerated as per norms )Topical -ointments, creams, gels, lotions,  Inhalation products- inhalers, nebulizer, sprays , Immunological products (vaccines, immunoglobulins) Investigational/New drugs clinical trials   are stored separately, as well as kept on racks keeping  categories in mind .",
+              "Medications division includes- Antibiotics, Antifungals, Antivirals    Analgesics Pain and Palliative Care medicines. Medication for Noncommunicable disorders, Anti Cancers, Hormones, Anaesthetics, Antiallergics, Antidotes, Haematinics Multivitamins, Medicines for Neurological Disorders.  Controlled substances / Narcotics & Psychotropics as per Narcotics and Psychotropic Substances (NDPS) Act India with special registers and storage. Medication error prevention protocols are inbuilt with regular audits – prescription audits, stock audits. Expiry monitoring ensured  for patients safety and safety and prevention of waste of resources.",
+            ],
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: [
+              "A wide range of technologies are used to manage procurement, storage, dispensing, patient safety, and clinical decision support. Hospital Information System (HIS) Integration with e-prescriptions, Barcode-based dispensing for accuracy reduce errors.  Cold Chain Monitoring Systems for vaccines, biologics. Drug Information system   with access to updated databases. Cold Chain Monitoring Devices, Multiple refrigerators as per need for storing specific medications, lockable with temperature monitoring system, Security measures for consideration including electronic door   controls, Movement sensors alarms are inbuilt Security glazing or shutters    Intrusion detector alarm with   monitoring system have been installed and connected to a central alarm/ warning system on 24-hour basis.",
+            ],
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "quality-assurance-services",
+        title: "Quality Assurance Services",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Quality Assurance Services ",
+        icon: "fa-clipboard-check",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro:
+              "Functional quality assurance department (QAD) has been established for high-quality timely delivery of   services with commitment and compassion for treatment of global standards with clinical excellence, medical, surgical   and patient trust.",
+            details: [
+              "For “Quality Assurance Standards” areas of concern included but not limited, are Service Provision, Patient Rights, Inputs, Support Services, Clinical Care, Infection Control, Quality Management and Outcome. There is successful integration of finest techniques, smartest people, latest technologies for best of healthcare.  Team takes action   to prevent problems from occurring, detect and correct when they occur, encourages higher standards of care, suggests elimination or education as per need for improvement in practices.  It is expected that Patient satisfaction will encourage best use of services, healthy communities, accreditation too.",
+              "While team of caregivers, including specialists from different disciplines offers quality services with empathy, partnering with patients offering collaborative clinical decision making with precision, based on evidence and continuity of care every day, team of from QA, clinical experts, nurses, technicians looks into various aspects of services for quality, with mechanism of looking into clinical services, time in outpatient, triage, exit information from  users in outpatient inpatient, operation theatre, Intensive care units. In addition, Infection, admission discharge too is monitored.  Each wing of central lab has its QA system, QAD has liaison with QA of different segments of lab too. There are in house “Health care Audits”, not only of maternal, perinatal deaths but over all deaths as well sever illnesses, specially, severity of illness after admission, quality improvement.",
+              "There is anonymous system for patients, relatives’ feedback, grievances, suggestions, which drives service improvement, fuels innovation, reinforces best practices, provides qualitative data too.  For quality services. needs of service providers are not forgotten and so similar system exists for them too. Quality assurance serves as compass, diligently guiding towards pinnacle of safety, efficiency, excellence., ensuring smooth performance.  QA also ensures   teams comply with regulations and guidelines designed to protect safety, promote quality care with mechanism to detect potential issues, enabling corrective actions before patients are adversely affected ,striving for excellence ,instiling culture of quality, where every action, procedure, decision guided by commitment..  Moreover, it ensures accountability, transparency, fostering trust between patient and provider. Personalized treatment protocols ensure that each patient’s unique needs are addressed, promoting better health outcomes.",
+            ],
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: [
+              "Quality assurance department is well equipped with information technology for records, analysis of data interpretation and suggestions for change needed. By leveraging technology electronic health records and prescription tracking systems, healthcare providers enhance medication safety too. These digital tools can flag potential drug interactions, monitor dosage, and provide real-time updates to all. Specifically, adopting Artificial Intelligence (AI) is used to mitigate challenge of rapidly evolving healthcare regulations, daunting task Software’s have emerged as vital tool in healthcare. Detecting possible threats to data security and patient privacy crucial role in mitigating risks.",
+            ],
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    category: "Future Likely Developments/ Divisions in Existing Departments",
+    items: [
+      {
+        slug: "neonatology",
+        title: "Neonatology",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Neonatology",
+        icon: "fa-baby",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "infectious-diseases",
+        title: "Infectious Diseases",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Infectious Diseases",
+        icon: "fa-virus",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "endocrinology",
+        title: "Endocrinology",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Endocrinology",
+        icon: "fa-dna",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "geriatric-medicine",
+        title: "Geriatric Medicine",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Geriatric Medicine",
+        icon: "fa-person-cane",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "family-medicine",
+        title: "Family Medicine",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Family Medicine",
+        icon: "fa-people-roof",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "joint-replacement",
+        title: "Joint replacement",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Joint replacement",
+        icon: "fa-bone",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "opthalmology-aspects",
+        title: "Opthalmology Aspects",
+        banner_image: "/images/general_hospital_banner.png",
+        description:
+          "Different aspects of Ophthalmology- Retina, Cornea, Paediatric Ophthalmology",
+        icon: "bi-eye",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "Radiodiagnosis-Interventional-Radiology",
+        title: "Radiodiagnosis Interventional Radiology",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Radiodiagnosis – Interventional Radiology",
+        icon: "bi-radioactive",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "full-fledged-robotic-surgery-supporting-regular-surgeries",
+        title: "Full fledged Robotic Surgery Supporting Regular Surgeries",
+        banner_image: "/images/general_hospital_banner.png",
+        description:
+          "Department of Full fledged Robotic Surgery Supporting Regular Surgeries",
+        icon: "fa-robot",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "tissue-transplant-organ-transplant-single-multiorgan",
+        title: "Tissue Transplant Organ transplant Single Multiorgan",
+        banner_image: "/images/general_hospital_banner.png",
+        description:
+          "Department of Tissue Transplant/ Organ transplant/ Single Multiorgan",
+        icon: "fa-lungs",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    category: "Future Likely More Clinical Departments",
+    items: [
+      {
+        slug: "occupational-health",
+        title: "Occupational Health",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Occupational Health",
+        icon: "fa-helmet-safety",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "sports-medicine",
+        title: "Sports Medicine",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Sports Medicine",
+        icon: "fa-person-running",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "reproductive-medicine-with-in-vitro-fertilization",
+        title: "Reproductive Medicine with In Vitro Fertilization",
+        banner_image: "/images/general_hospital_banner.png",
+        description:
+          "Department of Reproductive Medicine with In Vitro Fertilization",
+        icon: "fa-venus-double",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "foetal-medicine-including-intrauterine-foetal-therapy-medical-surgical",
+        title:
+          "Foetal Medicine including Intrauterine foetal therapy Medical Surgical",
+        banner_image: "/images/general_hospital_banner.png",
+        description:
+          "Department of Foetal Medicine including Intrauterine foetal therapy- Medical, Surgical",
+        icon: "bi-heart-pulse",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "gene-therapy",
+        title: "Gene Therapy",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Gene Therapy",
+        icon: "fa-dna",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "stem-cell-medicine",
+        title: "Stem Cell Medicine",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Stem Cell Medicine",
+        icon: "fa-seedling",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "nuclear-medicine",
+        title: "Nuclear Medicine",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Nuclear Medicine",
+        icon: "fa-radiation",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "advanced-tele-medicine",
+        title: "Advanced Tele Medicine",
+        banner_image: "/images/general_hospital_banner.png",
+        description: "Department of Advanced Tele Medicine",
+        icon: "fa-laptop-medical",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "full-fledged-robotic-surgery-supporting-regular-surgeries",
+        title: "Full fledged Robotic Surgery Supporting Regular Surgeries",
+        banner_image: "/images/general_hospital_banner.png",
+        description:
+          "Department of Full fledged Robotic Surgery Supporting Regular Surgeries",
+        icon: "fa-robot",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "tissue-transplant-organ-transplant-single-multiorgan",
+        title: "Tissue Transplant Organ transplant Single Multiorgan",
+        banner_image: "/images/general_hospital_banner.png",
+        description:
+          "Department of Tissue Transplant/ Organ transplant/ Single Multiorgan",
+        icon: "fa-heart-pulse",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro: "",
+            details: "",
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro: "",
+            details: "",
           },
           {
             name: "Academics & Research",

@@ -209,7 +209,7 @@ import { departments } from "../../data/departments";
 // ];
 
 const displaydepartments = () => {
-  for (const department of departments[1].items) {
+  for (const department of departments[5].items) {
     console.log(department.title);
   }
 };

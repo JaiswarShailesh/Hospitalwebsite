@@ -232,8 +232,7 @@ export default function DepartmentsPage() {
           <div className="container section-title" data-aos="fade-up">
             <h2>{department.category}</h2>
             <p>
-              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-              consectetur velit
+              {department.tagline}
             </p>
           </div>
           {/* End Section Title */}

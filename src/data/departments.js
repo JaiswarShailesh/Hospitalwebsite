@@ -1,6 +1,8 @@
 export const departments = [
   {
     category: "Specialty",
+    tagline:
+      "Comprehensive care across core medical fields for every stage of life.",
     items: [
       {
         slug: "general-medicine",
@@ -643,6 +645,8 @@ export const departments = [
   },
   {
     category: "Super Specialty",
+    tagline:
+      "Advanced expertise and technology for complex conditions and precision treatment.",
     items: [
       {
         slug: "cardiology",
@@ -1171,6 +1175,7 @@ export const departments = [
   },
   {
     category: "Central Clinical Laboratory / Laboratory Medicine",
+    tagline: 'Precision diagnostics powering better treatment decisions.',
     items: [
       {
         slug: "central-clinical-laboratory-laboratory-medicine",
@@ -1572,6 +1577,8 @@ export const departments = [
   // },
   {
     category: "Support Services",
+    tagline:
+      "Behind-the-scenes excellence ensuring safe, smooth, and seamless patient care.",
     items: [
       {
         slug: "transfusion-medicine",
@@ -1900,6 +1907,7 @@ export const departments = [
   },
   {
     category: "Future Likely Developments/ Divisions in Existing Departments",
+    tagline: "Expanding expertise with advanced sub-specialties for tomorrow’s healthcare.",
     items: [
       {
         slug: "neonatology",
@@ -2248,6 +2256,7 @@ export const departments = [
   },
   {
     category: "Future Likely More Clinical Departments",
+    tagline: "Pioneering new specialties to meet the evolving needs of patients.",
     items: [
       {
         slug: "occupational-health",

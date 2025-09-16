@@ -9,7 +9,7 @@ export const departments = [
         title: "General Medicine",
         banner_image: "/images/general_medicine_banner.png",
         description:
-          " Department of Medicine including Infectious Diseases, Endocrinology, Rheumatology.",
+          "Department of Medicine including Infectious Diseases, Endocrinology, Rheumatology, Geriatric Medicine",
         icon: "fa-stethoscope",
         tabs: [
           {
@@ -49,7 +49,7 @@ export const departments = [
         title: "General Surgery",
         banner_image: "/images/general_surgery_banner.png",
         description:
-          "Department Of General Surgery including Minimally invasive surgery, Burns care",
+          "Department of General Surgery including Minimally invasive surgery",
         icon: "fa-user-md",
         tabs: [
           {
@@ -87,7 +87,7 @@ export const departments = [
         title: "Obstetrics & Gynaecology",
         banner_image: "/images/gynecologist_banner.png",
         description:
-          "Department of Obstetrics Gynaecology with Minimal Invasive Surgery, Assisted Reproductive Technology, Maternal-Foetal medicine",
+          "Department of Obstetrics Gynaecology with   Minimal Invasive Surgery, Assisted Reproductive Technology, Maternal - Foetal medicine",
         icon: "fa-female",
         tabs: [
           {
@@ -123,51 +123,10 @@ export const departments = [
         ],
       },
       {
-        slug: "pediatrics",
-        title: "Pediatrics",
-        banner_image: "/images/pediatrics_banner.png",
-        description: "Department of Pediatrics, including neonatology",
-        icon: "fa-baby",
-        tabs: [
-          {
-            name: "Overview",
-            image: "/images/sample_overview.png",
-            intro:
-              "Our mission is to protect, promote, support, and restore the health of newborns, infants, children, and young adolescents. With a strong commitment to exceptional care, counseling, and advocacy, we ensure a comprehensive focus on health and well-being through specialized NICU and PICU facilities, immunization, growth monitoring, and developmental surveillance.",
-            details: [
-              "Experts provide excellent clinical care with innovative, cutting-edge technology, including therapeutic hypothermia, mechanical ventilation, continuous positive airway pressure (CPAP) therapy, obstructive sleep apnoea (OSA) management, and surfactant therapy with 24x7 neonatal resuscitation and emergency care. Research activities bring science from bench to bedside with a thrust in neonatal sepsis and perinatal asphyxia—the biggest killers of tiny toddlers—and early interventions for high-risk neonates with health and compassion.",
-              "In-house Paediatric Surgery is available to improve the quality of life for children with surgical needs, from common surgeries to advanced neonatal and thoracic interventions. The department offers in-house expert solutions for a wide spectrum of conditions. It also manages paediatric urology, gastrointestinal and hepatobiliary disorders, and solid tumours, with in-house services of Neurology, Psychiatry, Pulmonology, Nephrology, Cardiology, Genetic Counselling, Gastroenterology, Endocrinology, and HIV testing and therapy. A strong focus is maintained on minimally invasive techniques like laparoscopy, thoracoscopy, bronchoscopy, and cystoscopy, which enhance recovery and comfort. The team collaborates closely with experts to deliver holistic and coordinated treatment.",
-              "It offers comprehensive, affordable, and internationally benchmarked care for critically ill and preterm newborns. Every baby receives life-saving support with compassion and precision. From life-saving ventilator support and nitric oxide therapy to functional echocardiography, the department provides a full spectrum of neonatal interventions. The team monitors each baby’s growth, nutrition, and development, and provides post-discharge follow-up, especially for vulnerable preterm and low birth weight babies.",
-              "Play area, breastfeeding cubicle, and well-baby area are available every day, with specialty clinic days displayed for focused care in high-risk neonates, birth defects, special needs, Attention-Deficit/Hyperactivity Disorder (ADHD), Global Developmental Delay (GDD), Haemato-oncology, Paediatric Ophthalmology, and Autism Spectrum Disorder (ASD).",
-            ],
-          },
-          {
-            name: "Technology & Procedure",
-            image: "/images/sample_technologyProcedure.png",
-            intro: "",
-            details:
-              "Advanced diagnostic and therapeutic tools, neonatal resuscitation with Laryngoscopes, Ventilators 24hours all 7days, emergency neonatal care are always available In house .Electrodiagnostic evaluation adds to clinical examination, Electroencephalogram (EEG) for developmental delays, loss of consciousness, abnormal movements behaviour electromyography (EMG) for electrophysiological examinations  inhouse video bronchoscopy, genetic testing, metabolic screening including  congenital hypothyroidism therapy, genetic tests like Karyotyping, early intervention (physiotherapy, speech therapy and special education) help in best of timely therapy.",
-          },
-          {
-            name: "Academics & Research",
-            image: "/images/sample_academicsResearch.png",
-            intro: "Some Intro",
-            details: "Some Description",
-          },
-        ],
-        consultants: [
-          {
-            name: "Dr. Sample Doctor",
-            tags: ["Sample Data", "Some Speciality"],
-            profilePhoto: "/images/doctors/Male_doctor.png",
-          },
-        ],
-      },
-      {
         slug: "orthopedics",
         title: "Orthopedics",
         banner_image: "/images/orthopedics_banner.png",
-        description: "Department of Orthopaedics",
+        description: "Department of Orthopaedics, Joint replacement inclusive",
         icon: "fa-bone",
         tabs: [
           {
@@ -206,7 +165,7 @@ export const departments = [
         slug: "otorhinolaryngology",
         title: "Otorhinolaryngology",
         banner_image: "/images/otorhinolaryngology_banner.png",
-        description: "Department of Otorhinolaryngology ",
+        description: "Department of Otorhinolaryngology",
         icon: "fa-ear-listen",
         tabs: [
           {
@@ -227,6 +186,47 @@ export const departments = [
             details: [
               "Vestibular Evoked Myogenic Potential (VEMP) neurophysiologic test for evaluation of auditory balance or dizziness disorders, sleep pathology assessment, Rhinomanometry, Apneography, Skin prick test, , speech assessment, Laryngeal Videostroboscopy voice evaluation, etc) Audiology -stroboscope. , Navigation system, Transoral Endoscopic Ultrasonic Surgery (TOUSS), Microdebrider, Nerve monitor, Radiofrequency Ablation (RFA), Robotic Surgery, Cavitational Ultrasonic Surgical Aspiration (CUSA), (Ultrasound cavitation for fragmentation of tissue, resection aspiration. etc). Narrow Band Imaging (NBI) combined with White Light Imaging (WLI) for diagnosis of mucosal lesions of upper aerodigestive tract, cases of carcinoma of unknown primary , determination of intraoperative resection margins.",
             ],
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/sample_academicsResearch.png",
+            intro: "Some Intro",
+            details: "Some Description",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
+      {
+        slug: "pediatrics",
+        title: "Pediatrics",
+        banner_image: "/images/pediatrics_banner.png",
+        description: "Department of Paediatrics, Neonatology inclusive",
+        icon: "fa-baby",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/sample_overview.png",
+            intro:
+              "Our mission is to protect, promote, support, and restore the health of newborns, infants, children, and young adolescents. With a strong commitment to exceptional care, counseling, and advocacy, we ensure a comprehensive focus on health and well-being through specialized NICU and PICU facilities, immunization, growth monitoring, and developmental surveillance.",
+            details: [
+              "Experts provide excellent clinical care with innovative, cutting-edge technology, including therapeutic hypothermia, mechanical ventilation, continuous positive airway pressure (CPAP) therapy, obstructive sleep apnoea (OSA) management, and surfactant therapy with 24x7 neonatal resuscitation and emergency care. Research activities bring science from bench to bedside with a thrust in neonatal sepsis and perinatal asphyxia—the biggest killers of tiny toddlers—and early interventions for high-risk neonates with health and compassion.",
+              "In-house Paediatric Surgery is available to improve the quality of life for children with surgical needs, from common surgeries to advanced neonatal and thoracic interventions. The department offers in-house expert solutions for a wide spectrum of conditions. It also manages paediatric urology, gastrointestinal and hepatobiliary disorders, and solid tumours, with in-house services of Neurology, Psychiatry, Pulmonology, Nephrology, Cardiology, Genetic Counselling, Gastroenterology, Endocrinology, and HIV testing and therapy. A strong focus is maintained on minimally invasive techniques like laparoscopy, thoracoscopy, bronchoscopy, and cystoscopy, which enhance recovery and comfort. The team collaborates closely with experts to deliver holistic and coordinated treatment.",
+              "It offers comprehensive, affordable, and internationally benchmarked care for critically ill and preterm newborns. Every baby receives life-saving support with compassion and precision. From life-saving ventilator support and nitric oxide therapy to functional echocardiography, the department provides a full spectrum of neonatal interventions. The team monitors each baby’s growth, nutrition, and development, and provides post-discharge follow-up, especially for vulnerable preterm and low birth weight babies.",
+              "Play area, breastfeeding cubicle, and well-baby area are available every day, with specialty clinic days displayed for focused care in high-risk neonates, birth defects, special needs, Attention-Deficit/Hyperactivity Disorder (ADHD), Global Developmental Delay (GDD), Haemato-oncology, Paediatric Ophthalmology, and Autism Spectrum Disorder (ASD).",
+            ],
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/sample_technologyProcedure.png",
+            intro: "",
+            details:
+              "Advanced diagnostic and therapeutic tools, neonatal resuscitation with Laryngoscopes, Ventilators 24hours all 7days, emergency neonatal care are always available In house .Electrodiagnostic evaluation adds to clinical examination, Electroencephalogram (EEG) for developmental delays, loss of consciousness, abnormal movements behaviour electromyography (EMG) for electrophysiological examinations  inhouse video bronchoscopy, genetic testing, metabolic screening including  congenital hypothyroidism therapy, genetic tests like Karyotyping, early intervention (physiotherapy, speech therapy and special education) help in best of timely therapy.",
           },
           {
             name: "Academics & Research",
@@ -366,8 +366,7 @@ export const departments = [
         slug: "psychiatry",
         title: "Psychiatry",
         banner_image: "/images/general_hospital_banner.png",
-        description:
-          "Advanced imaging services for accurate diagnosis and efficient treatment planning.",
+        description: "Department of Psychiatry with Clinical Psychology ",
         icon: "fa-brain",
         tabs: [
           {
@@ -404,11 +403,10 @@ export const departments = [
         ],
       },
       {
-        slug: "radiology",
-        title: "Radiology",
+        slug: "radiodiagnosis",
+        title: "Radiodiagnosis",
         banner_image: "/images/general_hospital_banner.png",
-        description:
-          "Department of Radiology, Interventional Radiology, Picture Archiving and Communication Systems (PACS) Inclusive",
+        description: "Department of Radiodiagnosis",
         icon: "fa-x-ray",
         tabs: [
           {
@@ -519,7 +517,7 @@ export const departments = [
         slug: "radiation-and-palliation-services",
         title: "Radiation and Palliation Services",
         banner_image: "/images/general_hospital_banner.png",
-        description: "Department of Radiation Therapy, Palliation Inclusive ",
+        description: "Department of Radiation Therapy",
         icon: "fa-radiation",
         tabs: [
           {
@@ -602,7 +600,7 @@ export const departments = [
         title: "Community Health and Outreach",
         banner_image: "/images/general_hospital_banner.png",
         description:
-          "Department of Community Medicine, Preventive Health Care, Vaccination Community Outreach Inclusve",
+          "Department of Community Medicine /Preventive & Social Medicine, Outreach activities Inclusive",
         icon: "fa-hands",
         tabs: [
           {
@@ -641,6 +639,47 @@ export const departments = [
           },
         ],
       },
+      {
+        slug: "central-clinical-laboratory-laboratory-medicine",
+        title: "Central Clinical Laboratory Laboratory Medicine",
+        banner_image: "/images/general_hospital_banner.png",
+        description:
+          "Department of Central Clinical Laboratory, Pathology, Microbiology, Biochemistry, Haematology, Haematooncology. Immunohistochemistry, Cytogenetics Inclusive",
+        icon: "fa-tint",
+        tabs: [
+          {
+            name: "Overview",
+            image: "/images/general_medicine_overview.png",
+            intro:
+              "Sate of art  central clinical laboratory(CCL) is well equipped with facilities for outpatient and round the clock inpatients and emergencies, Clinical Pathology-Histopathology, Cytopathology, Clinical Biochemistry, Haematology, Coagulation studies, Flow Cytometry, Serology, Immunology, Immunofluorescence Assay (IFA), Microbiology- Bacteriology (Aerobic & Anaerobic), Mycology, Parasitology, Virology, Molecular Biology and Cytogenetics Lab is manned by specialist doctors   and expert technicians.",
+            details: [
+              "It works on hospital-wide information system for ordering and reporting laboratory test results.  Confidentiality of reports about personal information of patients is maintained. There are trained personnel available for interpretation of results and clinicians are available for advice based on the reports. If patient is not satisfied with laboratory services or has some specific grievance, a complaint box is placed in collection area where he / she can put complaint along with name phone number. Action is taken on complaint and feedback is available. ",
+              "Services for a wide range of tests Cardiac, Liver, Renal, Lipid Coagulation profiles, Hormonal Assays, Cancer Markers, Microbe cultures and antibiotic sensitivities, Genetic markers, Drug assay and Toxicology tests with Routine tests are available for patients of area who take services of local private practitioners, with facility to email / courier / reports which can also be accessed from web portal using a unique password.",
+            ],
+          },
+          {
+            name: "Technology & Procedure",
+            image: "/images/general_medicine_technology_procedure.png",
+            intro:
+              "CCL offers highly advanced diagnostic, genetic and molecular biology tests including predictive tests for cancers, heart disease, for infertility, miscarriage and prenatal diseases many other disorders.",
+            details:
+              "Key feature of laboratory services is hospital-wide pneumatic transportation or tube system (Sample Subway). Passengers are medicines, samples and blood bags. Using this system, laboratory can accept more samples safely securely and faster. Hospital Information system does best for documents and reports. In addition to day-to-day tests for various organ functions, liver. kidney ,heart, etc  under haematology ,clinical  pathology ,clinical biochemistry  ,Immunology  ,  Automation - serum testing  including Spectrophotometer , Haematology analysers, , Coagulometer  Flow  cytometry, CLIA   ELISA  FOR antibodies/antigens infection and autoimmune diagnosis, Automated bacterial, fungal, and mycobacterial analyser  ,  INCUBATORS Tissue-based diagnostics , including cancers, technology for Radioimmune assay (RIA) for Hormonal, Endocrinal studies ,Molecular Diagnostics like   PCR Machine  RT-PCR  for     advanced testing of genetic, viral load, and mutation analysis ,GC-MS (Gas Chromatography-Mass Spectrometry   for   monitoring drug levels; detecting  toxins and poisons for diagnosis of genetic and chromosomal disorders Genetic panels, Chromosome Analyzer, DNA Sequencer FISH Analyzer are all available  for earliest possible diagnosis  essential for care of global standard even for rural masses .",
+          },
+          {
+            name: "Academics & Research",
+            image: "/images/general_medicine_academics_research.png",
+            intro: "",
+            details: "",
+          },
+        ],
+        consultants: [
+          {
+            name: "Dr. Sample Doctor",
+            tags: ["Sample Data", "Some Speciality"],
+            profilePhoto: "/images/doctors/Male_doctor.png",
+          },
+        ],
+      },
     ],
   },
   {
@@ -652,7 +691,7 @@ export const departments = [
         slug: "cardiology",
         title: "Cardiology",
         banner_image: "/images/general_hospital_banner.png",
-        description: "Department of Cardiology, Paediatric Inclusive",
+        description: "Department of Cardiology",
         icon: "fa-heartbeat",
         tabs: [
           {
@@ -772,7 +811,7 @@ export const departments = [
         slug: "nephrology",
         title: "Nephrology",
         banner_image: "/images/general_hospital_banner.png",
-        description: "Department of Nephrology, Dialysis Inclusive",
+        description: "Department of Nephrology",
         icon: "bi-droplet-half",
         tabs: [
           {
@@ -1094,7 +1133,7 @@ export const departments = [
         title: "Plastic and Reconstructive Surgery",
         banner_image: "/images/general_hospital_banner.png",
         description:
-          "Department of Plastic & Reconstructive Surgery, Maxillofacial, Burns care Inclusive",
+          "Department of Plastic & Reconstructive Surgery, Burns care",
         icon: "bi-scissors",
         tabs: [
           {
@@ -1134,7 +1173,7 @@ export const departments = [
         title: "Oncology and Haemato-Oncology",
         banner_image: "/images/general_hospital_banner.png",
         description:
-          "Department of Surgical, Medical Oncology, Haemato oncology, Chemotherapy Inclusive",
+          "Department of Surgical, Medical Oncology, Chemotherapy Inclusive",
         icon: "fa-ribbon",
         tabs: [
           {
@@ -1173,390 +1212,35 @@ export const departments = [
       },
     ],
   },
-  {
-    category: "Central Clinical Laboratory / Laboratory Medicine",
-    tagline: 'Precision diagnostics powering better treatment decisions.',
-    items: [
-      {
-        slug: "central-clinical-laboratory-laboratory-medicine",
-        title: "Central Clinical Laboratory Laboratory Medicine",
-        banner_image: "/images/general_hospital_banner.png",
-        description:
-          "Department of Central Clinical Laboratory, Pathology, Microbiology, Biochemistry, Haematology, Haematooncology. Immunohistochemistry, Cytogenetics Inclusive",
-        icon: "fa-tint",
-        tabs: [
-          {
-            name: "Overview",
-            image: "/images/general_medicine_overview.png",
-            intro:
-              "Sate of art  central clinical laboratory(CCL) is well equipped with facilities for outpatient and round the clock inpatients and emergencies, Clinical Pathology-Histopathology, Cytopathology, Clinical Biochemistry, Haematology, Coagulation studies, Flow Cytometry, Serology, Immunology, Immunofluorescence Assay (IFA), Microbiology- Bacteriology (Aerobic & Anaerobic), Mycology, Parasitology, Virology, Molecular Biology and Cytogenetics Lab is manned by specialist doctors   and expert technicians.",
-            details: [
-              "It works on hospital-wide information system for ordering and reporting laboratory test results.  Confidentiality of reports about personal information of patients is maintained. There are trained personnel available for interpretation of results and clinicians are available for advice based on the reports. If patient is not satisfied with laboratory services or has some specific grievance, a complaint box is placed in collection area where he / she can put complaint along with name phone number. Action is taken on complaint and feedback is available. ",
-              "Services for a wide range of tests Cardiac, Liver, Renal, Lipid Coagulation profiles, Hormonal Assays, Cancer Markers, Microbe cultures and antibiotic sensitivities, Genetic markers, Drug assay and Toxicology tests with Routine tests are available for patients of area who take services of local private practitioners, with facility to email / courier / reports which can also be accessed from web portal using a unique password.",
-            ],
-          },
-          {
-            name: "Technology & Procedure",
-            image: "/images/general_medicine_technology_procedure.png",
-            intro:
-              "CCL offers highly advanced diagnostic, genetic and molecular biology tests including predictive tests for cancers, heart disease, for infertility, miscarriage and prenatal diseases many other disorders.",
-            details:
-              "Key feature of laboratory services is hospital-wide pneumatic transportation or tube system (Sample Subway). Passengers are medicines, samples and blood bags. Using this system, laboratory can accept more samples safely securely and faster. Hospital Information system does best for documents and reports. In addition to day-to-day tests for various organ functions, liver. kidney ,heart, etc  under haematology ,clinical  pathology ,clinical biochemistry  ,Immunology  ,  Automation - serum testing  including Spectrophotometer , Haematology analysers, , Coagulometer  Flow  cytometry, CLIA   ELISA  FOR antibodies/antigens infection and autoimmune diagnosis, Automated bacterial, fungal, and mycobacterial analyser  ,  INCUBATORS Tissue-based diagnostics , including cancers, technology for Radioimmune assay (RIA) for Hormonal, Endocrinal studies ,Molecular Diagnostics like   PCR Machine  RT-PCR  for     advanced testing of genetic, viral load, and mutation analysis ,GC-MS (Gas Chromatography-Mass Spectrometry   for   monitoring drug levels; detecting  toxins and poisons for diagnosis of genetic and chromosomal disorders Genetic panels, Chromosome Analyzer, DNA Sequencer FISH Analyzer are all available  for earliest possible diagnosis  essential for care of global standard even for rural masses .",
-          },
-          {
-            name: "Academics & Research",
-            image: "/images/general_medicine_academics_research.png",
-            intro: "",
-            details: "",
-          },
-        ],
-        consultants: [
-          {
-            name: "Dr. Sample Doctor",
-            tags: ["Sample Data", "Some Speciality"],
-            profilePhoto: "/images/doctors/Male_doctor.png",
-          },
-        ],
-      },
-      // {
-      //   slug: "pathology",
-      //   title: "Pathology",
-      //   banner_image: "/images/general_hospital_banner.png",
-      //   description:
-      //     "Physician-led diagnostics to support clinical decision-making.",
-      //   icon: "fa-vials",
-      //   tabs: [
-      //     {
-      //       name: "Overview",
-      //       image: "/images/general_medicine_overview.png",
-      //       intro: "",
-      //       details: "",
-      //     },
-      //     {
-      //       name: "Technology & Procedure",
-      //       image: "/images/general_medicine_technology_procedure.png",
-      //       intro: "",
-      //       details: "",
-      //     },
-      //     {
-      //       name: "Academics & Research",
-      //       image: "/images/general_medicine_academics_research.png",
-      //       intro: "",
-      //       details: "",
-      //     },
-      //   ],
-      //   consultants: [
-      //     {
-      //       name: "Dr. Sample Doctor",
-      //       tags: ["Sample Data", "Some Speciality"],
-      //       profilePhoto: "/images/doctors/Male_doctor.png",
-      //     },
-      //   ],
-      // },
-      // {
-      //   slug: "clinical-biochemistry",
-      //   title: "Clinical Biochemistry",
-      //   banner_image: "/images/general_hospital_banner.png",
-      //   description:
-      //     "Comprehensive care for women’s health across all life stages.",
-      //   icon: "fa-flask",
-      //   tabs: [
-      //     {
-      //       name: "Overview",
-      //       image: "/images/general_medicine_overview.png",
-      //       intro: "",
-      //       details: "",
-      //     },
-      //     {
-      //       name: "Technology & Procedure",
-      //       image: "/images/general_medicine_technology_procedure.png",
-      //       intro: "",
-      //       details: "",
-      //     },
-      //     {
-      //       name: "Academics & Research",
-      //       image: "/images/general_medicine_academics_research.png",
-      //       intro: "",
-      //       details: "",
-      //     },
-      //   ],
-      //   consultants: [
-      //     {
-      //       name: "Dr. Sample Doctor",
-      //       tags: ["Sample Data", "Some Speciality"],
-      //       profilePhoto: "/images/doctors/Male_doctor.png",
-      //     },
-      //   ],
-      // },
-      // {
-      //   slug: "hematology",
-      //   title: "Hematology",
-      //   banner_image: "/images/general_hospital_banner.png",
-      //   description:
-      //     "Promoting public health through prevention, education, and outreach.",
-      //   icon: "fa-syringe",
-      //   tabs: [
-      //     {
-      //       name: "Overview",
-      //       image: "/images/general_medicine_overview.png",
-      //       intro: "",
-      //       details: "",
-      //     },
-      //     {
-      //       name: "Technology & Procedure",
-      //       image: "/images/general_medicine_technology_procedure.png",
-      //       intro: "",
-      //       details: "",
-      //     },
-      //     {
-      //       name: "Academics & Research",
-      //       image: "/images/general_medicine_academics_research.png",
-      //       intro: "",
-      //       details: "",
-      //     },
-      //   ],
-      //   consultants: [
-      //     {
-      //       name: "Dr. Sample Doctor",
-      //       tags: ["Sample Data", "Some Speciality"],
-      //       profilePhoto: "/images/doctors/Male_doctor.png",
-      //     },
-      //   ],
-      // },
-      // {
-      //   slug: "microbiology",
-      //   title: "Microbiology",
-      //   banner_image: "/images/general_hospital_banner.png",
-      //   description:
-      //     "Safe and timely blood collection, storage, and transfusion services.",
-      //   icon: "fa-bacteria",
-      //   tabs: [
-      //     {
-      //       name: "Overview",
-      //       image: "/images/general_medicine_overview.png",
-      //       intro: "",
-      //       details: "",
-      //     },
-      //     {
-      //       name: "Technology & Procedure",
-      //       image: "/images/general_medicine_technology_procedure.png",
-      //       intro: "",
-      //       details: "",
-      //     },
-      //     {
-      //       name: "Academics & Research",
-      //       image: "/images/general_medicine_academics_research.png",
-      //       intro: "",
-      //       details: "",
-      //     },
-      //   ],
-      //   consultants: [
-      //     {
-      //       name: "Dr. Sample Doctor",
-      //       tags: ["Sample Data", "Some Speciality"],
-      //       profilePhoto: "/images/doctors/Male_doctor.png",
-      //     },
-      //   ],
-      // },
-      // {
-      //   slug: "molecular-diagnostics",
-      //   title: "Molecular Diagnostics",
-      //   banner_image: "/images/general_hospital_banner.png",
-      //   description:
-      //     "Empowering people and processes for seamless healthcare delivery.",
-      //   icon: "fa-dna",
-      //   tabs: [
-      //     {
-      //       name: "Overview",
-      //       image: "/images/general_medicine_overview.png",
-      //       intro: "",
-      //       details: "",
-      //     },
-      //     {
-      //       name: "Technology & Procedure",
-      //       image: "/images/general_medicine_technology_procedure.png",
-      //       intro: "",
-      //       details: "",
-      //     },
-      //     {
-      //       name: "Academics & Research",
-      //       image: "/images/general_medicine_academics_research.png",
-      //       intro: "",
-      //       details: "",
-      //     },
-      //   ],
-      //   consultants: [
-      //     {
-      //       name: "Dr. Sample Doctor",
-      //       tags: ["Sample Data", "Some Speciality"],
-      //       profilePhoto: "/images/doctors/Male_doctor.png",
-      //     },
-      //   ],
-      // },
-    ],
-  },
   // {
-  //   category: "Radiology / Imaging",
+  //   category: "Central Clinical Laboratory / Laboratory Medicine",
+  //   tagline: "Precision diagnostics powering better treatment decisions.",
   //   items: [
   //     {
-  //       slug: "digital-x-ray",
-  //       title: "Digital X-Ray",
+  //       slug: "central-clinical-laboratory-laboratory-medicine",
+  //       title: "Central Clinical Laboratory Laboratory Medicine",
   //       banner_image: "/images/general_hospital_banner.png",
   //       description:
-  //         "Advanced imaging services for accurate diagnosis and efficient treatment planning.",
-  //       icon: "fa-x-ray",
+  //         "Department of Central Clinical Laboratory, Pathology, Microbiology, Biochemistry, Haematology, Haematooncology. Immunohistochemistry, Cytogenetics Inclusive",
+  //       icon: "fa-tint",
   //       tabs: [
   //         {
   //           name: "Overview",
   //           image: "/images/general_medicine_overview.png",
-  //           intro: "",
-  //           details: "",
+  //           intro:
+  //             "Sate of art  central clinical laboratory(CCL) is well equipped with facilities for outpatient and round the clock inpatients and emergencies, Clinical Pathology-Histopathology, Cytopathology, Clinical Biochemistry, Haematology, Coagulation studies, Flow Cytometry, Serology, Immunology, Immunofluorescence Assay (IFA), Microbiology- Bacteriology (Aerobic & Anaerobic), Mycology, Parasitology, Virology, Molecular Biology and Cytogenetics Lab is manned by specialist doctors   and expert technicians.",
+  //           details: [
+  //             "It works on hospital-wide information system for ordering and reporting laboratory test results.  Confidentiality of reports about personal information of patients is maintained. There are trained personnel available for interpretation of results and clinicians are available for advice based on the reports. If patient is not satisfied with laboratory services or has some specific grievance, a complaint box is placed in collection area where he / she can put complaint along with name phone number. Action is taken on complaint and feedback is available. ",
+  //             "Services for a wide range of tests Cardiac, Liver, Renal, Lipid Coagulation profiles, Hormonal Assays, Cancer Markers, Microbe cultures and antibiotic sensitivities, Genetic markers, Drug assay and Toxicology tests with Routine tests are available for patients of area who take services of local private practitioners, with facility to email / courier / reports which can also be accessed from web portal using a unique password.",
+  //           ],
   //         },
   //         {
   //           name: "Technology & Procedure",
   //           image: "/images/general_medicine_technology_procedure.png",
-  //           intro: "",
-  //           details: "",
-  //         },
-  //         {
-  //           name: "Academics & Research",
-  //           image: "/images/general_medicine_academics_research.png",
-  //           intro: "",
-  //           details: "",
-  //         },
-  //       ],
-  //       consultants: [
-  //         {
-  //           name: "Dr. Sample Doctor",
-  //           tags: ["Sample Data", "Some Speciality"],
-  //           profilePhoto: "/images/doctors/Male_doctor.png",
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       slug: "ultrasound-doppler",
-  //       title: "Ultrasound / Doppler",
-  //       banner_image: "/images/general_hospital_banner.png",
-  //       description:
-  //         "Comprehensive care for women’s health across all life stages.",
-  //       icon: "fa-wave-square",
-  //       tabs: [
-  //         {
-  //           name: "Overview",
-  //           image: "/images/general_medicine_overview.png",
-  //           intro: "",
-  //           details: "",
-  //         },
-  //         {
-  //           name: "Technology & Procedure",
-  //           image: "/images/general_medicine_technology_procedure.png",
-  //           intro: "",
-  //           details: "",
-  //         },
-  //         {
-  //           name: "Academics & Research",
-  //           image: "/images/general_medicine_academics_research.png",
-  //           intro: "",
-  //           details: "",
-  //         },
-  //       ],
-  //       consultants: [
-  //         {
-  //           name: "Dr. Sample Doctor",
-  //           tags: ["Sample Data", "Some Speciality"],
-  //           profilePhoto: "/images/doctors/Male_doctor.png",
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       slug: "ct-scan",
-  //       title: "CT Scan",
-  //       banner_image: "/images/general_hospital_banner.png",
-  //       description:
-  //         "Promoting public health through prevention, education, and outreach.",
-  //       icon: "fa-laptop-medical",
-  //       tabs: [
-  //         {
-  //           name: "Overview",
-  //           image: "/images/general_medicine_overview.png",
-  //           intro: "",
-  //           details: "",
-  //         },
-  //         {
-  //           name: "Technology & Procedure",
-  //           image: "/images/general_medicine_technology_procedure.png",
-  //           intro: "",
-  //           details: "",
-  //         },
-  //         {
-  //           name: "Academics & Research",
-  //           image: "/images/general_medicine_academics_research.png",
-  //           intro: "",
-  //           details: "",
-  //         },
-  //       ],
-  //       consultants: [
-  //         {
-  //           name: "Dr. Sample Doctor",
-  //           tags: ["Sample Data", "Some Speciality"],
-  //           profilePhoto: "/images/doctors/Male_doctor.png",
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       slug: "mri",
-  //       title: "MRI",
-  //       banner_image: "/images/general_hospital_banner.png",
-  //       description:
-  //         "Safe and timely blood collection, storage, and transfusion services.",
-  //       icon: "fa-magnet",
-  //       tabs: [
-  //         {
-  //           name: "Overview",
-  //           image: "/images/general_medicine_overview.png",
-  //           intro: "",
-  //           details: "",
-  //         },
-  //         {
-  //           name: "Technology & Procedure",
-  //           image: "/images/general_medicine_technology_procedure.png",
-  //           intro: "",
-  //           details: "",
-  //         },
-  //         {
-  //           name: "Academics & Research",
-  //           image: "/images/general_medicine_academics_research.png",
-  //           intro: "",
-  //           details: "",
-  //         },
-  //       ],
-  //       consultants: [
-  //         {
-  //           name: "Dr. Sample Doctor",
-  //           tags: ["Sample Data", "Some Speciality"],
-  //           profilePhoto: "/images/doctors/Male_doctor.png",
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       slug: "interventional-radiology",
-  //       title: "Interventional Radiology",
-  //       banner_image: "/images/general_hospital_banner.png",
-  //       description:
-  //         "Precision lab diagnostics to support clinical decision-making.",
-  //       icon: "fa-crosshairs",
-  //       tabs: [
-  //         {
-  //           name: "Overview",
-  //           image: "/images/general_medicine_overview.png",
-  //           intro: "",
-  //           details: "",
-  //         },
-  //         {
-  //           name: "Technology & Procedure",
-  //           image: "/images/general_medicine_technology_procedure.png",
-  //           intro: "",
-  //           details: "",
+  //           intro:
+  //             "CCL offers highly advanced diagnostic, genetic and molecular biology tests including predictive tests for cancers, heart disease, for infertility, miscarriage and prenatal diseases many other disorders.",
+  //           details:
+  //             "Key feature of laboratory services is hospital-wide pneumatic transportation or tube system (Sample Subway). Passengers are medicines, samples and blood bags. Using this system, laboratory can accept more samples safely securely and faster. Hospital Information system does best for documents and reports. In addition to day-to-day tests for various organ functions, liver. kidney ,heart, etc  under haematology ,clinical  pathology ,clinical biochemistry  ,Immunology  ,  Automation - serum testing  including Spectrophotometer , Haematology analysers, , Coagulometer  Flow  cytometry, CLIA   ELISA  FOR antibodies/antigens infection and autoimmune diagnosis, Automated bacterial, fungal, and mycobacterial analyser  ,  INCUBATORS Tissue-based diagnostics , including cancers, technology for Radioimmune assay (RIA) for Hormonal, Endocrinal studies ,Molecular Diagnostics like   PCR Machine  RT-PCR  for     advanced testing of genetic, viral load, and mutation analysis ,GC-MS (Gas Chromatography-Mass Spectrometry   for   monitoring drug levels; detecting  toxins and poisons for diagnosis of genetic and chromosomal disorders Genetic panels, Chromosome Analyzer, DNA Sequencer FISH Analyzer are all available  for earliest possible diagnosis  essential for care of global standard even for rural masses .",
   //         },
   //         {
   //           name: "Academics & Research",
@@ -1907,7 +1591,8 @@ export const departments = [
   },
   {
     category: "Future Likely Developments/ Divisions in Existing Departments",
-    tagline: "Expanding expertise with advanced sub-specialties for tomorrow’s healthcare.",
+    tagline:
+      "Expanding expertise with advanced sub-specialties for tomorrow’s healthcare.",
     items: [
       {
         slug: "neonatology",
@@ -2256,7 +1941,8 @@ export const departments = [
   },
   {
     category: "Future Likely More Clinical Departments",
-    tagline: "Pioneering new specialties to meet the evolving needs of patients.",
+    tagline:
+      "Pioneering new specialties to meet the evolving needs of patients.",
     items: [
       {
         slug: "occupational-health",

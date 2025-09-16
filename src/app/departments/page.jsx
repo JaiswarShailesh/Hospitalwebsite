@@ -208,12 +208,12 @@ import { departments } from "../../data/departments";
 //   },
 // ];
 
-const displaydepartments = () => {
-  for (const department of departments[5].items) {
-    console.log(department.title);
-  }
-};
-displaydepartments();
+// const displaydepartments = () => {
+//   for (const department of departments[5].items) {
+//     console.log(department.title);
+//   }
+// };
+// displaydepartments();
 export default function DepartmentsPage() {
   useEffect(() => {
     AOS.init({ duration: 800, once: true });

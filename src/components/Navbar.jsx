@@ -219,7 +219,7 @@ export default function Navbar() {
                       ))}
                     </ul>
                   </li>
-                  <li className="dropdown">
+                  {/* <li className="dropdown">
                     <Link href="/departments#central-clinical-laboratory-/-laboratory-medicine">
                       <span>
                         Central Clinical Laboratory / Laboratory Medicine
@@ -235,7 +235,7 @@ export default function Navbar() {
                         </li>
                       ))}
                     </ul>
-                  </li>
+                  </li> */}
                   <li className="dropdown">
                     <a href="/departments#support-services">
                       <span>Support Services</span>

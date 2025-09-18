@@ -302,10 +302,10 @@ export default function Navbar() {
                     </a>
                     <ul>
                       <li>
-                        <a href="opd.html">OPD</a>
+                        <Link href='/opd'>OPD</Link>
                       </li>
                       <li>
-                        <a href="ipd.html">IPD</a>
+                        <Link href='/ipd'>IPD</Link>
                       </li>
                       <li>
                         <a href="#">Day Care</a>

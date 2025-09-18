@@ -13,10 +13,7 @@ export default function TpaInsuranceCorporate() {
         {/* Section Title */}
         <div className="container section-title" data-aos="fade-up">
           <h2>Medical Insurance & TPA Services</h2>
-          <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
-          </p>
+          <p>Your health secured with hassle-free insurance support.</p>
         </div>
         <TabbedContentComponent data={tpaInsuracenCorporatedata} />
       </section>
@@ -25,8 +22,8 @@ export default function TpaInsuranceCorporate() {
         <div className="container section-title" data-aos="fade-up">
           <h2>Empanelled TPAs and Insurance</h2>
           <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
+            We are partnered with leading TPAs and insurance providers to make
+            quality healthcare accessible and stress-free
           </p>
         </div>
         <div className="container">

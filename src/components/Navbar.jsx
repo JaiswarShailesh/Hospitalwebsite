@@ -176,7 +176,7 @@ export default function Navbar() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/about#departments">Why Us?</Link>
+                    <Link href="/about#whyChooseUs">Why Us?</Link>
                   </li>
                 </ul>
               </li>
@@ -253,7 +253,10 @@ export default function Navbar() {
                   </li>
                   <li className="dropdown">
                     <a href="/departments#future-likely-developments/-divisions-in-existing-departments">
-                      <span>Future Likely Developments / Divisions in Existing Departments</span>
+                      <span>
+                        Future Likely Developments / Divisions in Existing
+                        Departments
+                      </span>
                       <i className="bi bi-chevron-down toggle-dropdown"></i>
                     </a>
                     <ul>
@@ -302,13 +305,13 @@ export default function Navbar() {
                     </a>
                     <ul>
                       <li>
-                        <Link href='/opd'>OPD</Link>
+                        <Link href="/opd">OPD</Link>
                       </li>
                       <li>
-                        <Link href='/ipd'>IPD</Link>
+                        <Link href="/ipd">IPD</Link>
                       </li>
                       <li>
-                        <a href="#">Day Care</a>
+                        <Link href="/day-care">Day Care</Link>
                       </li>
                       <li>
                         <a href="#">Chemotherapy</a>
@@ -348,10 +351,17 @@ export default function Navbar() {
                     </a>
                     <ul>
                       <li>
-                        <a href="#">Tariff / Charges</a>
+                        <a
+                          href="https://drive.google.com/file/d/1gSUJYhNeN7v6-uOkmAAZN5aL_Uak-Vuu/view?usp=sharing"
+                          target="_blank"
+                        >
+                          Tariff / Charges
+                        </a>
                       </li>
                       <li>
-                        <Link href="/tpaInsuranceCorporate">TPA, Insurance & Corporate</Link>
+                        <Link href="/tpaInsuranceCorporate">
+                          TPA, Insurance & Corporate
+                        </Link>
                       </li>
                     </ul>
                   </li>

@@ -397,6 +397,9 @@ export default function Navbar() {
                     <Link href="newsAndEvents.html">News & Events</Link>
                   </li>
                   <li>
+                    <Link href="/blogs">Camps</Link>
+                  </li>
+                  <li>
                     <Link href="/photoGallery">Photo Gallery</Link>
                   </li>
                 </ul>

@@ -1,56 +1,58 @@
 import React from "react";
+import { missionVisionData } from "../data/visionMission";
 
 export default function MissionVisionSection() {
+  const { vision, mission } = missionVisionData;
+
   return (
     <>
-      {/* <!-- Stats Section --> */}
       <section
         id="stats"
         className="stats mission-vision section light-background"
       >
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="row gy-4">
-            <div className="col-lg-4 col-md-6 d-flex flex-column align-items-center">
-              <i className="fa-solid fa-user-doctor"></i>
+            {/* Vision */}
+            <div className="col-lg-6 col-md-6 d-flex flex-column align-items-center">
+              <i className={vision.icon}></i>
               <div className="stats-item">
-                <span>Vision</span>
-                <p>
-                  To be a trusted leader in delivering exceptional healthcare,
-                  known for patient-centric care, clinical excellence, and
-                  continuous progress.
-                </p>
+                <span>{vision.title}</span>
+                <p>{vision.text}</p>
               </div>
             </div>
-            {/* <!-- End Stats Item --> */}
 
-            <div className="col-lg-4 col-md-6 d-flex flex-column align-items-center">
-              <i className="fa-solid fa-arrows-up-down-left-right"></i>
+            {/* Mission */}
+            <div className="col-lg-6 col-md-6 d-flex flex-column align-items-center">
+              <i className={mission.icon}></i>
               <div className="stats-item">
-                <span>Mission</span>
-                <p>
-                  To provide advanced, compassionate, and safe healthcare
-                  services through cutting-edge technology and a patient-first
-                  approach.
-                </p>
-              </div>
-            </div>
-            {/* <!-- End Stats Item --> */}
+                <span>{mission.title}</span>
 
-            <div className="col-lg-4 col-md-6 d-flex flex-column align-items-center">
-              <i className="fa-solid fa-hand-holding-heart"></i>
-              <div className="stats-item">
-                <span>Value</span>
-                <p>
-                  Integrity, compassion, fairness, transparency, quality care,
-                  ethical practice, and a commitment to continuous improvement.
-                </p>
+                <div
+                  style={{
+                    fontSize: "14px",
+                    fontFamily: "var(--heading-font)",
+                    color: "var(--bs-body-color)",
+                    width: "100%",
+                    marginTop: "10px",
+                  }}
+
+                  className="text-start"
+                >
+                  {mission.points.map((item, index) => (
+                    <div key={index} className="d-flex align-items-start mb-3">
+                      <i
+                        className={`fa-solid fa-angles-right me-2 shadow-none border-0 px-2 py-1 bg-white`}
+                        style={{ height: "auto", width: "auto", fontSize: "15px", color: "var(--accent-color)"}}
+                      ></i>
+                      <p className="m-0">{item.text}</p>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
-            {/* <!-- End Stats Item --> */}
           </div>
         </div>
       </section>
-      {/* <!-- /Stats Section --> */}
     </>
   );
 }

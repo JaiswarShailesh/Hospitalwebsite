@@ -71,6 +71,62 @@ const teamMembers = [
     },
     delay: 400,
   },
+  {
+    name: "Dr. Sagar Mali",
+    position: "Insurance",
+    description:
+      "Responsible for smooth functioning of outpatient services including patient scheduling, coordination, and service delivery. Ensures efficient patient flow and minimizes waiting times.",
+    image: "images/managementTeam/user.png",
+    social: {
+      twitter: "#",
+      facebook: "#",
+      instagram: "#",
+      linkedin: "#",
+    },
+    delay: 400,
+  },
+  {
+    name: "Jacqueline",
+    position: "Nursing",
+    description:
+      "Responsible for smooth functioning of outpatient services including patient scheduling, coordination, and service delivery. Ensures efficient patient flow and minimizes waiting times.",
+    image: "images/managementTeam/user.png",
+    social: {
+      twitter: "#",
+      facebook: "#",
+      instagram: "#",
+      linkedin: "#",
+    },
+    delay: 400,
+  },
+  {
+    name: "Sonali Patil",
+    position: "-",
+    description:
+      "Responsible for smooth functioning of outpatient services including patient scheduling, coordination, and service delivery. Ensures efficient patient flow and minimizes waiting times.",
+    image: "images/managementTeam/user.png",
+    social: {
+      twitter: "#",
+      facebook: "#",
+      instagram: "#",
+      linkedin: "#",
+    },
+    delay: 400,
+  },
+  {
+    name: "Sanjay Vog",
+    position: "-",
+    description:
+      "Responsible for smooth functioning of outpatient services including patient scheduling, coordination, and service delivery. Ensures efficient patient flow and minimizes waiting times.",
+    image: "images/managementTeam/user.png",
+    social: {
+      twitter: "#",
+      facebook: "#",
+      instagram: "#",
+      linkedin: "#",
+    },
+    delay: 400,
+  },
 ];
 
 export default function ManagementTeamSection() {

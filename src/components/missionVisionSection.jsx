@@ -15,7 +15,7 @@ export default function MissionVisionSection() {
             {/* Vision */}
             <div className="col-lg-6 col-md-6 d-flex flex-column align-items-center">
               <i className={vision.icon}></i>
-              <div className="stats-item">
+              <div className="stats-item h-100 d-flex flex-column align-items-center text-center">
                 <span>{vision.title}</span>
                 <p>{vision.text}</p>
               </div>

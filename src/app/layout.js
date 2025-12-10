@@ -1,12 +1,10 @@
 import { Roboto, Poppins, Raleway } from "next/font/google";
 // import "./globals.css";
 import Script from "next/script";
-import Navbar from "../components/Navbar";
 import "aos/dist/aos.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "bootstrap/dist/css/bootstrap.css";
-import FooterSection from "../components/footerSection";
 import ScrollToTop from "../components/scrollToTop";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
@@ -46,7 +44,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html>
       <head>
         {/* <link href="/assets/css/bootstrap.min.css" rel="stylesheet" /> */}
         <link href="/assets/css/bootstrap-icons.css" rel="stylesheet" />
@@ -69,9 +67,8 @@ export default function RootLayout({ children }) {
       <body
         className={`${roboto.variable} ${poppins.variable} ${raleway.variable}`}
       >
-        <Navbar />
+        
         {children}
-        <FooterSection />
         <ScrollToTop />
         <GoogleAnalytics gaId="G-7B2KWNLEM4" />
         {/* <Script

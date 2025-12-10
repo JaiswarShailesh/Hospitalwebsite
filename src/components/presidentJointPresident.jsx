@@ -17,7 +17,7 @@ export default function PresidentJointPresidentSection() {
               <img
                 alt="..."
                 className="img-fluid rounded-circle shadow"
-                src="images/Amrishbhai_patel.png"
+                src="/images/Amrishbhai_patel.png"
               />
             </div>
             <div className="col-md-4 col-lg-4">
@@ -48,7 +48,7 @@ export default function PresidentJointPresidentSection() {
               <img
                 alt="..."
                 className="img-fluid rounded-circle shadow"
-                src="images/Bhupeshbhai_Patel.png"
+                src="/images/Bhupeshbhai_Patel.png"
               />
             </div>
             <div className="col-md-4 col-lg-4">

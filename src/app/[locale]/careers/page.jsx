@@ -2,10 +2,10 @@
 
 import AOS from "aos";
 import { useEffect, useState } from "react";
-import vacancies from "../../data/jobOpenings";
-import { ArrowDownUp, ArrowUp, ArrowDown } from "lucide-react"; // clean icons
-import HeroBanner from "../../components/heroBanner";
-import data from "../../data/whyWorkWithUs";
+import vacancies from "../../../data/jobOpenings";
+import { ArrowUp, ArrowDown } from "lucide-react"; // clean icons
+import HeroBanner from "../../../components/heroBanner";
+import data from "../../../data/whyWorkWithUs";
 import Link from "next/link";
 
 export default function CareersPage() {

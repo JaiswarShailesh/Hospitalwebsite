@@ -6,7 +6,7 @@ const teamMembers = [
     position: "Chief Executive Officer",
     description:
       "Responsible for overall hospital strategy, governance, and operational excellence. Leads organizational growth initiatives and ensures adherence to quality standards in healthcare delivery.",
-    image: "images/doctors/Male_doctor.png",
+    image: "/images/doctors/Male_doctor.png",
     social: {
       twitter: "#",
       facebook: "#",
@@ -20,7 +20,7 @@ const teamMembers = [
     position: "Senior Manager – Human Resources",
     description:
       "Oversees all HR functions including recruitment, employee relations, and organizational development. Focuses on building a strong workforce culture and ensuring compliance with labor regulations.",
-    image: "images/managementTeam/gajendra_pawaskar.png",
+    image: "/images/managementTeam/gajendra_pawaskar.png",
     social: {
       twitter: "#",
       facebook: "#",
@@ -34,7 +34,7 @@ const teamMembers = [
     position: "Chief Nursing Officer",
     description:
       "Manages nursing operations and ensures the highest standards of patient care. Implements training programs, quality protocols, and nursing best practices across departments.",
-    image: "images/managementTeam/kawaljeet_oberoi.png",
+    image: "/images/managementTeam/kawaljeet_oberoi.png",
     social: {
       twitter: "#",
       facebook: "#",
@@ -48,7 +48,7 @@ const teamMembers = [
     position: "Technical Head – Radiology",
     description:
       "Oversees radiology department operations, equipment management, and diagnostic accuracy. Ensures adoption of latest imaging technologies and compliance with safety protocols.",
-    image: "images/managementTeam/abey_varghese.png",
+    image: "/images/managementTeam/abey_varghese.png",
     social: {
       twitter: "#",
       facebook: "#",
@@ -62,7 +62,7 @@ const teamMembers = [
     position: "OPD Incharge",
     description:
       "Responsible for smooth functioning of outpatient services including patient scheduling, coordination, and service delivery. Ensures efficient patient flow and minimizes waiting times.",
-    image: "images/managementTeam/jaya_mathew.png",
+    image: "/images/managementTeam/jaya_mathew.png",
     social: {
       twitter: "#",
       facebook: "#",
@@ -76,7 +76,7 @@ const teamMembers = [
     position: "Insurance",
     description:
       "Responsible for smooth functioning of outpatient services including patient scheduling, coordination, and service delivery. Ensures efficient patient flow and minimizes waiting times.",
-    image: "images/managementTeam/user.png",
+    image: "/images/managementTeam/user.png",
     social: {
       twitter: "#",
       facebook: "#",
@@ -90,7 +90,7 @@ const teamMembers = [
     position: "Nursing",
     description:
       "Responsible for smooth functioning of outpatient services including patient scheduling, coordination, and service delivery. Ensures efficient patient flow and minimizes waiting times.",
-    image: "images/managementTeam/user.png",
+    image: "/images/managementTeam/user.png",
     social: {
       twitter: "#",
       facebook: "#",
@@ -104,7 +104,7 @@ const teamMembers = [
     position: "-",
     description:
       "Responsible for smooth functioning of outpatient services including patient scheduling, coordination, and service delivery. Ensures efficient patient flow and minimizes waiting times.",
-    image: "images/managementTeam/user.png",
+    image: "/images/managementTeam/user.png",
     social: {
       twitter: "#",
       facebook: "#",
@@ -118,7 +118,7 @@ const teamMembers = [
     position: "-",
     description:
       "Responsible for smooth functioning of outpatient services including patient scheduling, coordination, and service delivery. Ensures efficient patient flow and minimizes waiting times.",
-    image: "images/managementTeam/user.png",
+    image: "/images/managementTeam/user.png",
     social: {
       twitter: "#",
       facebook: "#",

@@ -2,7 +2,7 @@
 
 import AOS from "aos";
 import { useEffect, useState } from "react";
-import blogs from "../../data/blogs";
+import blogs from "../../../data/blogs";
 
 export default function BlogsSection() {
   const [visibleBlogs, setVisibleBlogs] = useState(6); // Show 6 initially

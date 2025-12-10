@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import HeroBanner from "../../components/heroBanner";
-import opdData from "../../data/opdData";
-import ContactSection from "../../components/contactSection";
+import opdData from "../../../data/opdData";
+import HeroBanner from "../../../components/heroBanner";
+import ContactSection from "../../../components/contactSection";
 
 export default function OpdPage() {
   const [activeTab, setActiveTab] = useState(0);

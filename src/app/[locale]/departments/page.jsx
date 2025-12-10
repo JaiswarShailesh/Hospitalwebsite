@@ -3,9 +3,10 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import HeroBanner from "../../components/heroBanner";
 import Link from "next/link";
-import { departments } from "../../data/departments";
+import { departments } from "../../../data/departments";
+import HeroBanner from "../../../components/heroBanner";
+import { usePathname } from "next/navigation";
 
 // Departments Data
 // const departments = [
@@ -219,6 +220,11 @@ export default function DepartmentsPage() {
     AOS.init({ duration: 800, once: true });
   }, []);
 
+  const pathname = usePathname();
+  const currentLocale = pathname?.split("/")[1] || "en";
+
+  const localize = (path) => `/${currentLocale}${path}`;
+
   return (
     <>
       <HeroBanner images={["/images/departments_banner.png"]} />
@@ -231,9 +237,7 @@ export default function DepartmentsPage() {
           {/* Section Title */}
           <div className="container section-title" data-aos="fade-up">
             <h2>{department.category}</h2>
-            <p>
-              {department.tagline}
-            </p>
+            <p>{department.tagline}</p>
           </div>
           {/* End Section Title */}
 
@@ -251,11 +255,13 @@ export default function DepartmentsPage() {
                       <i className={`fas ${item.icon}`}></i>
                     </div>
                     <Link
-                      href={`/departments/${
-                        item.slug
-                          ? item.slug
-                          : item.title.toLowerCase().replace(/\s+/g, "-")
-                      }`}
+                      href={localize(
+                        `/departments/${
+                          item.slug
+                            ? item.slug
+                            : item.title.toLowerCase().replace(/\s+/g, "-")
+                        }`
+                      )}
                       className="stretched-link"
                     >
                       <h3>{item.title}</h3>

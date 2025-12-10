@@ -1,9 +1,9 @@
 "use client";
 
-import TabbedContentComponent from "../../components/tabbedContentComponent";
-import tpaInsuracenCorporatedata from "../../data/tpaInsuranceCorporate";
-import HeroBanner from "../../components/heroBanner";
-import insuranceCompanies from "../../data/insuranceCompanies";
+import TabbedContentComponent from "../../../components/tabbedContentComponent";
+import tpaInsuracenCorporatedata from "../../../data/tpaInsuranceCorporate";
+import HeroBanner from "../../../components/heroBanner";
+import insuranceCompanies from "../../../data/insuranceCompanies";
 
 export default function TpaInsuranceCorporate() {
   return (

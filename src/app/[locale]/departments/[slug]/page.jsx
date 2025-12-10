@@ -2,10 +2,10 @@
 import { useEffect, useState } from "react";
 import AOS from "aos";
 import { useParams } from "next/navigation";
-import { departments } from "../../../data/departments";
-import HeroBanner from "../../../components/heroBanner";
-import BlogsSection from "../../../components/blogsSection";
-import ContactSection from "../../../components/contactSection";
+import { departments } from "../../../../data/departments";
+import HeroBanner from "../../../../components/heroBanner";
+import BlogsSection from "../../../../components/blogsSection";
+import ContactSection from "../../../../components/contactSection";
 import Link from "next/link";
 
 export default function DepartmentPage() {

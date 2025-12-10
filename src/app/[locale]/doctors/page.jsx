@@ -1,11 +1,15 @@
 "use client";
 
-import HeroBanner from "../../components/heroBanner";
+import HeroBanner from "../../../components/heroBanner";
 import { useState } from "react";
-import { doctors } from "../../data/doctors";
+import { doctors } from "../../../data/doctors";
 import Link from "next/link";
+import { useTranslations } from "../../../components/TranslationsProvider";
+import { use } from "react";
 
-export default function DoctorsPage() {
+export default function DoctorsPage({ params }) {
+  const { locale } = use(params);
+  const t = useTranslations();
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedDepartment, setSelectedDepartment] = useState("");
   const [filteredDoctors, setFilteredDoctors] = useState(doctors);
@@ -45,12 +49,12 @@ export default function DoctorsPage() {
 
   return (
     <>
-      <HeroBanner images={["images/doctors_banner.png"]} />
+      <HeroBanner images={["/images/doctors_banner.png"]} />
 
       <section id="departments" className="services section">
         <div className="container section-title" data-aos="fade-up">
-          <h2>Our Doctors</h2>
-          <p>Search and find your doctor quickly</p>
+          <h2>{t("doctors.title")}</h2>
+          <p>{t("doctors.subtitle")}</p>
         </div>
 
         <div className="container">
@@ -90,28 +94,34 @@ export default function DoctorsPage() {
           {/* Doctor Cards */}
           <div className="row gy-4">
             {filteredDoctors.length > 0 ? (
-              filteredDoctors.map((doctor, index) => (
-                <div key={index} className="col-lg-4 col-md-6">
+              filteredDoctors.map((doctor) => (
+                <div key={doctor.id} className="col-lg-4 col-md-6">
                   <div className="doctors-card text-center mb-3">
                     <div className="card-body p-0 pb-4">
                       <div className="mb-4 position-relative doctor-img-wrapper">
                         <img
                           className="img-fluid rounded-circle z-1 position-relative"
                           src={doctor.profilePhoto}
-                          alt={doctor.name}
+                          alt={doctor.name[locale]}
                         />
                       </div>
-                      <h5 className="fw-bold">{doctor.name}</h5>
-                      <p className="doctor-bio">{doctor.tags.join(" | ")}</p>
+
+                      <h5 className="fw-bold">{doctor.name[locale]}</h5>
+
+                      <p className="doctor-bio">
+                        {doctor.tags[locale].join(" | ")}
+                      </p>
+
                       <div className="d-flex justify-content-center mt-4">
                         <Link
-                          href={`/doctors/${doctor.id}`}
+                          href={`/${locale}/doctors/${doctor.id}`}
                           className="btn btn-accent-pill me-2"
                         >
-                          View profile
+                          {t("doctors.viewProfile")}
                         </Link>
-                        <a className="btn btn-accent-pill" href="">
-                          Book an appointment
+
+                        <a className="btn btn-accent-pill">
+                          {t("doctors.bookAppointment")}
                         </a>
                       </div>
                     </div>
@@ -119,7 +129,7 @@ export default function DoctorsPage() {
                 </div>
               ))
             ) : (
-              <p className="text-center">No doctors found.</p>
+              <p className="text-center">{t("doctors.noResults")}</p>
             )}
           </div>
         </div>

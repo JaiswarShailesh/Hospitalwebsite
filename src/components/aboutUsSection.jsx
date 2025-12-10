@@ -21,7 +21,7 @@ export default function AboutUsSection() {
             data-aos-delay="200"
           >
             <img
-              src="images/aboutHospitalImage.png"
+              src="/images/aboutHospitalImage.png"
               className="img-fluid"
               alt=""
             />

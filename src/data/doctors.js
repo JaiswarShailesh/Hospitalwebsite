@@ -1,8 +1,16 @@
 export const doctors = [
   {
     id: 1,
-    name: "Dr. Santosh Pawar",
-    tags: ["CEO"],
+    name: {
+      en: "Dr. Santosh Pawar",
+      hi: "डॉ. सन्तोष पवार",
+      mr: "डॉ. संतोष पवार",
+    },
+    tags: {
+      en: ["CEO"],
+      hi: ["मुख्य कार्यकारी अधिकारी"],
+      mr: ["मुख्य कार्यकारी अधिकारी"],
+    },
     profilePhoto: "/images/doctors/Male_doctor.png",
     bio_data: {
       opdTiming: {
@@ -23,8 +31,16 @@ export const doctors = [
   },
   {
     id: 2,
-    name: "Dr. Shakuntala Chhabra",
-    tags: ["Senior Consultant", "Obstetrics Gynecology"],
+    name: {
+      en: "Dr. Shakuntala Chhabra",
+      hi: "डॉ. शकुंतला छाबड़ा",
+      mr: "डॉ. शकुंतला छाबडा",
+    },
+    tags: {
+      en: ["Senior Consultant", "Obstetrics & Gynecology"],
+      hi: ["सीनियर कंसल्टेंट", "प्रसूति एवं स्त्रीरोग"],
+      mr: ["वरिष्ठ सल्लागार", "प्रसुती व स्त्रीरोग"],
+    },
     profilePhoto: "/images/doctors/Shakuntala_Chhabra.png",
     bio_data: {
       opdTiming: {
@@ -67,12 +83,28 @@ export const doctors = [
   },
   {
     id: 3,
-    name: "Dr. Prakash Boi",
-    tags: [
-      "MD (Anesthesia)",
-      "In-Charge – Community Health Services",
-      "Retd JT Director of Health Services",
-    ],
+    name: {
+      en: "Dr. Prakash Boi",
+      hi: "डॉ. प्रकाश बोई",
+      mr: "डॉ. प्रकाश बोई",
+    },
+    tags: {
+      en: [
+        "MD (Anesthesia)",
+        "In-Charge – Community Health Services",
+        "Retd Joint Director of Health Services",
+      ],
+      hi: [
+        "एमडी (एनेस्थीसिया)",
+        "प्रभारी – सामुदायिक स्वास्थ्य सेवा",
+        "सेवानिवृत्त संयुक्त संचालक – स्वास्थ्य सेवा",
+      ],
+      mr: [
+        "एमडी (भूलशास्त्र)",
+        "प्रभारी – समुदाय आरोग्य सेवा",
+        "सेवानिवृत्त संयुक्त संचालक – आरोग्य सेवा",
+      ],
+    },
     profilePhoto: "/images/doctors/Prakash_boir.png",
     bio_data: {
       opdTiming: {

@@ -3,6 +3,7 @@ import { getMessages } from "../../lib/getMessages";
 import { TranslationsProvider } from "../../components/TranslationsProvider";
 import Navbar from "../../components/Navbar";
 import FooterSection from "../../components/footerSection";
+import ComingSoonPage from "../../components/commingSoonPage";
 
 export function generateStaticParams() {
   return i18n.locales.map((locale) => ({ locale }));
@@ -22,9 +23,10 @@ export default async function LocaleLayout({ children, params }) {
 
   return (
     <TranslationsProvider messages={messages}>
-      <Navbar />
+      <ComingSoonPage />
+      {/* <Navbar />
       {children}
-      <FooterSection />
+      <FooterSection /> */}
     </TranslationsProvider>
   );
 }

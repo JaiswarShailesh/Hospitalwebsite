@@ -45,5 +45,12 @@
   "departments.obstetrics": "प्रसूति रोग",
   "departments.community_health": "सामुदायिक स्वास्थ्य",
   "departments.anesthesia": "बेहोशी विभाग",
-  "departments.health_service": "स्वास्थ्य सेवा"
+  "departments.health_service": "स्वास्थ्य सेवा",
+
+  "contact.email": "contact@tmpmhospital.com",
+  "contact.requestCallback": "कॉल बैक का अनुरोध करें",
+  "contact.emergency": "आपातकाल: +1 5589 55488 55",
+
+  "about.title": "हमारे बारे में",
+  "about.subtitle": "जहाँ करुणा और प्रतिबद्धता मिलती हैं — ठीक वहीं, जहाँ इसकी सबसे अधिक आवश्यकता होती है।"
 }

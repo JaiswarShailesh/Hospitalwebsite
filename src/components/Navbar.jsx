@@ -93,17 +93,17 @@ export default function Navbar() {
           <div className="contact-info d-flex align-items-center">
             <a className="d-none d-md-block">
               <i className="bi bi-envelope d-flex align-items-center ms-4">
-                <span>contact@tmpmhospital.com</span>
+                <span>{t("contact.email")}</span>
               </i>
             </a>
             <a className="d-none d-md-block">
               <i className="bi bi-phone d-flex align-items-center ms-4">
-                <span>Request a Callback</span>
+                <span>{t("contact.requestCallback")}</span>
               </i>
             </a>
             <a>
               <i className="bi bi-phone d-flex align-items-center ms-4">
-                <span>Emergency: +1 5589 55488 55</span>
+                <span>{t("contact.emergency")}</span>
               </i>
             </a>
           </div>

@@ -40,11 +40,18 @@
   "days.thursday": "गुरुवार",
   "days.friday": "शुक्रवार",
   "days.saturday": "शनिवार",
-  
+
   "departments.general_medicine": "सर्वसाधारण वैद्यक",
   "departments.gynecology": "स्त्रीरोग",
   "departments.obstetrics": "प्रसूती",
   "departments.community_health": "समुदाय आरोग्य",
   "departments.anesthesia": "भूलशास्त्र",
-  "departments.health_service": "आरोग्य सेवा"
+  "departments.health_service": "आरोग्य सेवा",
+
+  "contact.email": "contact@tmpmhospital.com",
+  "contact.requestCallback": "कॉलबॅक विनंती करा",
+  "contact.emergency": "आपत्कालीन: +1 5589 55488 55",
+
+  "about.title": "आमच्याबद्दल",
+  "about.subtitle": "जिथे करुणा आणि बांधिलकी एकत्र येतात — अगदी तिथे, जिथे त्याची सर्वाधिक गरज असते."
 }

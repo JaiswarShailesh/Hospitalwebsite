@@ -39,11 +39,18 @@
   "days.thursday": "Thursday",
   "days.friday": "Friday",
   "days.saturday": "Saturday",
-  
+
   "departments.general_medicine": "General Medicine",
   "departments.gynecology": "Gynecology",
   "departments.obstetrics": "Obstetrics",
   "departments.community_health": "Community Health",
   "departments.anesthesia": "Anesthesia",
-  "departments.health_service": "Health Service"
+  "departments.health_service": "Health Service",
+
+  "contact.email": "contact@tmpmhospital.com",
+  "contact.requestCallback": "Request a Callback",
+  "contact.emergency": "Emergency: +1 5589 55488 55",
+
+  "about.title": "About Us",
+  "about.subtitle": "Where Compassion Meets Commitment: Right Where It’s Needed Most."
 }

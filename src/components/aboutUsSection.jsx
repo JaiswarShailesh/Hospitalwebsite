@@ -2,16 +2,22 @@
 
 import AOS from "aos";
 import { useEffect } from "react";
+import { useTranslations } from "./TranslationsProvider";
+import { usePathname } from "next/navigation";
 
 export default function AboutUsSection() {
+    const t = useTranslations();
+    const pathname = usePathname();
+    const currentLocale = pathname?.split("/")[1] || "en";
+
   useEffect(() => {
     AOS.init();
   }, []);
   return (
     <section id="about" className="about section">
       <div className="container section-title" data-aos="fade-up">
-        <h2>About Us</h2>
-        <p>Where Compassion Meets Commitment: Right Where It’s Needed Most.</p>
+        <h2>{t("about.title")}</h2>
+        <p>{t("about.subtitle")}</p>
       </div>
       <div className="container">
         <div className="row gy-4 gx-5">
